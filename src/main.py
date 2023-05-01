@@ -159,9 +159,9 @@ class ImaginerApplication(Adw.Application):
         try:
             path = self.file_path
             print(path)
-            path = f"{path}/imaginer-{self.slugify(prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}.png"
+            path = f"{path}/imaginer-{self.slugify(prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}"
         except AttributeError:
-            path = "imaginer.png"
+            path = "imaginer"
 
         def thread_run():
             match self.provider:
@@ -184,6 +184,7 @@ class ImaginerApplication(Adw.Application):
                         },
                         "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1",
                     )
+                    path = f"{path}-stable-diffusion.png"
                 case ProvidersEnum.WAIFU_DIFFUSION.value:
                     image_bytes = self.query(
                         {
@@ -191,6 +192,7 @@ class ImaginerApplication(Adw.Application):
                         },
                         "https://api-inference.huggingface.co/models/hakurei/waifu-diffusion",
                     )
+                    path = f"{path}-waifu-diffusion.png"
                 case ProvidersEnum.OPENJOURNEY.value:
                     image_bytes = self.query(
                         {
@@ -198,6 +200,7 @@ class ImaginerApplication(Adw.Application):
                         },
                         "https://api-inference.huggingface.co/models/prompthero/openjourney",
                     )
+                    path = f"{path}-openjourney.png"
                 case ProvidersEnum.NITRO_DIFFUSION.value:
                     image_bytes = self.query(
                         {
@@ -205,6 +208,7 @@ class ImaginerApplication(Adw.Application):
                         },
                         "https://api-inference.huggingface.co/models/nitrosocke/Nitro-Diffusion",
                     )
+                    path = f"{path}-nitro-diffusion.png"
                 case ProvidersEnum.ANALOG_DIFFUSION.value:
                     image_bytes = self.query(
                         {
@@ -212,6 +216,7 @@ class ImaginerApplication(Adw.Application):
                         },
                         "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion",
                     )
+                    path = f"{path}-analog-diffusion.png"
                 case ProvidersEnum.PORTRAIT_PLUS.value:
                     image_bytes = self.query(
                         {
@@ -219,6 +224,7 @@ class ImaginerApplication(Adw.Application):
                         },
                         "https://api-inference.huggingface.co/models/wavymulder/portraitplus",
                     )
+                    path = f"{path}-portrait-plus.png"
             if image_bytes:
                 try:
                     image = Image.open(io.BytesIO(image_bytes))
