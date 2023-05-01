@@ -1,0 +1,148 @@
+using Gtk 4.0;
+using Adw 1;
+
+template ImaginerWindow : Adw.ApplicationWindow {
+  default-width: 700;
+  default-height: 600;
+  width-request: 300;
+  height-request: 300;
+  title: _("Imaginer");
+
+  Box {
+    orientation: vertical;
+
+    Adw.HeaderBar {
+      [end]
+      MenuButton {
+        icon-name: "open-menu-symbolic";
+        menu-model: main_menu;
+        tooltip-text: _("Main Menu");
+      }
+
+    }
+
+    Adw.Banner banner {
+      title: _("Error while querying the API");
+      revealed: false;
+    }
+
+    Adw.ToastOverlay toast {
+      Stack stack_imaginer {
+        transition-type: crossfade;
+
+        
+
+        StackPage {
+          name: "stack_imagine";
+          child:
+          Adw.PreferencesPage {
+            Adw.PreferencesGroup {
+              Picture image {}
+                height-request: 192;
+            }
+
+            Adw.PreferencesGroup {
+
+              Adw.EntryRow prompt {
+                title: _("Prompt");
+                  
+              }
+            }
+
+            Adw.PreferencesGroup {
+              title: _("Options");
+
+              Adw.ActionRow {
+                title: _("Save Location");
+                activatable-widget: button_output;
+                
+
+                Button button_output {
+                  valign: center;
+                  action-name: "app.choose_output";
+
+                  Box {
+                    spacing: 6;
+
+                    Image {
+                      icon-name: "document-open-symbolic";
+                    }
+
+                    Label label_output {
+                      label: _("(None)");
+                    }
+                  }
+                }
+              }
+
+              Adw.ComboRow provider {
+                title: _("Provider");
+                model: provider_model;
+              }
+
+              Adw.PasswordEntryRow token {
+                title: _("Token");
+                
+              }
+            }
+
+            Adw.PreferencesGroup {
+              Button button_imagine {
+                valign: center;
+                halign: center;
+                label: _("_Imagine");
+                tooltip-text: _("Save location is missing.");
+                use-underline: true;
+                sensitive: false;
+                action-name: "app.imagine";
+
+                styles [
+                  "suggested-action",
+                  "pill",
+                ]
+              }
+            }
+          }
+
+          ;
+        }
+
+        StackPage {
+          name: "stack_loading";
+          child:
+          Adw.StatusPage {
+            Spinner spinner_loading {
+              valign: center;
+            }
+          };
+        }
+
+      }
+    }
+  }
+}
+
+menu main_menu {
+  section {
+    item {
+      label: _("New Window");
+      action: "app.new_window";
+    }
+  }
+
+  section {
+    item {
+      label: _("Keyboard Shortcuts");
+      action: "win.show-help-overlay";
+    }
+
+    item {
+      label: _("About Imaginer");
+      action: "app.about";
+    }
+  }
+}
+
+Gtk.StringList provider_model{
+  strings [_("Stable Diffusion"), _("OpenAI"), _("Waifu Diffusion"), _("Open Journey"), _("Nitro Diffusion"), _("Analog Diffusion"), _("Portrait Plus")]
+}
