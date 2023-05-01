@@ -20,9 +20,10 @@
 from gi.repository import Adw
 from gi.repository import Gtk
 
-@Gtk.Template(resource_path='/io/github/ImaginerApp/Imaginer/window.ui')
+
+@Gtk.Template(resource_path="/io/github/ImaginerApp/Imaginer/window.ui")
 class ImaginerWindow(Adw.ApplicationWindow):
-    __gtype_name__ = 'ImaginerWindow'
+    __gtype_name__ = "ImaginerWindow"
 
     toast = Gtk.Template.Child()
     stack_imaginer = Gtk.Template.Child()

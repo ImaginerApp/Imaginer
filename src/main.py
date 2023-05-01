@@ -20,8 +20,8 @@
 import sys
 import gi
 
-gi.require_version('Gtk', '4.0')
-gi.require_version('Adw', '1')
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
 
 from gi.repository import Gtk, Gio, Adw, GLib, Pango
 from .window import ImaginerWindow
@@ -41,24 +41,27 @@ import re
 import unicodedata
 from time import gmtime, strftime
 
+
 class ImaginerApplication(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='io.github.ImaginerApp.Imaginer',
-                         flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
-        self.create_action('quit', self.on_quit_action, ['<primary>q'])
-        self.create_action('about', self.on_about_action)
-        self.create_action('preferences', self.on_preferences_action)
-        self.create_action('get_started', self.on_get_started_action)
-        self.create_action('imagine', self.on_imagine_action, ['<primary>Return'])
-        self.create_action('choose_output', self.on_file_chooser, ['<primary>s'])
-        self.create_action('new_window', self.on_new_window_action, ['<primary>n'])
-    
+        super().__init__(
+            application_id="io.github.ImaginerApp.Imaginer",
+            flags=Gio.ApplicationFlags.DEFAULT_FLAGS,
+        )
+        self.create_action("quit", self.on_quit_action, ["<primary>q"])
+        self.create_action("about", self.on_about_action)
+        self.create_action("preferences", self.on_preferences_action)
+        self.create_action("get_started", self.on_get_started_action)
+        self.create_action("imagine", self.on_imagine_action, ["<primary>Return"])
+        self.create_action("choose_output", self.on_file_chooser, ["<primary>s"])
+        self.create_action("new_window", self.on_new_window_action, ["<primary>n"])
+
     def on_quit_action(self, action, _):
         """Callback for the app.quit action."""
         self.quit()
-        
+
     def do_activate(self):
         """Called when the application is activated.
 
@@ -75,9 +78,7 @@ class ImaginerApplication(Adw.Application):
         self.file_chooser.set_transient_for(self.win)
         self.file_chooser.set_action(Gtk.FileChooserAction.SELECT_FOLDER)
         self.file_chooser.set_modal(True)
-        self.file_chooser.connect(
-            "response", self.on_file_chooser_response
-        )
+        self.file_chooser.connect("response", self.on_file_chooser_response)
         self.token = ""
 
     def on_new_window_action(self, action, _):
@@ -110,13 +111,15 @@ class ImaginerApplication(Adw.Application):
 
     def on_about_action(self, widget, _):
         """Callback for the app.about action."""
-        about = Adw.AboutWindow(transient_for=self.props.active_window,
-                                application_name='imaginer',
-                                application_icon='io.github.ImaginerApp.Imaginer',
-                                developer_name='Me',
-                                version='0.1.0',
-                                developers=['Me'],
-                                copyright='© 2023 Me')
+        about = Adw.AboutWindow(
+            transient_for=self.props.active_window,
+            application_name="imaginer",
+            application_icon="io.github.ImaginerApp.Imaginer",
+            developer_name="Me",
+            version="0.1.0",
+            developers=["Me"],
+            copyright="© 2023 Me",
+        )
         about.present()
 
     def on_get_started_action(self, widget, _):
@@ -124,9 +127,13 @@ class ImaginerApplication(Adw.Application):
         self.win.stack_imaginer.set_visible_child_name("stack_imagine")
 
     def slugify(self, value):
-        value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
-        value = re.sub('[^\w\s-]', '', value).strip().lower()
-        return re.sub('[-\s]+', '-', value)
+        value = (
+            unicodedata.normalize("NFKD", value)
+            .encode("ascii", "ignore")
+            .decode("ascii")
+        )
+        value = re.sub("[^\w\s-]", "", value).strip().lower()
+        return re.sub("[-\s]+", "-", value)
 
     def on_imagine_action(self, widget, _):
         """Callback for the app.imagine action."""
@@ -144,8 +151,6 @@ class ImaginerApplication(Adw.Application):
             NITRO_DIFFUSION = 4
             ANALOG_DIFFUSION = 5
             PORTRAIT_PLUS = 6
-        
-        
 
         prompt = self.win.prompt.get_text()
         self.token = self.win.token.get_text()
@@ -163,11 +168,9 @@ class ImaginerApplication(Adw.Application):
                 case ProvidersEnum.OPENAI.value:
                     try:
                         response = openai.Image.create(
-                            prompt=prompt,
-                            n=1,
-                            size="1024x1024"
+                            prompt=prompt, n=1, size="1024x1024"
                         )
-                        image_url = response['data'][0]['url']
+                        image_url = response["data"][0]["url"]
                         image_bytes = requests.get(image_url).content
                     except openai.error.AuthenticationError:
                         self.win.banner.set_title("Invalid API Key")
@@ -175,40 +178,58 @@ class ImaginerApplication(Adw.Application):
                         image_bytes = None
 
                 case ProvidersEnum.STABLE_DIFFUSION.value:
-                    image_bytes = self.query({
-                        "inputs": prompt,
-                    }, "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1")
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                        },
+                        "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1",
+                    )
                 case ProvidersEnum.WAIFU_DIFFUSION.value:
-                    image_bytes = self.query({
-                        "inputs": prompt,
-                    }, "https://api-inference.huggingface.co/models/hakurei/waifu-diffusion")
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                        },
+                        "https://api-inference.huggingface.co/models/hakurei/waifu-diffusion",
+                    )
                 case ProvidersEnum.OPENJOURNEY.value:
-                    image_bytes = self.query({
-                        "inputs": prompt,
-                    }, "https://api-inference.huggingface.co/models/prompthero/openjourney")
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                        },
+                        "https://api-inference.huggingface.co/models/prompthero/openjourney",
+                    )
                 case ProvidersEnum.NITRO_DIFFUSION.value:
-                    image_bytes = self.query({
-                        "inputs": prompt,
-                    }, "https://api-inference.huggingface.co/models/nitrosocke/Nitro-Diffusion")
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                        },
+                        "https://api-inference.huggingface.co/models/nitrosocke/Nitro-Diffusion",
+                    )
                 case ProvidersEnum.ANALOG_DIFFUSION.value:
-                    image_bytes = self.query({
-                        "inputs": prompt,
-                    }, "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion")
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                        },
+                        "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion",
+                    )
                 case ProvidersEnum.PORTRAIT_PLUS.value:
-                    image_bytes = self.query({
-                        "inputs": prompt,
-                    }, "https://api-inference.huggingface.co/models/wavymulder/portraitplus")
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                        },
+                        "https://api-inference.huggingface.co/models/wavymulder/portraitplus",
+                    )
             if image_bytes:
                 try:
                     image = Image.open(io.BytesIO(image_bytes))
                 except UnidentifiedImageError:
-                    error = json.loads(image_bytes)["error"]                    
+                    error = json.loads(image_bytes)["error"]
                     self.win.banner.set_title(error)
                     self.win.banner.set_revealed(True)
                     image = None
             else:
                 image = None
-            
+
             GLib.idle_add(cleanup, image)
 
         def cleanup(image):
@@ -218,14 +239,13 @@ class ImaginerApplication(Adw.Application):
             if image:
                 image.save(path)
                 self.win.image.set_file(Gio.File.new_for_path(path))
-            
+
         t = threading.Thread(target=thread_run)
         t.start()
 
-
     def on_preferences_action(self, widget, _):
         """Callback for the app.preferences action."""
-        print('app.preferences action activated')
+        print("app.preferences action activated")
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
