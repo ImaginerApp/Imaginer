@@ -8,29 +8,32 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-01 22:43+0000\n"
+"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
+"imaginer/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/io.github.ImaginerApp.Imaginer.desktop.in:3 src/window.blp:9
 msgid "Imaginer"
-msgstr ""
+msgstr "Imaginer"
 
 #: data/io.github.ImaginerApp.Imaginer.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Pas de description"
 
 #: src/main.py:74
 msgid "Choose a directory"
-msgstr ""
+msgstr "Choisir un répertoire"
 
 #: src/window.blp:19
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu Principal"
 
 #: src/window.blp:25
 msgid "Error while querying the API"
