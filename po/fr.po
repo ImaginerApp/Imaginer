@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: 2023-05-01 22:43+0000\n"
+"PO-Revision-Date: 2023-05-01 22:59+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fr/>\n"
@@ -37,76 +37,76 @@ msgstr "Menu Principal"
 
 #: src/window.blp:25
 msgid "Error while querying the API"
-msgstr ""
+msgstr "Erreur lors de l'interrogation de l'API"
 
 #: src/window.blp:47
 msgid "Prompt"
-msgstr ""
+msgstr "Instructions"
 
 #: src/window.blp:53
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: src/window.blp:56
 msgid "Save Location"
-msgstr ""
+msgstr "Enregistrer l'Emplacement"
 
 #: src/window.blp:72
 msgid "(None)"
-msgstr ""
+msgstr "(Aucun)"
 
 #: src/window.blp:79
 msgid "Provider"
-msgstr ""
+msgstr "Fournisseur"
 
 #: src/window.blp:84
 msgid "Token"
-msgstr ""
+msgstr "Jeton"
 
 #: src/window.blp:93
 msgid "_Imagine"
-msgstr ""
+msgstr "_Imagine"
 
 #: src/window.blp:94
 msgid "Save location is missing."
-msgstr ""
+msgstr "Emplacement de sauvegarde manquant."
 
 #: src/window.blp:128
 msgid "New Window"
-msgstr ""
+msgstr "Nouvelle Fenêtre"
 
 #: src/window.blp:135
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Raccourcis clavier"
 
 #: src/window.blp:140
 msgid "About Imaginer"
-msgstr ""
+msgstr "À propos d'Imaginer"
 
 #: src/window.blp:147
 msgid "Stable Diffusion"
-msgstr ""
+msgstr "Stable Diffusion"
 
 #: src/window.blp:147
 msgid "OpenAI"
-msgstr ""
+msgstr "OpenAI"
 
 #: src/window.blp:147
 msgid "Waifu Diffusion"
-msgstr ""
+msgstr "Waifu Diffusion"
 
 #: src/window.blp:147
 msgid "Open Journey"
-msgstr ""
+msgstr "Open Journey"
 
 #: src/window.blp:147
 msgid "Nitro Diffusion"
-msgstr ""
+msgstr "Nitro Diffusion"
 
 #: src/window.blp:147
 msgid "Analog Diffusion"
-msgstr ""
+msgstr "Analog Diffusion"
 
 #: src/window.blp:147
 msgid "Portrait Plus"
-msgstr ""
+msgstr "Portrait Plus"
