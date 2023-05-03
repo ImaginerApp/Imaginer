@@ -62,6 +62,12 @@ flatpak-builder --install --user --force-clean repo/ build-aux/flatpak/page.code
 
 The [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) is applicable to this project
 
+### Release
+
+- Bump meson version in `meson.build`
+- Bump version in the About dialog in `src/main.py`
+- Add release notes to `data/page.codeberg.Imaginer.Imaginer.appdata.xml.in`
+
 ### Translate
 
 <a href="https://translate.codeberg.org/engage/Imaginer/">
