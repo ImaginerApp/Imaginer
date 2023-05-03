@@ -31,6 +31,6 @@ jobs:
         with:
           repository-name: gnome-44
           bundle: bavarder.flatpak
-          manifest-path: build-aux/flatpak/pagee.codeberg.Imaginer.Imaginer.json
+          manifest-path: build-aux/flatpak/page.codeberg.Imaginer.Imaginer.json
           cache-key: flatpak-builder-${{ github.sha }}
           arch: ${{ matrix.arch }}
