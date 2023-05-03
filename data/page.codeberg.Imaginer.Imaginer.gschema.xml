@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="imaginer">
-	<schema id="page.codeberg.Imaginer.Imaginer" path="/io/github/ImaginerApp/Imaginer/">
+	<schema id="page.codeberg.Imaginer.Imaginer" path="/page/codeberg/Imaginer/Imaginer/">
+		<key name="width" type="i">
+			<default>640</default>
+		</key>
+		<key name="height" type="i">
+			<default>480</default>
+		</key>
+		<key name="is-maximized" type="b">
+			<default>false</default>
+		</key>
+		<key name="is-fullscreen" type="b">
+			<default>false</default>
+		</key>
 	</schema>
 </schemalist>

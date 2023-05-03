@@ -18,10 +18,10 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from gi.repository import Adw
-from gi.repository import Gtk
+from gi.repository import Gtk, Gio
 
 
-@Gtk.Template(resource_path="/io/github/ImaginerApp/Imaginer/window.ui")
+@Gtk.Template(resource_path="/page/codeberg/Imaginer/Imaginer/window.ui")
 class ImaginerWindow(Adw.ApplicationWindow):
     __gtype_name__ = "ImaginerWindow"
 
@@ -39,3 +39,14 @@ class ImaginerWindow(Adw.ApplicationWindow):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+
+        self.settings = Gio.Settings(schema_id="page.codeberg.Imaginer.Imaginer")
+
+        self.settings.bind("width", self, "default-width",
+                           Gio.SettingsBindFlags.DEFAULT)
+        self.settings.bind("height", self, "default-height",
+                           Gio.SettingsBindFlags.DEFAULT)
+        self.settings.bind("is-maximized", self, "maximized",
+                           Gio.SettingsBindFlags.DEFAULT)
+        self.settings.bind("is-fullscreen", self, "fullscreened",
+                           Gio.SettingsBindFlags.DEFAULT)
