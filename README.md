@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="./data/screenshots/preview.png" alt="Preview"/>
+  <img src="./data/screenshots/avocado-armchair.png" alt="Preview"/>
 </p>
 
 ## Installation
@@ -53,7 +53,7 @@
 Clone the repo and run `flatpak-builder`
 
 ```
-git clone https://codeberg.org/Imaginer/Imaginer # or https://github.com/ImaginerApp/Imaginer
+git clone https://codeberg.org/Imaginer/Imaginer.git # or https://github.com/ImaginerApp/Imaginer.git
 cd Imaginer
 flatpak-builder --install --user --force-clean repo/ build-aux/flatpak/page.codeberg.Imaginer.Imaginer.json
 ```

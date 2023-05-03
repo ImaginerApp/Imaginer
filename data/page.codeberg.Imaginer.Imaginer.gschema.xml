@@ -2,10 +2,10 @@
 <schemalist gettext-domain="imaginer">
 	<schema id="page.codeberg.Imaginer.Imaginer" path="/page/codeberg/Imaginer/Imaginer/">
 		<key name="width" type="i">
-			<default>640</default>
+			<default>700</default>
 		</key>
 		<key name="height" type="i">
-			<default>480</default>
+			<default>700</default>
 		</key>
 		<key name="is-maximized" type="b">
 			<default>false</default>
