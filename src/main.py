@@ -156,14 +156,16 @@ class ImaginerApplication(Adw.Application):
         self.token = self.win.token.get_text()
         openai.api_key = self.token
 
-        try:
-            path = self.file_path
-            print(path)
-            path = f"{path}/imaginer-{self.slugify(prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}"
-        except AttributeError:
-            path = "imaginer"
 
         def thread_run():
+            try:
+                path = self.file_path
+                print(path)
+            except AttributeError:
+                path = "imaginer"
+            else:
+                path = f"{path}/imaginer-{self.slugify(prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}"
+
             match self.provider:
                 case ProvidersEnum.OPENAI.value:
                     try:
@@ -236,9 +238,9 @@ class ImaginerApplication(Adw.Application):
             else:
                 image = None
 
-            GLib.idle_add(cleanup, image)
+            GLib.idle_add(cleanup, image, path)
 
-        def cleanup(image):
+        def cleanup(image, path):
             self.win.spinner_loading.stop()
             self.win.stack_imaginer.set_visible_child_name("stack_imagine")
             t.join()
