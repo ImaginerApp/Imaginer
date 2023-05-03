@@ -39,6 +39,9 @@
             "name" : "imaginer",
             "builddir" : true,
             "buildsystem" : "meson",
+            "config-opts": [
+                "-Dbuildtype=release"
+            ],
             "sources" : [
                 {
                     "type" : "dir",

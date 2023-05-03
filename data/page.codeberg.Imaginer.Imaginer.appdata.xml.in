@@ -52,6 +52,22 @@
 	</keywords>
 
 	<releases>
+		<release version="0.1.2" date="2023-5-3" type="stable">
+			<description>
+				<p>Appdata sorting</p>
+				<ul>
+					<li>Sort appdata releases</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.1" date="2023-5-3" type="stable">
+			<description>
+				<p>Bug fixes</p>
+				<ul>
+					<li>Fix a bug causing the app to crash when the path is not selected</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.1.0" date="2023-5-3" type="stable">
 			<description>
 				<p>Imagine with AI</p>
@@ -61,14 +77,6 @@
 					<li>Loading screen</li>
 					<li>Support for authentificated provider</li>
 					<li>Banner for errors</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.1.1" date="2023-5-3" type="stable">
-			<description>
-				<p>Bug fixes</p>
-				<ul>
-					<li>Fix a bug causing the app to crash when the path is not selected</li>
 				</ul>
 			</description>
 		</release>
