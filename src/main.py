@@ -113,12 +113,12 @@ class ImaginerApplication(Adw.Application):
         """Callback for the app.about action."""
         about = Adw.AboutWindow(
             transient_for=self.props.active_window,
-            application_name="imaginer",
+            application_name="Imaginer",
             application_icon="page.codeberg.Imaginer.Imaginer",
-            developer_name="Me",
+            developer_name="0xMRTT",
             version="0.1.0",
-            developers=["Me"],
-            copyright="© 2023 Me",
+            developers=["0xMRTT https://codeberg.org/0xMRTT"],
+            copyright="© 2023 0xMRTT",
         )
         about.present()
 
