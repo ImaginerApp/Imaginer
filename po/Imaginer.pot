@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/io.github.ImaginerApp.Imaginer.desktop.in:3 src/window.blp:9
+#: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 src/window.blp:9
 msgid "Imaginer"
 msgstr ""
 
-#: data/io.github.ImaginerApp.Imaginer.appdata.xml.in:7
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:7
 msgid "No description"
 msgstr ""
 

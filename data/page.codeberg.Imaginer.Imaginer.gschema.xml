@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="imaginer">
-	<schema id="io.github.ImaginerApp.Imaginer" path="/io/github/ImaginerApp/Imaginer/">
+	<schema id="page.codeberg.Imaginer.Imaginer" path="/io/github/ImaginerApp/Imaginer/">
 	</schema>
 </schemalist>

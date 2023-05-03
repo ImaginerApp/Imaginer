@@ -47,7 +47,7 @@ class ImaginerApplication(Adw.Application):
 
     def __init__(self):
         super().__init__(
-            application_id="io.github.ImaginerApp.Imaginer",
+            application_id="page.codeberg.Imaginer.Imaginer",
             flags=Gio.ApplicationFlags.DEFAULT_FLAGS,
         )
         self.create_action("quit", self.on_quit_action, ["<primary>q"])
@@ -114,7 +114,7 @@ class ImaginerApplication(Adw.Application):
         about = Adw.AboutWindow(
             transient_for=self.props.active_window,
             application_name="imaginer",
-            application_icon="io.github.ImaginerApp.Imaginer",
+            application_icon="page.codeberg.Imaginer.Imaginer",
             developer_name="Me",
             version="0.1.0",
             developers=["Me"],

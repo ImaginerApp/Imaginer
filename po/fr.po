@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#: data/io.github.ImaginerApp.Imaginer.desktop.in:3 src/window.blp:9
+#: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 src/window.blp:9
 msgid "Imaginer"
 msgstr "Imaginer"
 
-#: data/io.github.ImaginerApp.Imaginer.appdata.xml.in:7
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:7
 msgid "No description"
 msgstr "Pas de description"
 

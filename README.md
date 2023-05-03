@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="data/icons/hicolor/scalable/apps/io.github.ImaginerApp.Imaginer.svg" alt="Imaginer" width="192" height="192"/>
+  <img src="data/icons/hicolor/scalable/apps/page.codeberg.Imaginer.Imaginer.svg" alt="Imaginer" width="192" height="192"/>
   <br>
   Imaginer
 </h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://flathub.org/apps/details/io.github.ImaginerApp.Imaginer">
+  <a href="https://flathub.org/apps/details/page.codeberg.Imaginer.Imaginer">
     <img width="200" alt="Download on Flathub" src="https://dl.flathub.org/assets/badges/flathub-badge-i-en.svg"/>
   </a>
   <br>
@@ -54,7 +54,7 @@ Clone the repo and run `flatpak-builder`
 ```
 git clone https://codeberg.org/Imaginer/Imaginer # or https://github.com/ImaginerApp/Imaginer
 cd Imaginer
-flatpak-builder --install --user --force-clean repo/ build-aux/flatpak/io.github.ImaginerApp.Imaginer.json
+flatpak-builder --install --user --force-clean repo/ build-aux/flatpak/page.codeberg.Imaginer.Imaginer.json
 ```
 
 ## Contribute
