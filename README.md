@@ -43,7 +43,8 @@
 
 #### Flathub
 
-> **Warn**: This app isn't yet on Flathub
+> **Warn**: This app isn't yet on Flathub!
+> Follow https://github.com/flathub/flathub/pull/4123 for a track
 
 ##### Release
 
