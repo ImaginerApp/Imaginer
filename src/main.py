@@ -116,7 +116,7 @@ class ImaginerApplication(Adw.Application):
             application_name="Imaginer",
             application_icon="page.codeberg.Imaginer.Imaginer",
             developer_name="0xMRTT",
-            version="0.1.0",
+            version="0.1.3",
             developers=["0xMRTT https://codeberg.org/0xMRTT"],
             copyright="© 2023 0xMRTT",
         )
