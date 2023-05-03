@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
 	<id>page.codeberg.Imaginer.Imaginer.desktop</id>
+	<name>Imaginer</name>
+	<summary>Imagine with AI</summary>
+	<developer_name>0xMRTT</developer_name>
+	<launchable type="desktop-id">page.codeberg.Imaginer.Imaginer.desktop</launchable>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
+	<content_rating type="oars-1.1"/>
 	<description>
-	  <p>No description</p>
+	  <p>Generate pictures with Artificial Intelligence and save them</p>
 	</description>
+	<screenshots>
+		<screenshot type="default" width="822" height="722">
+			<caption>Imaginer main UI</caption>
+			<image type="source">https://codeberg.org/Imaginer/Imaginer/raw/branch/master/data/screenshots/preview.png</image>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">https://imaginer.codeberg.page</url>
+	<url type="bugtracker">https://codeberg.org/Imaginer/Imaginer/issues</url>
+	<url type="help">https://codeberg.org/Imaginer/Imaginer/issues</url>
+	<url type="translate">https://translate.codeberg.org/projects/imaginer/imaginer</url>
+
+	<kudos>
+		<kudo>HiDpiIcon</kudo>
+		<kudo>ModernToolkit</kudo>
+	</kudos>
+
+	<requires>
+		<display_length compare="ge">360</display_length>
+	</requires>
+
+	<categories>
+		<category>Utility</category>
+	</categories>
+
+	<recommends>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<control>touch</control>
+	</recommends>
+
+	<keywords>
+		<keyword>AI</keyword>
+		<keyword>Stable Diffusion</keyword>
+		<keyword>Image</keyword>
+		<keyword>Picture</keyword>
+		<keyword>Image Generation</keyword>
+		<keyword>Image Generation with AI</keyword>
+		<keyword>Artificial Intelligence</keyword>
+	</keywords>
+
+	<releases>
+		<release version="0.1.0" date="2023-5-3" type="stable">
+			<description>
+				<p>Imagine with AI</p>
+				<ul>
+					<li>Generate a picture by clicking on the Imagine button</li>
+					<li>Support for multiple providers</li>
+					<li>Loading screen</li>
+					<li>Support for authentificated provider</li>
+					<li>Banner for errors</li>
+				</ul>
+			</description>
+		</release>
+	</releases>
 </component>
