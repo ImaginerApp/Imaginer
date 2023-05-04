@@ -78,3 +78,12 @@ The [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) is 
 </a>
 
 You can translate Imaginer using Codeberg Translate
+
+## See also 
+
+### Bavarder: Chit-Chat with AI
+
+A tool for chatting with diverse AI
+
+- https://github.com/Bavarder/Bavarder
+- https://codeberg.org/Bavarder/Bavarder
