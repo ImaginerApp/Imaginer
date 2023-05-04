@@ -116,6 +116,9 @@ class ImaginerApplication(Adw.Application):
             application_name="Imaginer",
             application_icon="page.codeberg.Imaginer.Imaginer",
             developer_name="0xMRTT",
+            designers=["David Lapshin https://github.com/daudix-UFO"],
+            translator_credits="""0xMRTT <0xmrtt@proton.me>
+                David Lapshin <ddaudix@gmail.com>""",
             version="0.1.3",
             developers=["0xMRTT https://codeberg.org/0xMRTT"],
             copyright="© 2023 0xMRTT",
