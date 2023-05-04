@@ -43,8 +43,11 @@
 
 #### Flathub
 
-> **Warn**: This app isn't yet on Flathub!
-> Follow https://github.com/flathub/flathub/pull/4123 for a track
+You can either use your GNOME Software and search for "Imaginer" or you can run
+
+```
+flatpak install page.codeberg.Imaginer.Imaginer
+```
 
 ##### Release
 
