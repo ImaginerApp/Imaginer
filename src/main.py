@@ -126,12 +126,6 @@ class ImaginerApplication(Adw.Application):
         about.add_acknowledgement_section(
             "Special thanks to",
             [
-                "Telegraph https://apps.gnome.org/app/io.github.fkinoshita.Telegraph",
-            ],
-        )
-        about.add_acknowledgement_section(
-            "Special thanks to",
-            [
                 "Upscaler https://gitlab.com/Th",
             ],
         )
