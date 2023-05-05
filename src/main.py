@@ -123,6 +123,19 @@ class ImaginerApplication(Adw.Application):
             developers=["0xMRTT https://codeberg.org/0xMRTT"],
             copyright="© 2023 0xMRTT",
         )
+        about.add_acknowledgement_section(
+            "Special thanks to",
+            [
+                "Telegraph https://apps.gnome.org/app/io.github.fkinoshita.Telegraph",
+            ],
+        )
+        about.add_acknowledgement_section(
+            "Special thanks to",
+            [
+                "Upscaler https://gitlab.com/Th",
+            ],
+        )
+
         about.present()
 
     def on_get_started_action(self, widget, _):
