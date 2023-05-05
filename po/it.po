@@ -8,57 +8,60 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-05 19:17+0000\n"
+"Last-Translator: \"albano.battistella\" <albano_battistella@hotmail.com>\n"
+"Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
+"imaginer/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 src/window.blp:9
 msgid "Imaginer"
-msgstr ""
+msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Nessuna descrizione"
 
 #: src/main.py:74
 msgid "Choose a directory"
-msgstr ""
+msgstr "Scegli una directory"
 
 #: src/window.blp:19
 msgid "Main Menu"
-msgstr ""
+msgstr "Menu principale"
 
 #: src/window.blp:25
 msgid "Error while querying the API"
-msgstr ""
+msgstr "Errore durante l'interrogazione dell'API"
 
 #: src/window.blp:47
 msgid "Prompt"
-msgstr ""
+msgstr "Prompt"
 
 #: src/window.blp:53
 msgid "Options"
-msgstr ""
+msgstr "Opzioni"
 
 #: src/window.blp:56
 msgid "Save Location"
-msgstr ""
+msgstr "Salva posizione"
 
 #: src/window.blp:72
 msgid "(None)"
-msgstr ""
+msgstr "(Nessuna)"
 
 #: src/window.blp:79
 msgid "Provider"
-msgstr ""
+msgstr "Provider"
 
 #: src/window.blp:84
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: src/window.blp:93
 msgid "_Imagine"
@@ -66,44 +69,44 @@ msgstr ""
 
 #: src/window.blp:94
 msgid "Save location is missing."
-msgstr ""
+msgstr "Posizione di salvataggio mancante."
 
 #: src/window.blp:128
 msgid "New Window"
-msgstr ""
+msgstr "Nuova finestra"
 
 #: src/window.blp:135
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scorciatoie da tastiera"
 
 #: src/window.blp:140
 msgid "About Imaginer"
-msgstr ""
+msgstr "Informazioni su Imaginer"
 
 #: src/window.blp:147
 msgid "Stable Diffusion"
-msgstr ""
+msgstr "Stable Diffusion"
 
 #: src/window.blp:147
 msgid "OpenAI"
-msgstr ""
+msgstr "OpenAI"
 
 #: src/window.blp:147
 msgid "Waifu Diffusion"
-msgstr ""
+msgstr "Waifu Diffusion"
 
 #: src/window.blp:147
 msgid "Open Journey"
-msgstr ""
+msgstr "Open Journey"
 
 #: src/window.blp:147
 msgid "Nitro Diffusion"
-msgstr ""
+msgstr "Nitro Diffusion"
 
 #: src/window.blp:147
 msgid "Analog Diffusion"
-msgstr ""
+msgstr "Analog Diffusion"
 
 #: src/window.blp:147
 msgid "Portrait Plus"
-msgstr ""
+msgstr "Portrait Plus"
