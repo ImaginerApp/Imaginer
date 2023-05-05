@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: 2023-05-05 19:17+0000\n"
+"PO-Revision-Date: 2023-05-06 00:15+0000\n"
 "Last-Translator: \"albano.battistella\" <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/it/>\n"
@@ -65,7 +65,7 @@ msgstr "Token"
 
 #: src/window.blp:93
 msgid "_Imagine"
-msgstr ""
+msgstr "_Immagine"
 
 #: src/window.blp:94
 msgid "Save location is missing."
