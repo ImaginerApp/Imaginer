@@ -79,6 +79,12 @@ The [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) is 
 
 You can translate Imaginer using Codeberg Translate
 
+### Mirrors
+
+- [Github](https://github.com/ImaginerApp/Imaginer)
+- [Codeberg](https://github.com/Imaginer/Imaginer)
+
+
 ## See also 
 
 ### Bavarder: Chit-Chat with AI
