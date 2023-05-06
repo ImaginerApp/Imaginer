@@ -81,7 +81,7 @@ You can translate Imaginer using Codeberg Translate
 
 ### Mirrors
 
-- [Github](https://github.com/ImaginerApp/Imaginer)
+- [GitHub](https://github.com/ImaginerApp/Imaginer)
 - [Codeberg](https://github.com/Imaginer/Imaginer)
 
 
