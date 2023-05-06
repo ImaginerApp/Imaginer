@@ -163,6 +163,7 @@ class ImaginerApplication(Adw.Application):
             PORTRAIT_PLUS = 6
 
         prompt = self.win.prompt.get_text()
+        negative_prompt = self.win.negative_prompt.get_text()
         self.token = self.win.token.get_text()
         openai.api_key = self.token
 
@@ -193,6 +194,7 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
                         },
                         "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1",
                     )
@@ -201,6 +203,7 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
                         },
                         "https://api-inference.huggingface.co/models/hakurei/waifu-diffusion",
                     )
@@ -209,6 +212,7 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
                         },
                         "https://api-inference.huggingface.co/models/prompthero/openjourney",
                     )
@@ -217,6 +221,7 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
                         },
                         "https://api-inference.huggingface.co/models/nitrosocke/Nitro-Diffusion",
                     )
@@ -225,6 +230,7 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
                         },
                         "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion",
                     )
@@ -233,6 +239,7 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
                         },
                         "https://api-inference.huggingface.co/models/wavymulder/portraitplus",
                     )

@@ -34,6 +34,7 @@ class ImaginerWindow(Adw.ApplicationWindow):
     label_output = Gtk.Template.Child()
     banner = Gtk.Template.Child()
     prompt = Gtk.Template.Child()
+    negative_prompt = Gtk.Template.Child()
     token = Gtk.Template.Child()
     provider = Gtk.Template.Child()
 

@@ -3,7 +3,7 @@ using Adw 1;
 
 template ImaginerWindow : Adw.ApplicationWindow {
   default-width: 700;
-  default-height: 700;
+  default-height: 750;
   width-request: 300;
   height-request: 300;
   title: _("Imaginer");
@@ -47,6 +47,11 @@ template ImaginerWindow : Adw.ApplicationWindow {
                 title: _("Prompt");
                   
               }
+
+              Adw.EntryRow negative_prompt {
+                title: _("Negative Prompt");
+                  
+              }
             }
 
             Adw.PreferencesGroup {
@@ -81,7 +86,7 @@ template ImaginerWindow : Adw.ApplicationWindow {
               }
 
               Adw.PasswordEntryRow token {
-                title: _("Token");
+                title: _("Token (if you hit rate limit)");
                 
               }
             }
