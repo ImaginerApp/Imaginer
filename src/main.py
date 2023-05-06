@@ -161,12 +161,14 @@ class ImaginerApplication(Adw.Application):
             NITRO_DIFFUSION = 4
             ANALOG_DIFFUSION = 5
             PORTRAIT_PLUS = 6
+            ANYTHING = 7
 
         prompt = self.win.prompt.get_text()
         negative_prompt = self.win.negative_prompt.get_text()
         self.token = self.win.token.get_text()
         openai.api_key = self.token
 
+        HUGGINGFACE_API = "https://api-inference.huggingface.co/models"
 
         def thread_run():
             try:
@@ -196,7 +198,7 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1",
+                        f"{HUGGINGFACE_API}/stabilityai/stable-diffusion-2-1",
                     )
                     path = f"{path}-stable-diffusion.png"
                 case ProvidersEnum.WAIFU_DIFFUSION.value:
@@ -205,7 +207,7 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/hakurei/waifu-diffusion",
+                        f"{HUGGINGFACE_API}/hakurei/waifu-diffusion",
                     )
                     path = f"{path}-waifu-diffusion.png"
                 case ProvidersEnum.OPENJOURNEY.value:
@@ -214,7 +216,7 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/prompthero/openjourney-v4",
+                        f"{HUGGINGFACE_API}/prompthero/openjourney-v4",
                     )
                     path = f"{path}-openjourney.png"
                 case ProvidersEnum.NITRO_DIFFUSION.value:
@@ -223,7 +225,7 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/nitrosocke/Nitro-Diffusion",
+                        f"{HUGGINGFACE_API}/nitrosocke/Nitro-Diffusion",
                     )
                     path = f"{path}-nitro-diffusion.png"
                 case ProvidersEnum.ANALOG_DIFFUSION.value:
@@ -232,7 +234,7 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/wavymulder/Analog-Diffusion",
+                        f"{HUGGINGFACE_API}/wavymulder/Analog-Diffusion",
                     )
                     path = f"{path}-analog-diffusion.png"
                 case ProvidersEnum.PORTRAIT_PLUS.value:
@@ -241,9 +243,18 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/wavymulder/portraitplus",
+                        f"{HUGGINGFACE_API}/wavymulder/portraitplus",
                     )
                     path = f"{path}-portrait-plus.png"
+                case ProvidersEnum.ANYTHING.value:
+                    image_bytes = self.query(
+                        {
+                            "inputs": prompt,
+                            "negative_prompts": negative_prompt if negative_prompt else "",
+                        },
+                        f"{HUGGINGFACE_API}/andite/anything-v4.0",
+                    )
+                    path = f"{path}-anything.png"
             if image_bytes:
                 try:
                     image = Image.open(io.BytesIO(image_bytes))
