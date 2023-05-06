@@ -214,7 +214,7 @@ class ImaginerApplication(Adw.Application):
                             "inputs": prompt,
                             "negative_prompts": negative_prompt if negative_prompt else "",
                         },
-                        "https://api-inference.huggingface.co/models/prompthero/openjourney",
+                        "https://api-inference.huggingface.co/models/prompthero/openjourney-v4",
                     )
                     path = f"{path}-openjourney.png"
                 case ProvidersEnum.NITRO_DIFFUSION.value:
