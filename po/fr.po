@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: 2023-05-01 22:59+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-06 12:07+0000\n"
+"Last-Translator: rene-coty <irenee.thirion@e.email>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fr/>\n"
 "Language: fr\n"
@@ -33,11 +33,11 @@ msgstr "Choisir un répertoire"
 
 #: src/window.blp:19
 msgid "Main Menu"
-msgstr "Menu Principal"
+msgstr "Menu principal"
 
 #: src/window.blp:25
 msgid "Error while querying the API"
-msgstr "Erreur lors de l'interrogation de l'API"
+msgstr "Erreur lors de l’interrogation de l’API"
 
 #: src/window.blp:47
 msgid "Prompt"
@@ -49,7 +49,7 @@ msgstr "Options"
 
 #: src/window.blp:56
 msgid "Save Location"
-msgstr "Enregistrer l'Emplacement"
+msgstr "Emplacement d’enregistrement"
 
 #: src/window.blp:72
 msgid "(None)"
@@ -69,11 +69,11 @@ msgstr "_Imagine"
 
 #: src/window.blp:94
 msgid "Save location is missing."
-msgstr "Emplacement de sauvegarde manquant."
+msgstr "Emplacement d’enregistrement manquant."
 
 #: src/window.blp:128
 msgid "New Window"
-msgstr "Nouvelle Fenêtre"
+msgstr "Nouvelle fenêtre"
 
 #: src/window.blp:135
 msgid "Keyboard Shortcuts"
@@ -81,7 +81,7 @@ msgstr "Raccourcis clavier"
 
 #: src/window.blp:140
 msgid "About Imaginer"
-msgstr "À propos d'Imaginer"
+msgstr "À propos d’Imaginer"
 
 #: src/window.blp:147
 msgid "Stable Diffusion"
