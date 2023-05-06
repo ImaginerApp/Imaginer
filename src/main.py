@@ -196,7 +196,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/stabilityai/stable-diffusion-2-1",
                     )
@@ -205,7 +207,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/hakurei/waifu-diffusion",
                     )
@@ -214,7 +218,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/prompthero/openjourney-v4",
                     )
@@ -223,7 +229,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/nitrosocke/Nitro-Diffusion",
                     )
@@ -232,7 +240,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/wavymulder/Analog-Diffusion",
                     )
@@ -241,7 +251,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/wavymulder/portraitplus",
                     )
@@ -250,7 +262,9 @@ class ImaginerApplication(Adw.Application):
                     image_bytes = self.query(
                         {
                             "inputs": prompt,
-                            "negative_prompts": negative_prompt if negative_prompt else "",
+                            "negative_prompts": negative_prompt
+                            if negative_prompt
+                            else "",
                         },
                         f"{HUGGINGFACE_API}/andite/anything-v4.0",
                     )
