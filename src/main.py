@@ -303,6 +303,7 @@ class ImaginerApplication(Adw.Application):
             if image:
                 image.save(path)
                 self.win.image.set_file(Gio.File.new_for_path(path))
+                self.win.image.set_visible(True)
 
         t = threading.Thread(target=thread_run)
         t.start()
