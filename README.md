@@ -49,8 +49,6 @@ You can either use your GNOME Software and search for "Imaginer" or you can run
 flatpak install page.codeberg.Imaginer.Imaginer
 ```
 
-##### Release
-
 #### From Source
 
 Clone the repo and run `flatpak-builder`
@@ -60,6 +58,23 @@ git clone https://codeberg.org/Imaginer/Imaginer.git # or https://github.com/Ima
 cd Imaginer
 flatpak-builder --install --user --force-clean repo/ build-aux/flatpak/page.codeberg.Imaginer.Imaginer.json
 ```
+
+### Archlinux
+
+Imaginer is available in the AUR. Just use your favourite aur helper!
+
+``` shell
+yay -S imaginer
+```
+
+### NixOS
+
+Imaginer is available in Nixpkgs Unstable.
+
+```shell
+nix-shell -p imaginer
+```
+
 
 ## Contribute
 
