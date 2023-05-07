@@ -37,8 +37,16 @@ template ImaginerWindow : Adw.ApplicationWindow {
           child:
           Adw.PreferencesPage {
             Adw.PreferencesGroup {
-              Picture image {}
-                height-request: 192;
+              Picture image {
+                halign: center;
+                visible: false;
+                styles ["card"]
+                //content-fit: cover;
+                //can-shrink: true;
+                height-request: 200;
+                width-request: 200;
+
+              }
             }
 
             Adw.PreferencesGroup {
