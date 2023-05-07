@@ -41,6 +41,16 @@ import re
 import unicodedata
 from time import gmtime, strftime
 
+class ProvidersEnum(Enum):
+    STABLE_DIFFUSION = 0
+    OPENAI = 1
+    WAIFU_DIFFUSION = 2
+    OPENJOURNEY = 3
+    NITRO_DIFFUSION = 4
+    ANALOG_DIFFUSION = 5
+    PORTRAIT_PLUS = 6
+    ANYTHING = 7
+
 
 class ImaginerApplication(Adw.Application):
     """The main application singleton class."""
@@ -57,6 +67,7 @@ class ImaginerApplication(Adw.Application):
         self.create_action("imagine", self.on_imagine_action, ["<primary>Return"])
         self.create_action("choose_output", self.on_file_chooser, ["<primary>s"])
         self.create_action("new_window", self.on_new_window_action, ["<primary>n"])
+        self.create_action("open_doc", self.on_open_doc_action)
 
     def on_quit_action(self, action, _):
         """Callback for the app.quit action."""
@@ -92,6 +103,19 @@ class ImaginerApplication(Adw.Application):
             headers = {}
         response = requests.post(url, headers=headers, json=payload)
         return response.content
+
+    def on_open_doc_action(self, action, _):
+        """Callback for the app.open_doc action."""
+        url = "https://imaginer.codeberg.page/help/"
+
+        provider = self.win.provider.props.selected
+
+        if provider == ProvidersEnum.OPENAI.value:
+            url += "openai.html"
+        else:
+            url += "huggingface.html"
+
+        GLib.spawn_command_line_async(f"xdg-open {url}")
 
     def on_file_chooser(self, widget, _):
         """Callback for the app.choose_output action."""
@@ -152,16 +176,6 @@ class ImaginerApplication(Adw.Application):
         self.win.spinner_loading.start()
 
         self.provider = self.win.provider.props.selected
-
-        class ProvidersEnum(Enum):
-            STABLE_DIFFUSION = 0
-            OPENAI = 1
-            WAIFU_DIFFUSION = 2
-            OPENJOURNEY = 3
-            NITRO_DIFFUSION = 4
-            ANALOG_DIFFUSION = 5
-            PORTRAIT_PLUS = 6
-            ANYTHING = 7
 
         prompt = self.win.prompt.get_text()
         negative_prompt = self.win.negative_prompt.get_text()
