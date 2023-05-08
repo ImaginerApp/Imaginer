@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: 2023-05-06 00:15+0000\n"
-"Last-Translator: \"albano.battistella\" <albano_battistella@hotmail.com>\n"
+"PO-Revision-Date: 2023-05-08 07:55+0000\n"
+"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/it/>\n"
 "Language: it\n"
@@ -29,7 +29,7 @@ msgstr "Nessuna descrizione"
 
 #: src/main.py:74
 msgid "Choose a directory"
-msgstr "Scegli una directory"
+msgstr "Scegliere una cartella"
 
 #: src/window.blp:19
 msgid "Main Menu"
@@ -49,7 +49,7 @@ msgstr "Opzioni"
 
 #: src/window.blp:56
 msgid "Save Location"
-msgstr "Salva posizione"
+msgstr "Condividi la posizione"
 
 #: src/window.blp:72
 msgid "(None)"
