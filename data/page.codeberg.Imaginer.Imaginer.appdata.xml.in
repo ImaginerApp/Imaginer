@@ -52,6 +52,17 @@
 	</keywords>
 
 	<releases>
+		<release version="0.1.4" date="2023-5-8" type="stable">
+			<description>
+				<p>Make the app better</p>
+				<ul>
+					<li>Add explaination about how to get a token</li>
+					<li>Fix the UI looks empty and buggy</li>
+					<li>Improve the About window</li>
+					<li>Add negative prompt</li>
+					<li>Update translations</li>
+				</ul>
+			</description>
 		<release version="0.1.3" date="2023-5-4" type="stable">
 			<description>
 				<p>Icon !</p>
