@@ -143,7 +143,7 @@ class ImaginerApplication(Adw.Application):
             designers=["David Lapshin https://github.com/daudix-UFO"],
             translator_credits="""0xMRTT <0xmrtt@proton.me>
                 David Lapshin <ddaudix@gmail.com>""",
-            version="0.1.3",
+            version="0.1.4",
             developers=["0xMRTT https://codeberg.org/0xMRTT"],
             copyright="© 2023 0xMRTT",
         )
