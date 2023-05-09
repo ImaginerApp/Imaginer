@@ -96,17 +96,13 @@ template ImaginerWindow : Adw.ApplicationWindow {
                 title: _("API Token");
 
                 [suffix]
-                MenuButton menu_duplicate {
+                Button token_info {
                   valign: center;
+                  icon-name: "help-about-symbolic";
                   tooltip-text: _("How to get a token");
-                  icon-name: "info-symbolic";
-                  popover: popover_info_token;
-
-                  styles [
-                    "flat",
-                  ]
+                  action-name: "app.open_doc";
+                  styles ["flat"]
                 }
-                
               }
             }
 
@@ -169,14 +165,4 @@ menu main_menu {
 
 Gtk.StringList provider_model{
   strings [_("Stable Diffusion"), _("OpenAI"), _("Waifu Diffusion"), _("Open Journey"), _("Nitro Diffusion"), _("Analog Diffusion"), _("Portrait Plus"), _("Anything")]
-}
-
-Popover popover_info_token {
-  Button {
-    label: _("Open the documentation to see how to get a token");
-    action-name: "app.open_doc";
-    styles [
-      "flat",
-    ]
-  }
 }
