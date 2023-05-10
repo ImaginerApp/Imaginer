@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-07 23:05+0200\n"
-"PO-Revision-Date: 2023-05-10 09:55+0000\n"
+"PO-Revision-Date: 2023-05-11 05:15+0000\n"
 "Last-Translator: Vistaus <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/nl/>\n"
@@ -56,11 +56,11 @@ msgstr "Er is een fout opgetreden tijdens het bevragen van de api"
 
 #: src/window.blp:54
 msgid "Prompt"
-msgstr "Vraag"
+msgstr "Bijschrift"
 
 #: src/window.blp:58
 msgid "Negative Prompt"
-msgstr "Negatieve vraag"
+msgstr "Negatief bijschrift"
 
 #: src/window.blp:64
 msgid "Options"
@@ -141,3 +141,4 @@ msgstr "Geen voorkeur"
 #: src/window.blp:175
 msgid "Open the documentation to see how to get a token"
 msgstr ""
+"Neem de documentatie door om te lezen hoe u een toegangssleutel bemachtigt"
