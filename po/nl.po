@@ -9,130 +9,134 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-07 23:05+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-10 09:55+0000\n"
+"Last-Translator: Vistaus <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <https://translate.codeberg.org/projects/imaginer/"
+"imaginer/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 src/window.blp:9
 msgid "Imaginer"
-msgstr ""
+msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
 msgid "Imagine with AI"
-msgstr ""
+msgstr "Fantaseer met behulp van KI"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
-msgstr ""
+msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
 msgstr ""
+"Genereer afbeeldingen met behulp van kunstmatige intelligentie en bewaar ze"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
 msgid "Imaginer main UI"
-msgstr ""
+msgstr "Hoofdscherm"
 
 #: src/main.py:88
 msgid "Choose a directory"
-msgstr ""
+msgstr "Kies een map"
 
 #: src/window.blp:19
 msgid "Main Menu"
-msgstr ""
+msgstr "Hoofdmenu"
 
 #: src/window.blp:25
 msgid "Error while querying the API"
-msgstr ""
+msgstr "Er is een fout opgetreden tijdens het bevragen van de api"
 
 #: src/window.blp:54
 msgid "Prompt"
-msgstr ""
+msgstr "Vraag"
 
 #: src/window.blp:58
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Negatieve vraag"
 
 #: src/window.blp:64
 msgid "Options"
-msgstr ""
+msgstr "Opties"
 
 #: src/window.blp:67
 msgid "Save Location"
-msgstr ""
+msgstr "Opslaglocatie"
 
 #: src/window.blp:83
 msgid "(None)"
-msgstr ""
+msgstr "(geen)"
 
 #: src/window.blp:90
 msgid "Provider"
-msgstr ""
+msgstr "Dienst"
 
 #: src/window.blp:95
 msgid "API Token"
-msgstr ""
+msgstr "Api-toegangssleutel"
 
 #: src/window.blp:100
 msgid "How to get a token"
-msgstr ""
+msgstr "Hoe verkrijg ik een sleutel?"
 
 #: src/window.blp:116
 msgid "_Imagine"
-msgstr ""
+msgstr "_Imagine"
 
 #: src/window.blp:117
 msgid "Save location is missing."
-msgstr ""
+msgstr "De opslaglocatie ontbreekt."
 
 #: src/window.blp:151
 msgid "New Window"
-msgstr ""
+msgstr "Nieuw venster"
 
 #: src/window.blp:158
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Sneltoetsen"
 
 #: src/window.blp:163
 msgid "About Imaginer"
-msgstr ""
+msgstr "Over Imaginer"
 
 #: src/window.blp:170
 msgid "Stable Diffusion"
-msgstr ""
+msgstr "Stabiele diffusie"
 
 #: src/window.blp:170
 msgid "OpenAI"
-msgstr ""
+msgstr "OpenAI"
 
 #: src/window.blp:170
 msgid "Waifu Diffusion"
-msgstr ""
+msgstr "Waifu-diffusie"
 
 #: src/window.blp:170
 msgid "Open Journey"
-msgstr ""
+msgstr "Open reis"
 
 #: src/window.blp:170
 msgid "Nitro Diffusion"
-msgstr ""
+msgstr "Turbodiffusie"
 
 #: src/window.blp:170
 msgid "Analog Diffusion"
-msgstr ""
+msgstr "Analoge diffusie"
 
 #: src/window.blp:170
 msgid "Portrait Plus"
-msgstr ""
+msgstr "Portret+"
 
 #: src/window.blp:170
 msgid "Anything"
-msgstr ""
+msgstr "Geen voorkeur"
 
 #: src/window.blp:175
 msgid "Open the documentation to see how to get a token"
