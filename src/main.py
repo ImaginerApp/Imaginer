@@ -111,9 +111,9 @@ class ImaginerApplication(Adw.Application):
         provider = self.win.provider.props.selected
 
         if provider == ProvidersEnum.OPENAI.value:
-            url += "openai.html"
+            url += "openai"
         else:
-            url += "huggingface.html"
+            url += "huggingface"
 
         GLib.spawn_command_line_async(f"xdg-open {url}")
 
