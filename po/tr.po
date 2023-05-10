@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # anil_uyanik <aniluuyanik@gmail.com>, 2023.
+# Anıl Uyanık <aniluuyanik@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-07 23:05+0200\n"
-"PO-Revision-Date: 2023-05-10 09:55+0000\n"
-"Last-Translator: anil_uyanik <aniluuyanik@gmail.com>\n"
+"PO-Revision-Date: 2023-05-11 05:15+0000\n"
+"Last-Translator: Anıl Uyanık <aniluuyanik@gmail.com>\n"
 "Language-Team: Turkish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/tr/>\n"
 "Language: tr\n"
@@ -59,7 +60,7 @@ msgstr "Girdi"
 
 #: src/window.blp:58
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Negatif Bilgi İstemi"
 
 #: src/window.blp:64
 msgid "Options"
@@ -71,7 +72,7 @@ msgstr "Konuma Kaydet"
 
 #: src/window.blp:83
 msgid "(None)"
-msgstr ""
+msgstr "(Yok)"
 
 #: src/window.blp:90
 msgid "Provider"
@@ -79,7 +80,7 @@ msgstr "Sağlayıcılar"
 
 #: src/window.blp:95
 msgid "API Token"
-msgstr ""
+msgstr "API Token"
 
 #: src/window.blp:100
 msgid "How to get a token"
@@ -87,7 +88,7 @@ msgstr "Token nasıl alınır"
 
 #: src/window.blp:116
 msgid "_Imagine"
-msgstr ""
+msgstr "_Imagine"
 
 #: src/window.blp:117
 msgid "Save location is missing."
@@ -107,35 +108,35 @@ msgstr "Hayal Et Hakkında"
 
 #: src/window.blp:170
 msgid "Stable Diffusion"
-msgstr ""
+msgstr "Kararlı Difüzyon"
 
 #: src/window.blp:170
 msgid "OpenAI"
-msgstr ""
+msgstr "OpenAI"
 
 #: src/window.blp:170
 msgid "Waifu Diffusion"
-msgstr ""
+msgstr "Waifu Diffusion"
 
 #: src/window.blp:170
 msgid "Open Journey"
-msgstr ""
+msgstr "Open Journey"
 
 #: src/window.blp:170
 msgid "Nitro Diffusion"
-msgstr ""
+msgstr "Nitro Diffusion"
 
 #: src/window.blp:170
 msgid "Analog Diffusion"
-msgstr ""
+msgstr "Analog Diffusion"
 
 #: src/window.blp:170
 msgid "Portrait Plus"
-msgstr ""
+msgstr "Portrait Plus"
 
 #: src/window.blp:170
 msgid "Anything"
-msgstr ""
+msgstr "Herhangi"
 
 #: src/window.blp:175
 msgid "Open the documentation to see how to get a token"
