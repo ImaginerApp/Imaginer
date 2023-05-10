@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-07 23:05+0200\n"
-"PO-Revision-Date: 2023-05-10 07:50+0000\n"
+"PO-Revision-Date: 2023-05-10 09:55+0000\n"
 "Last-Translator: anil_uyanik <aniluuyanik@gmail.com>\n"
 "Language-Team: Turkish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/tr/>\n"
@@ -31,7 +31,7 @@ msgstr "Yapay Zeka ile hayal edin"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
-msgstr ""
+msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
@@ -47,7 +47,7 @@ msgstr "Bir dizin seçin"
 
 #: src/window.blp:19
 msgid "Main Menu"
-msgstr "Ana menü"
+msgstr "Ana Menü"
 
 #: src/window.blp:25
 msgid "Error while querying the API"
@@ -55,7 +55,7 @@ msgstr "API sorgulanırken hata oluştu"
 
 #: src/window.blp:54
 msgid "Prompt"
-msgstr ""
+msgstr "Girdi"
 
 #: src/window.blp:58
 msgid "Negative Prompt"
@@ -67,7 +67,7 @@ msgstr "Seçenekler"
 
 #: src/window.blp:67
 msgid "Save Location"
-msgstr ""
+msgstr "Konuma Kaydet"
 
 #: src/window.blp:83
 msgid "(None)"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: src/window.blp:90
 msgid "Provider"
-msgstr ""
+msgstr "Sağlayıcılar"
 
 #: src/window.blp:95
 msgid "API Token"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: src/window.blp:100
 msgid "How to get a token"
-msgstr ""
+msgstr "Token nasıl alınır"
 
 #: src/window.blp:116
 msgid "_Imagine"
@@ -91,19 +91,19 @@ msgstr ""
 
 #: src/window.blp:117
 msgid "Save location is missing."
-msgstr ""
+msgstr "Kaydetme konumu eksik."
 
 #: src/window.blp:151
 msgid "New Window"
-msgstr ""
+msgstr "Yeni Pencere"
 
 #: src/window.blp:158
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klavye kısayolları"
 
 #: src/window.blp:163
 msgid "About Imaginer"
-msgstr ""
+msgstr "Hayal Et Hakkında"
 
 #: src/window.blp:170
 msgid "Stable Diffusion"
@@ -139,4 +139,4 @@ msgstr ""
 
 #: src/window.blp:175
 msgid "Open the documentation to see how to get a token"
-msgstr ""
+msgstr "Nasıl bir token alacağınızı görmek için belgeleri açın"
