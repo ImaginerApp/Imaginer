@@ -3,12 +3,13 @@
 # This file is distributed under the GNU GPLv3 license.
 # Imaginer, 2023.
 #
+# rene-coty <irenee.thirion@e.email>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 00:33+0200\n"
-"PO-Revision-Date: 2023-05-06 12:07+0000\n"
+"PO-Revision-Date: 2023-05-12 14:34+0000\n"
 "Last-Translator: rene-coty <irenee.thirion@e.email>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fr/>\n"
@@ -65,7 +66,7 @@ msgstr "Jeton"
 
 #: src/window.blp:93
 msgid "_Imagine"
-msgstr "_Imagine"
+msgstr "_Imaginer"
 
 #: src/window.blp:94
 msgid "Save location is missing."
