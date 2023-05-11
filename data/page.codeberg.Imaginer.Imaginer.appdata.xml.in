@@ -52,6 +52,16 @@
 	</keywords>
 
 	<releases>
+	    <release version="0.1.5" date="2023-5-12" type="stable">
+		    <description>
+			    <p> Help </p>
+				<ul>
+				     <li>New website featuring a documentation for getting a token</li>
+					 <li>Update translations</li>
+					 <li>Improve UI </li>
+				</ul>
+			</description>
+        </release>
 		<release version="0.1.4" date="2023-5-8" type="stable">
 			<description>
 				<p>Make the app better</p>
