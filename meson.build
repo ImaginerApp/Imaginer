@@ -1,5 +1,5 @@
 project('imaginer',
-          version: '0.1.4',
+          version: '0.1.5',
     meson_version: '>= 0.62.0',
   default_options: [ 'warning_level=2', 'werror=false', ],
 )
