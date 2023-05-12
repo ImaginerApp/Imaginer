@@ -13,20 +13,14 @@
 		<key name="is-fullscreen" type="b">
 			<default>false</default>
 		</key>
-		<key name="clear-after-send" type="b">
-			<default>false</default>
-		</key>
 		<key name="enabled-providers" type="as">
-			<default>["baichat",  "catgpt", "huggingchat", "openaigpt35turbo"]</default>
+			<default>["stablediffusion",  "openai"]</default>
 		</key>
 		<key name="latest-provider" type="s">
-			<default>'huggingchat'</default>
+			<default>'stablediffusion'</default>
 		</key>
 		<key name="providers-data" type="a{ss}">
 			<default>{}</default>
-		</key>
-		<key name="use-text-view" type="b">
-			<default>false</default>
 		</key>
 	</schema>
 </schemalist>
