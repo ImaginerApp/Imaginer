@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-  <strong>Chit-chat with an AI</strong>
+  <strong>Imagine with an AI</strong>
 </p>
 </a>
 
@@ -36,13 +36,9 @@
 
 <a href="https://imaginer.codeberg.page">
 <p align="center">
-  <img src="./data/screenshots/quantum-computing.png" alt="Preview"/>
+  <img src="./data/screenshots/avocado-armchair.png" alt="Preview"/>
 </p>
 </a>
-
-## About the name
-
-Imaginer is a french word, the definiton of Imaginer is "Parler abondamment de choses sans grande portée" (Talking a lot about things that don't matter) (Larousse) which can be translated by Chit-Chat (informal conversation about matters that are not important). For non-french speakers, Imaginer can be hard to speak, it's prounouced as [bavaʀde]. Hear [here](https://youtu.be/9Qoogwxo5YA)
 
 ## Installation
 
@@ -74,8 +70,6 @@ You can see more install methods on the [website](https://imaginer.codeberg.page
 
 The [GNOME Code of Conduct](https://wiki.gnome.org/Foundation/CodeOfConduct) is applicable to this project
 
-See [`SEEN.md`](./SEEN.md) for a list of articles and posts about Imaginer
-
 ### Translate
 
 <a href="https://translate.codeberg.org/engage/imaginer/">
@@ -91,9 +85,9 @@ You can translate Imaginer using Codeberg Translate
 
 ## See also 
 
-### [Imaginer : Imagine with AI](https://imaginer.codeberg.page)
+### [Bavarder : Chit-Char with AI](https://bavarder.codeberg.page)
 
-A tool for generating pictures with AI (GNOME app)
+A tool for chatting with AI right from your desktop
 
-- [GitHub](https://github.com/ImaginerApp/Imaginer)
-- [Codeberg](https://codeberg.org/Imaginer/Imaginer)
+- [GitHub](https://github.com/Bavarder/Bavarder)
+- [Codeberg](https://codeberg.org/Bavarder/Bavarder)
