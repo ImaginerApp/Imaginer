@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 23:36+0200\n"
+"POT-Creation-Date: 2023-05-13 00:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,16 +23,19 @@ msgid "Imaginer"
 msgstr ""
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:13
-msgid "Chit-chat with an AI"
+msgid "Imagine with AI"
 msgstr ""
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
 msgstr ""
 
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:18
-msgid "Screenshot of Main UI"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+msgid "Imaginer main UI"
 msgstr ""
 
 #: data/ui/help-overlay.ui:11
@@ -60,7 +63,7 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr ""
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:144
+#: data/ui/preferences.blp:5 data/ui/window.blp:134
 msgid "Preferences"
 msgstr ""
 
@@ -76,39 +79,39 @@ msgstr ""
 msgid "No network connection"
 msgstr ""
 
-#: data/ui/window.blp:70
+#: data/ui/window.blp:60
 msgid "Prompt"
 msgstr ""
 
-#: data/ui/window.blp:74
+#: data/ui/window.blp:64
 msgid "Negative Prompt"
 msgstr ""
 
-#: data/ui/window.blp:80
+#: data/ui/window.blp:70
 msgid "Options"
 msgstr ""
 
-#: data/ui/window.blp:83
+#: data/ui/window.blp:73
 msgid "Save Location"
 msgstr ""
 
-#: data/ui/window.blp:99
+#: data/ui/window.blp:89
 msgid "(None)"
 msgstr ""
 
-#: data/ui/window.blp:110
+#: data/ui/window.blp:100
 msgid "_Imagine"
 msgstr ""
 
-#: data/ui/window.blp:111
+#: data/ui/window.blp:101
 msgid "Save location is missing."
 msgstr ""
 
-#: data/ui/window.blp:149
+#: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: data/ui/window.blp:154
+#: data/ui/window.blp:144
 msgid "About Imaginer"
 msgstr ""
 
