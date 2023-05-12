@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # rene-coty <irenee.thirion@e.email>, 2023.
+# 0xMRTT <0xmrtt@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 16:35+0200\n"
-"PO-Revision-Date: 2023-05-12 14:34+0000\n"
-"Last-Translator: rene-coty <irenee.thirion@e.email>\n"
+"PO-Revision-Date: 2023-05-12 15:32+0000\n"
+"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fr/>\n"
 "Language: fr\n"
@@ -26,24 +27,20 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imagine with AI"
-msgstr "Imaginer"
+msgstr "Imaginer avec l'IA"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
-msgstr ""
+msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
-msgstr ""
+msgstr "Générer des images avec l'Intelligence Artificielle et enregistrer les"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imaginer main UI"
-msgstr "Imaginer"
+msgstr "IU principale d'Imaginer"
 
 #: src/main.py:88
 msgid "Choose a directory"
@@ -63,7 +60,7 @@ msgstr "Instructions"
 
 #: src/window.blp:59
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Instructions Négatives"
 
 #: src/window.blp:65
 msgid "Options"
@@ -82,14 +79,12 @@ msgid "Provider"
 msgstr "Fournisseur"
 
 #: src/window.blp:96
-#, fuzzy
-#| msgid "Token"
 msgid "API Token"
-msgstr "Jeton"
+msgstr "Jeton d'API"
 
 #: src/window.blp:102
 msgid "How to get a token"
-msgstr ""
+msgstr "Comment avoir un jeton"
 
 #: src/window.blp:113
 msgid "_Imagine"
@@ -141,7 +136,7 @@ msgstr "Portrait Plus"
 
 #: src/window.blp:167
 msgid "Anything"
-msgstr ""
+msgstr "Tout"
 
 #~ msgid "No description"
 #~ msgstr "Pas de description"
