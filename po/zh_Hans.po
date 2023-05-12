@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 00:16+0200\n"
-"PO-Revision-Date: 2023-05-12 23:38+0000\n"
+"PO-Revision-Date: 2023-05-13 09:08+0000\n"
 "Last-Translator: xtex <xtexchooser@duck.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.codeberg.org/projects/"
 "imaginer/imaginer/zh_Hans/>\n"
@@ -22,7 +22,6 @@ msgstr ""
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
-#, fuzzy
 msgid "Imaginer"
 msgstr "Imaginer"
 
@@ -31,7 +30,6 @@ msgid "Imagine with AI"
 msgstr "使用 AI 想象"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
-#, fuzzy
 msgid "0xMRTT"
 msgstr "0xMRTT"
 
@@ -41,7 +39,7 @@ msgstr "使用人工智能生成图片并保存"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
 msgid "Imaginer main UI"
-msgstr "Imaginer主UI"
+msgstr "Imaginer 主 UI"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -56,7 +54,7 @@ msgstr "显示快捷方式"
 #: data/ui/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Ask"
-msgstr ""
+msgstr "问"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -74,56 +72,56 @@ msgstr "首选项"
 
 #: data/ui/preferences.blp:12
 msgid "Providers"
-msgstr ""
+msgstr "提供者"
 
 #: data/ui/window.blp:27
 msgid "Main Menu"
-msgstr ""
+msgstr "主菜单"
 
 #: data/ui/window.blp:33 src/provider/base.py:52
 msgid "No network connection"
-msgstr ""
+msgstr "无网络连接"
 
 #: data/ui/window.blp:60
 msgid "Prompt"
-msgstr ""
+msgstr "提示词"
 
 #: data/ui/window.blp:64
 msgid "Negative Prompt"
-msgstr ""
+msgstr "负面提示词"
 
 #: data/ui/window.blp:70
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: data/ui/window.blp:73
 msgid "Save Location"
-msgstr ""
+msgstr "保存位置"
 
 #: data/ui/window.blp:89
 msgid "(None)"
-msgstr ""
+msgstr "（无）"
 
 #: data/ui/window.blp:100
 msgid "_Imagine"
-msgstr ""
+msgstr "_Imagine"
 
 #: data/ui/window.blp:101
 msgid "Save location is missing."
-msgstr ""
+msgstr "请输入保存位置。"
 
 #: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键"
 
 #: data/ui/window.blp:144
 msgid "About Imaginer"
-msgstr ""
+msgstr "关于 Imaginer"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
-msgstr ""
+msgstr "未提供 API 密钥，你可以在设置中提供一个"
 
 #: src/provider/base.py:47
 msgid "Open settings"
-msgstr ""
+msgstr "打开设置"
