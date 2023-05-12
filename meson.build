@@ -10,11 +10,11 @@ python = import('python')
 
 # Constants
 PROJECT_RDNN_NAME = 'page.codeberg.Imaginer.Imaginer'
-BUGTRACKER_URL = 'https://github.com/Imaginer/Imaginer/issues'
-HELP_URL = 'https://github.com/Imaginer/Imaginer/issues'
+BUGTRACKER_URL = 'https://codeberg.org/Imaginer/Imaginer/issues'
+HELP_URL = 'https://codeberg.org/Imaginer/Imaginer/issues'
 TRANSLATE_URL = 'https://translate.codeberg.org/engage/imaginer/'
 
-PROJECT_URL = 'https://github.com/Imaginer'
+PROJECT_URL = 'https://imaginer.codeberg.page'
 
 git_bin = find_program('git', required: false)
 
