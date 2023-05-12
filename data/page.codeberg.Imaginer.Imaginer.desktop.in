@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Bavarder
-Exec=bavarder
-Icon=io.github.Bavarder.Bavarder
+Name=Imaginer
+Exec=imaginer
+Icon=page.codeberg.Imaginer.Imaginer
 Terminal=false
 Type=Application
 Categories=GTK;

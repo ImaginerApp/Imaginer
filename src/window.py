@@ -21,32 +21,26 @@ from gi.repository import Adw
 from gi.repository import Gtk, Gio
 
 
-@Gtk.Template(resource_path="/io/github/Bavarder/Bavarder/ui/window.ui")
-class BavarderWindow(Adw.ApplicationWindow):
-    __gtype_name__ = "BavarderWindow"
+@Gtk.Template(resource_path="/page/codeberg/Imaginer/Imaginer/ui/window.ui")
+class ImaginerWindow(Adw.ApplicationWindow):
+    __gtype_name__ = "ImaginerWindow"
 
     toast_overlay = Gtk.Template.Child()
-    prompt_text_view = Gtk.Template.Child()
-    spinner = Gtk.Template.Child()
-    ask_button = Gtk.Template.Child()
-    wait_button = Gtk.Template.Child()
-    scrolled_response_window = Gtk.Template.Child()
-    bot_text_view = Gtk.Template.Child()
-    response_stack = Gtk.Template.Child()
     banner = Gtk.Template.Child()
-    stop_button = Gtk.Template.Child()
-    # listen = Gtk.Template.Child()
-    # listen_wait = Gtk.Template.Child()
-    # listen_spinner = Gtk.Template.Child()
-    # speak = Gtk.Template.Child()
-    # speak_wait = Gtk.Template.Child()
-    # speak_spinner = Gtk.Template.Child()
-    provider_selector = Gtk.Template.Child()
+    main = Gtk.Template.Child()
+    stack_imaginer = Gtk.Template.Child()
+    image = Gtk.Template.Child()
+    button_output = Gtk.Template.Child()
+    button_imagine = Gtk.Template.Child()
+    spinner = Gtk.Template.Child()
+    prompt = Gtk.Template.Child()
+    negative_prompt = Gtk.Template.Child()
+    menu = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.settings = Gio.Settings(schema_id="io.github.Bavarder.Bavarder")
+        self.settings = Gio.Settings(schema_id="page.codeberg.Imaginer.Imaginer")
 
         self.settings.bind(
             "width", self, "default-width", Gio.SettingsBindFlags.DEFAULT

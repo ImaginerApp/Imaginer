@@ -5,7 +5,7 @@ from gi.repository import Gtk, Adw, GLib
 import json
 
 
-class BavarderProvider:
+class ImaginerProvider:
     name = None
     slug = None
     description = ""
@@ -15,7 +15,7 @@ class BavarderProvider:
     developers = ["0xMRTT https://github.com/0xMRTT"]
     license_type = Gtk.License.GPL_3_0
     copyright = "© 2023 0xMRTT"
-    url = "https://bavarder.codeberg.page/help/bard"
+    url = "https://imaginer.codeberg.page/help/bard"
 
 
     def __init__(self, win, app, *args, **kwargs):
@@ -23,10 +23,12 @@ class BavarderProvider:
         self.banner = win.banner
         self.app = app
         self.chat = None
-        self.update_response = app.update_response
 
-    def ask(self, prompt):
+    def ask(self, prompt, negative_prompt):
         raise NotImplementedError()
+
+    def path(self, path):
+        return f"{path}-{self.slug}.png"
 
     @property
     def require_api_key(self):
@@ -77,7 +79,7 @@ class BavarderProvider:
         popover.set_child(vbox)
 
         about_button = Gtk.MenuButton()
-        about_button.set_icon_name("info-symbolic")
+        about_button.set_icon_name("dialog-information-symbolic")
         about_button.set_valign(Gtk.Align.CENTER)
         about_button.set_popover(popover)
         return about_button
@@ -89,7 +91,7 @@ class BavarderProvider:
     
     def how_to_get_a_token(self):
         about_button = Gtk.Button()
-        about_button.set_icon_name("info-symbolic")
+        about_button.set_icon_name("dialog-information-symbolic")
         about_button.set_tooltip_text("How to get a token?")
         about_button.add_css_class("flat")
         about_button.set_valign(Gtk.Align.CENTER)

@@ -1,4 +1,4 @@
-project('bavarder',
+project('imaginer',
           version: '0.2.0',
     meson_version: '>= 0.62.0',
   default_options: [ 'warning_level=2', 'werror=false', ],
@@ -9,12 +9,12 @@ gnome = import('gnome')
 python = import('python')
 
 # Constants
-PROJECT_RDNN_NAME = 'io.github.Bavarder.Bavarder'
-BUGTRACKER_URL = 'https://github.com/Bavarder/Bavarder/issues'
-HELP_URL = 'https://github.com/Bavarder/Bavarder/issues'
-TRANSLATE_URL = 'https://translate.codeberg.org/engage/bavarder/'
+PROJECT_RDNN_NAME = 'page.codeberg.Imaginer.Imaginer'
+BUGTRACKER_URL = 'https://github.com/Imaginer/Imaginer/issues'
+HELP_URL = 'https://github.com/Imaginer/Imaginer/issues'
+TRANSLATE_URL = 'https://translate.codeberg.org/engage/imaginer/'
 
-PROJECT_URL = 'https://github.com/Bavarder'
+PROJECT_URL = 'https://github.com/Imaginer'
 
 git_bin = find_program('git', required: false)
 
@@ -45,7 +45,7 @@ if not PY_INSTALLDIR.found()
 endif
 
 PKGDATA_DIR = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-MODULE_DIR = join_paths(PKGDATA_DIR, 'bavarder')
+MODULE_DIR = join_paths(PKGDATA_DIR, 'imaginer')
 
 conf = configuration_data()
 conf.set('APP_ID', APPLICATION_ID)

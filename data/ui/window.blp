@@ -2,9 +2,8 @@ using Gtk 4.0;
 using Adw 1;
 using WebKit 6.0;
 
-template BavarderWindow : Adw.ApplicationWindow {
-
-  title: _("Bavarder");
+template ImaginerWindow : Adw.ApplicationWindow {
+  title: _("Imaginer");
   default-width: 350;
   default-height: 500;
   
@@ -21,14 +20,11 @@ template BavarderWindow : Adw.ApplicationWindow {
       vexpand: true;
       hexpand: true;
       Adw.HeaderBar {
-        MenuButton {
+        MenuButton menu {
           primary: true;
           menu-model: main-menu;
           icon-name: "open-menu-symbolic";
           tooltip-text: _("Main Menu");
-        }
-        DropDown provider_selector { 
-          styles ["flat"]
         }
         styles ["flat"]
       }
@@ -48,178 +44,97 @@ template BavarderWindow : Adw.ApplicationWindow {
         margin-end: 24;
         spacing: 12;
 
-        Adw.PreferencesGroup prompt_group {
-          title: _("Message");
+        Stack stack_imaginer {
+          transition-type: crossfade;
 
-          Box {
-            orientation: vertical;
-            hexpand: true;
-            vexpand: true;
+          StackPage {
+            name: "stack_imagine";
+            child:
+              Adw.PreferencesPage {
+                Adw.PreferencesGroup {
+                  Picture image {
+                    halign: center;
+                    visible: false;
+                    styles ["card"]
+                    //content-fit: cover;
+                    //can-shrink: true;
+                    height-request: 200;
+                    width-request: 200;
 
-            styles ["card", "text-box"]
+                  }
+                }
 
-            ScrolledWindow {
-              margin-top:12;
-              margin-bottom:0;
-              margin-start:12;
-              margin-end:12;
-              styles ["scrolled-window"]
+              Adw.PreferencesGroup {
 
-              TextView prompt_text_view {
-                wrap-mode: word_char;
-                hexpand: true;
-                vexpand: true;
-                buffer: TextBuffer { };
-                //key-press => on_key_press_event();
+                Adw.EntryRow prompt {
+                  title: _("Prompt");
+                }
 
-              }
-            }
-            Box {
-                hexpand: true;
-                halign: end;
-
-              styles ["toolbar"]
-              Button {
-                sensitive: false;
-                icon-name: "edit-copy-symbolic";
-                tooltip-text: _("Copy to Clipboard");
-                action-name: "app.copy_prompt";
-              }
-              // Button listen {
-              //   action-name: "app.listen";
-              //   tooltip-text: _("Listen");
-              //   icon-name: "audio-input-microphone-symbolic";
-              // }
-
-              // Button listen_wait {
-              //   visible: false;
-              //   sensitive: false;
-              //   tooltip-text: _("Listening");
-              //   Spinner listen_spinner {
-              //     margin-top: 8;
-              //     margin-bottom: 8;
-              //     margin-start: 8;
-              //     margin-end: 8;
-              //   }
-              // }
-              Button ask_button {
-                visible: true;
-                sensitive: false;
-                icon-name: "paper-plane-symbolic";
-                tooltip-text: _("Ask");
-                hexpand: true;
-                halign: end;
-                action-name: "app.ask";
-                styles ["suggested-action", "circular"]
-              }
-              Button wait_button {
-                visible: false;
-                sensitive: false;
-                tooltip-text: _("Wait");
-                styles ["suggested-action", "circular"]
-                Spinner spinner {
-                  margin-top: 8;
-                  margin-bottom: 8;
-                  margin-start: 8;
-                  margin-end: 8;
-                  styles ["suggested-action", "circular"]
+                Adw.EntryRow negative_prompt {
+                  title: _("Negative Prompt");
+                    
                 }
               }
-            }
-          }
+
+              Adw.PreferencesGroup {
+                title: _("Options");
+
+                Adw.ActionRow {
+                  title: _("Save Location");
+                  activatable-widget: button_output;
+                  
+
+                  Button button_output {
+                    valign: center;
+                    action-name: "app.choose_output";
+
+                    Box {
+                      spacing: 6;
+
+                      Image {
+                        icon-name: "document-open-symbolic";
+                      }
+
+                      Label label_output {
+                        label: _("(None)");
+                      }
+                    }
+                  }
+                }
+              }
+
+              Adw.PreferencesGroup {
+                Button button_imagine {
+                  valign: center;
+                  halign: center;
+                  label: _("_Imagine");
+                  tooltip-text: _("Save location is missing.");
+                  use-underline: true;
+                  sensitive: false;
+                  action-name: "app.ask";
+
+                  styles [
+                    "suggested-action",
+                    "pill",
+                  ]
+                }
+              }
+          };
         }
 
-        Adw.PreferencesGroup bot_group {
-          title: _("Response");
-
-
-          Box {
-            orientation: vertical;
-            hexpand: true;
-            vexpand: true;
-
-            styles ["card", "text-box"]
-
-            ScrolledWindow scrolled_response_window {
-              margin-top:12;
-              margin-bottom:0;
-              margin-start:12;
-              margin-end:12;
-              styles ["scrolled-window"]
-              
-              Gtk.Stack response_stack {
-                vexpand: true;
-                hexpand: true;
-                Gtk.StackPage {
-                  name: "page_response";
-                  child: TextView bot_text_view {
-                    wrap-mode: word_char;
-                    hexpand: true;
-                    vexpand: true;
-                    editable: false;
-                  };
-                }
-
-                // Gtk.StackPage {
-                //   name: "page_offline";
-                //   child: Adw.StatusPage {
-                //     //icon-name: "network-wireless-offline-symbolic";
-                //     title: _("Offline");
-                //   };
-                // }
-              }
-              
+        StackPage {
+          name: "stack_loading";
+          child:
+          Adw.StatusPage {
+            Spinner spinner {
+              valign: center;
             }
-
-            Box {
-              hexpand: true;
-              halign: end;
-
-              styles ["toolbar"]
-
-              // Button speak {
-              //   action-name: "app.speak";
-              //   tooltip-text: _("Speak");
-              //   icon-name: "audio-speakers-symbolic";
-              // }
-              
-              // Button speak_wait {
-              //   visible: false;
-              //   sensitive: false;
-              //   tooltip-text: _("Speaking");
-              //   Spinner speak_spinner {
-              //     margin-top: 8;
-              //     margin-bottom: 8;
-              //     margin-start: 8;
-              //     margin-end: 8;
-              //   }
-              // }
-
-              Button copy_bot {
-                sensitive: false;
-                icon-name: "edit-copy-symbolic";
-                tooltip-text: _("Copy to Clipboard");
-                hexpand: true;
-                halign: end;
-                action-name: "app.copy_bot";
-              }
-
-              Button stop_button {
-                visible: false;
-                sensitive: false;
-                icon-name: "x-circular-symbolic";
-                tooltip-text: _("Stop");
-                hexpand: true;
-                halign: end;
-                action-name: "app.stop";
-                styles ["suggested-action", "circular"]
-              }
-            }
-          }
+          };
         }
       }
     }
   }
+}
 }
 
 
@@ -236,7 +151,7 @@ menu main-menu {
     }
 
     item {
-      label: _("About Bavarder");
+      label: _("About Imaginer");
       action: "app.about";
     }
   }

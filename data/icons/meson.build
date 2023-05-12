@@ -1,4 +1,4 @@
-application_id = 'io.github.Bavarder.Bavarder'
+application_id = 'page.codeberg.Imaginer.Imaginer'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

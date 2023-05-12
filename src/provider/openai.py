@@ -1,55 +1,44 @@
-from .base import BavarderProvider
+from .base import ImaginerProvider
 
 import openai
 import socket
 
 from gi.repository import Gtk, Adw, GLib
 
+from PIL import Image, UnidentifiedImageError
+import io
 
-class BaseOpenAIProvider(BavarderProvider):
-    name = None
-    slug = None
-    model = None
+class OpenAIProvider(ImaginerProvider):
+    name = "Open AI"
+    slug = "openai"
     version = "0.1.0"
     api_key_title = "API Key"
-    url = "https://bavarder.codeberg.page/help/openai"
+    url = "https://imaginer.codeberg.page/help/openai"
 
     def __init__(self, win, app, *args, **kwargs):
         super().__init__(win, app, *args, **kwargs)
         self.chat = openai.ChatCompletion
-        self.pref_win = None
 
-    def ask(self, prompt):
-        prompt = self.chunk(prompt)
+    def ask(self, prompt, negative_prompt):
         try:
-            if isinstance(prompt, list):
-                self.win.banner.props.title = "Prompt too long, splitting into chunks."
-                self.win.banner.props.button_label = ""
-                self.win.banner.set_revealed(True)
-                response = ""
-                for chunk in prompt:
-                    response += (
-                        self.chat.create(
-                            model=self.model,
-                            messages=[{"role": "user", "content": chunk}],
-                        )
-                        .choices[0]
-                        .message.content
-                    )
-            else:
-                response = self.chat.create(
-                    model=self.model, messages=[{"role": "user", "content": prompt}]
-                )
-                response = response.choices[0].message.content
+            print("Prompt:", prompt)
+            response = openai.Image.create(
+                prompt=prompt, n=1, size="1024x1024"
+            )
+            image_url = response["data"][0]["url"]
+            image_bytes = requests.get(image_url).content
         except openai.error.AuthenticationError:
+            print("No API key")
             self.no_api_key()
             return ""
-        except openai.error.InvalidRequestError:
-            self.win.banner.props.title = "You don't have access to this model"
+        except openai.error.OpenAIError as e:
+            print("Invalid request")
+            self.win.banner.props.title = e.error["message"]
             self.win.banner.props.button_label = ""
             self.win.banner.set_revealed(True)
             return ""
         except openai.error.RateLimitError:
+            print("Rate limit")
             self.win.banner.props.title = "You exceeded your current quota, please check your plan and billing details."
             self.win.banner.props.button_label = ""
             self.win.banner.set_revealed(True)
@@ -59,8 +48,17 @@ class BaseOpenAIProvider(BavarderProvider):
             return ""
         else:
             self.hide_banner()
-            GLib.idle_add(self.update_response, response)
-            return response
+            if image_bytes:
+                try:
+                    return Image.open(io.BytesIO(image_bytes))
+                except UnidentifiedImageError:
+                    error = json.loads(image_bytes)["error"]
+                    self.win.banner.set_title(error)
+                    self.win.banner.set_revealed(True)
+                    return None
+            else:
+                return None
+
 
     @property
     def require_api_key(self):

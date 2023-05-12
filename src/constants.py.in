@@ -1,4 +1,4 @@
-rootdir          = '/io/github/Bavarder/Bavarder'
+rootdir          = '/page/codeberg/Imaginer/Imaginer'
 datadir          = '@DATA_DIR@'
 pkgdatadir       = '@PKGDATA_DIR@'
 localedir        = '@LOCALE_DIR@'

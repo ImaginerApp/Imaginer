@@ -1,13 +1,13 @@
 <Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:gnome="http://api.gnome.org/doap-extensions#"
-         xmlns="http://usefulinc.com/ns/doap#">
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:gnome="http://api.gnome.org/doap-extensions#"
+    xmlns="http://usefulinc.com/ns/doap#">
 
-    <name xml:lang="en">Bavarder</name>
+    <name xml:lang="en">Imaginer</name>
     <shortdesc xml:lang="en">Chit-chat with an AI</shortdesc>
-    <homepage rdf:resource="https://github.com/Bavarder/Bavarder" />
-    <bug-database rdf:resource="https://github.com/Bavarder/Bavarder/issues"/>
+    <homepage rdf:resource="https://github.com/Imaginer/Imaginer" />
+    <bug-database rdf:resource="https://github.com/Imaginer/Imaginer/issues"/>
     <programming-language>Python</programming-language>
     <platform>GTK 4</platform>
     <platform>Libadwaita</platform>

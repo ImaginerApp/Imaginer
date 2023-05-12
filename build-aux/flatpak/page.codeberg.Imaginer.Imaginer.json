@@ -1,9 +1,9 @@
 {
-    "app-id" : "io.github.Bavarder.Bavarder",
+    "app-id" : "page.codeberg.Imaginer.Imaginer",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
-    "command" : "bavarder",
+    "command" : "imaginer",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "name" : "bavarder",
+            "name" : "imaginer",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [

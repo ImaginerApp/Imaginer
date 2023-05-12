@@ -1,27 +1,33 @@
 import requests
 import json
-from .base import BavarderProvider
+from .base import ImaginerProvider
 
 import socket
 
 from gi.repository import Gtk, Adw, GLib
+from PIL import Image, UnidentifiedImageError
+import io
 
-
-class BaseHFProvider(BavarderProvider):
+class BaseHFProvider(ImaginerProvider):
     name = None
     slug = None
     model = None
-    url = "https://bavarder.codeberg.page/help/huggingface"
+    url = "https://imaginer.codeberg.page/help/huggingface"
 
     def __init__(self, win, app, *args, **kwargs):
         super().__init__(win, app, *args, **kwargs)
         self.api_key = None
 
-    def ask(self, prompt):
+    def ask(self, prompt, negative_prompt):
         try:
-            payload = json.dumps({"inputs": prompt})
+            payload = json.dumps(
+                {
+                    "inputs": prompt,
+                    "negative_prompts": negative_prompt if negative_prompt else "",
+                }
+            )
             headers = {"Content-Type": "application/json"}
-            if self.require_api_key:
+            if self.require_api_key and self.api_key:
                 headers["Authorization"] = f"Bearer {self.api_key}"
             url = f"https://api-inference.huggingface.co/models/{self.model}"
             response = requests.request("POST", url, headers=headers, data=payload)
@@ -33,25 +39,30 @@ class BaseHFProvider(BavarderProvider):
                 self.win.banner.props.button_label = ""
                 self.win.banner.set_revealed(True)
                 return ""
-            response = response.json()[0]["generated_text"]
-
-        # except NoApikey:
-        #     self.no_api_key()
-        #     return ""
+            response = response.content
         except KeyError:
+            print("KeyError")
             pass
         except socket.gaierror:
             self.no_connection()
             return ""
         else:
             self.hide_banner()
-            print(response)
-            GLib.idle_add(self.update_response, response)
-            return response
+            if response:
+                try:
+                    return Image.open(io.BytesIO(response))
+                except UnidentifiedImageError:
+                    error = json.loads(response)["error"]
+                    self.win.banner.set_title(error)
+                    self.win.banner.set_revealed(True)
+                    return None
+            else:
+                print("No response")
+                return None
 
     @property
     def require_api_key(self):
-        return False
+        return True
 
     def preferences(self, win):
         if self.require_api_key:

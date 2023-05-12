@@ -3,26 +3,16 @@ providers_dir = join_paths(moduledir, 'provider')
 
 providers_sources = [
   '__init__.py',
-  'alpacalora.py',
-  'baichat.py',
-  'bard.py',
+  'analogdiffusion.py',
+  'anything.py',
   'base.py',
-  'catgpt.py',
-  'hfdialogpt.py',
-  'hfgoogleflant5xxl.py',
-  'hfgoogleflanu12.py',
-  'hfgpt2.py',
-  'hfgpt2large.py',
-  'hfgpt2xl.py',
-  'hfopenassistantsft1pythia12b.py',
-  'huggingchat.py',
-  'huggingchatbase.py',
   'huggingface.py',
+  'nitrodiffusion.py',
   'openai.py',
-  'openaigpt4.py',
-  'openaigpt35turbo.py',
-  'openaitextdavinci003.py',
-  'starcoder.py',
+  'openjourney.py',
+  'portraitplus.py',
+  'stablediffusion.py',
+  'waifudiffusion.py'
 ]
 
 PY_INSTALLDIR.install_sources(providers_sources, subdir: providers_dir)

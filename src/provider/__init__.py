@@ -1,35 +1,19 @@
-from .huggingchat import HuggingChatProvider
-from .baichat import BAIChatProvider
-from .openaigpt35turbo import OpenAIGPT35TurboProvider
-from .openaigpt4 import OpenAIGPT4Provider
-from .catgpt import CatGPTProvider
-from .openaitextdavinci003 import OpenAITextDavinci003
-from .alpacalora import AlpacaLoRAProvider
-from .hfgoogleflant5xxl import HuggingFaceGoogleFlanT5XXLProvider
-from .hfgoogleflanu12 import HuggingFaceGoogleFlanU12Provider
-from .hfopenassistantsft1pythia12b import HuggingFaceOpenAssistantSFT1PythiaProvider
-from .hfgpt2 import HuggingFaceGPT2Provider
-from .hfdialogpt import HuggingFaceDialoGPTLargeProvider
-from .bard import BardProvider
-from .hfgpt2large import HuggingFaceGPT2LargeProvider
-from .hfgpt2xl import HuggingFaceGPT2XLProvider
-from .starcoder import StarCoderProvider
+from .analogdiffusion import AnalogDiffusionProvider
+from .anything import AnythingProvider
+from .nitrodiffusion import NitroDiffusionProvider
+from .openai import OpenAIProvider
+from .openjourney import OpenJourneyProvider
+from .portraitplus import PortraitPlusProvider
+from .stablediffusion import StableDiffusionProvider
+from .waifudiffusion import WaifuDiffusionProvider
 
 PROVIDERS = {
-    "alpacalora": AlpacaLoRAProvider,
-    "baichat": BAIChatProvider,
-    # "bard": BardProvider, # Disabled because we need more documentation on how to use it
-    "catgpt": CatGPTProvider,
-    "hfdialogpt": HuggingFaceDialoGPTLargeProvider,
-    "hfgoogleflant5xxl": HuggingFaceGoogleFlanT5XXLProvider,
-    "hfgoogleflanu12": HuggingFaceGoogleFlanU12Provider,
-    "hfgpt2": HuggingFaceGPT2Provider,
-    "hfgpt2large": HuggingFaceGPT2LargeProvider,
-    "hfgpt2xl": HuggingFaceGPT2XLProvider,
-    "hfopenassistantsft1pythia12b": HuggingFaceOpenAssistantSFT1PythiaProvider,
-    "huggingchat": HuggingChatProvider,
-    "openaigpt35turbo": OpenAIGPT35TurboProvider,
-    "openaigpt4": OpenAIGPT4Provider,
-    "openaitextdavinci003": OpenAITextDavinci003,
-    "starcoder": StarCoderProvider,
+    "analogdiffusion": AnalogDiffusionProvider,
+    "anything": AnythingProvider,
+    "nitrodiffusion": NitroDiffusionProvider,
+    "openai": OpenAIProvider,
+    "openjourney": OpenJourneyProvider,
+    "portraitplus": PortraitPlusProvider,
+    "stablediffusion": StableDiffusionProvider,
+    "waifudiffusion": WaifuDiffusionProvider,
 }

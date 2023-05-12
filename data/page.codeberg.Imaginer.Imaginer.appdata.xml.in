@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>io.github.Bavarder.Bavarder</id>
-	<name>Bavarder</name>
+	<id>page.codeberg.Imaginer.Imaginer</id>
+	<name>Imaginer</name>
 	<summary>Chit-chat with an AI</summary>
 	<developer_name>0xMRTT</developer_name>
   <metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
-  <launchable type="desktop-id">io.github.Bavarder.Bavarder.desktop</launchable>
+  <launchable type="desktop-id">page.codeberg.Imaginer.Imaginer.desktop</launchable>
   <content_rating type="oars-1.1"/>
 
 	<description>
@@ -16,14 +16,14 @@
 	<screenshots>
 	  <screenshot width="472" height="622">
 		<caption>Screenshot of Main UI</caption>
-		<image type="source">https://raw.githubusercontent.com/Bavarder/Bavarder/main/data/screenshots/quantum-computing.png</image>
+		<image type="source">https://raw.githubusercontent.com/Imaginer/Imaginer/main/data/screenshots/quantum-computing.png</image>
 		</screenshot>
 	</screenshots>
 
-	<url type="bugtracker">https://codeberg.org/Bavarder/Bavarder/issues</url>
-	<url type="translate">https://translate.codeberg.org/engage/bavarder/</url>
-	<url type="help">https://codeberg.org/Bavarder/Bavarder/issues</url>
-	<url type="homepage">https://codeberg.org/Bavarder/Bavarder</url>
+	<url type="bugtracker">https://codeberg.org/Imaginer/Imaginer/issues</url>
+	<url type="translate">https://translate.codeberg.org/engage/imaginer/</url>
+	<url type="help">https://codeberg.org/Imaginer/Imaginer/issues</url>
+	<url type="homepage">https://codeberg.org/Imaginer/Imaginer</url>
 
   <kudos>
     <kudo>HiDpiIcon</kudo>
@@ -50,7 +50,7 @@
   </recommends>
 
 	<keywords>
-		<keyword>Bavarder</keyword>
+		<keyword>Imaginer</keyword>
 	  <keyword>Chat</keyword>
 		<keyword>GPT</keyword>
 	  <keyword>ChatGPT</keyword>
@@ -115,12 +115,12 @@
     </release>
     <release version="0.1.1" date="2023-4-27" type="stable">
       <description>
-        <p>Change app ID to io.github.Bavarder.Bavarder</p>
+        <p>Change app ID to page.codeberg.Imaginer.Imaginer</p>
       </description>
     </release>
     <release version="0.1.0" date="2023-4-27" type="stable">
       <description>
-        <p>First release of Bavarder</p>
+        <p>First release of Imaginer</p>
       </description>
     </release>
   </releases>

@@ -33,18 +33,6 @@
                 <property name="action-name">app.preferences</property>
               </object>
             </child>
-            <child>
-              <object class="GtkShortcutsShortcut">
-                <property name="title" translatable="yes" context="shortcut window">Copy response</property>
-                <property name="action-name">app.copy_bot</property>
-              </object>
-            </child>
-            <child>
-              <object class="GtkShortcutsShortcut">
-                <property name="title" translatable="yes" context="shortcut window">Clear</property>
-                <property name="action-name">app.clear</property>
-              </object>
-            </child>
           </object>
         </child>
       </object>

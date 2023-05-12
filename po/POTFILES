@@ -1,6 +1,6 @@
-data/io.github.Bavarder.Bavarder.desktop.in
-data/io.github.Bavarder.Bavarder.appdata.xml.in
-data/io.github.Bavarder.Bavarder.gschema.xml
+data/page.codeberg.Imaginer.Imaginer.desktop.in
+data/page.codeberg.Imaginer.Imaginer.appdata.xml.in
+data/page.codeberg.Imaginer.Imaginer.gschema.xml
 data/ui/help-overlay.ui
 data/ui/preferences.blp
 data/ui/window.blp
@@ -8,4 +8,3 @@ src/main.py
 src/preferences.py
 src/window.py
 src/provider/base.py
-src/provider/catgpt.py

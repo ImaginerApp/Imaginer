@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemalist gettext-domain="bavarder">
-	<schema id="io.github.Bavarder.Bavarder" path="/io/github/Bavarder/Bavarder/">
+<schemalist gettext-domain="imaginer">
+	<schema id="page.codeberg.Imaginer.Imaginer" path="/page/codeberg/Imaginer/Imaginer/">
 		<key name="width" type="i">
 			<default>350</default>
 		</key>

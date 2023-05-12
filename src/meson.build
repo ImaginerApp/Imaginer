@@ -1,12 +1,12 @@
 pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
-moduledir = join_paths(pkgdatadir, 'bavarder')
+moduledir = join_paths(pkgdatadir, 'imaginer')
 gnome = import('gnome')
 
 python = import('python')
 
 configure_file(
-  input: 'bavarder.in',
-  output: 'bavarder',
+  input: 'imaginer.in',
+  output: 'imaginer',
   configuration: conf,
   install: true,
   install_dir: get_option('bindir'),
@@ -21,13 +21,13 @@ configure_file(
   install_dir: moduledir
 )
 
-bavarder_sources = [
+imaginer_sources = [
   '__init__.py',
   'main.py',
   'preferences.py',
   'window.py',
 ]
 
-PY_INSTALLDIR.install_sources(bavarder_sources, subdir: moduledir)
+PY_INSTALLDIR.install_sources(imaginer_sources, subdir: moduledir)
 
 subdir('provider')

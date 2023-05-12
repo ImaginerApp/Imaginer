@@ -3,8 +3,8 @@ pkgdatadir = join_paths(get_option('prefix'), get_option('datadir'), meson.proje
 
 subdir('ui')
 
-gnome.compile_resources('bavarder',
-  'bavarder.gresource.xml',
+gnome.compile_resources('imaginer',
+  'imaginer.gresource.xml',
   gresource_bundle: true,
   source_dir: meson.current_build_dir(),
   install: true,
@@ -13,8 +13,8 @@ gnome.compile_resources('bavarder',
 )
 
 desktop_file = i18n.merge_file(
-        input: 'io.github.Bavarder.Bavarder.desktop.in',
-       output: 'io.github.Bavarder.Bavarder.desktop',
+        input: 'page.codeberg.Imaginer.Imaginer.desktop.in',
+       output: 'page.codeberg.Imaginer.Imaginer.desktop',
          type: 'desktop',
        po_dir: '../po',
       install: true,
@@ -27,8 +27,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-        input: 'io.github.Bavarder.Bavarder.appdata.xml.in',
-       output: 'io.github.Bavarder.Bavarder.appdata.xml',
+        input: 'page.codeberg.Imaginer.Imaginer.appdata.xml.in',
+       output: 'page.codeberg.Imaginer.Imaginer.appdata.xml',
        po_dir: '../po',
       install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -39,7 +39,7 @@ if appstream_util.found()
   test('Validate appstream file', appstream_util, args: ['validate', appstream_file])
 endif
 
-install_data('io.github.Bavarder.Bavarder.gschema.xml',
+install_data('page.codeberg.Imaginer.Imaginer.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 
