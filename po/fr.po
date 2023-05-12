@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 16:35+0200\n"
+"POT-Creation-Date: 2023-05-13 00:16+0200\n"
 "PO-Revision-Date: 2023-05-12 14:38+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
@@ -24,22 +24,29 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:7
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
 msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:13
-msgid "Chit-chat with an AI"
-msgstr "Imaginer avec GPT"
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imagine with AI"
+msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
 msgstr "0xMRTT"
 
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:18
-msgid "Screenshot of Main UI"
-msgstr "Capture d’écran de l’interface principale"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imaginer main UI"
+msgstr "Imaginer"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -66,96 +73,115 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "Préférences"
 
-#: data/ui/help-overlay.ui:38
-msgctxt "shortcut window"
-msgid "Copy response"
-msgstr "Copier la réponse"
-
-#: data/ui/help-overlay.ui:44
-msgctxt "shortcut window"
-msgid "Clear"
-msgstr "Vider"
-
-#: data/ui/preferences.blp:5 data/ui/window.blp:229
+#: data/ui/preferences.blp:5 data/ui/window.blp:134
 msgid "Preferences"
 msgstr "Préférences"
 
 #: data/ui/preferences.blp:12
-msgid "Prompt"
-msgstr "Requête"
-
-#: data/ui/preferences.blp:15
-msgid "Clear prompt after send"
-msgstr "Effacer la requête après envoi"
-
-#: data/ui/preferences.blp:16
-msgid "The prompt will be cleared after send"
-msgstr "La requête sera effacée après envoi"
-
-#: data/ui/preferences.blp:24
-msgid "Use text view"
-msgstr "Utiliser la vue texte"
-
-#: data/ui/preferences.blp:25
-msgid "If the text view is used, you will lose formatting"
-msgstr "Si la vue texte est utilisée, vous perdrez la mise en forme"
-
-#: data/ui/preferences.blp:34
 msgid "Providers"
 msgstr "Fournisseurs"
 
-#: data/ui/window.blp:28
+#: data/ui/window.blp:27
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: data/ui/window.blp:37 src/provider/base.py:50
+#: data/ui/window.blp:33 src/provider/base.py:52
 msgid "No network connection"
 msgstr "Pas de connexion réseau"
 
-#: data/ui/window.blp:52
-msgid "Message"
-msgstr "Message"
+#: data/ui/window.blp:60
+msgid "Prompt"
+msgstr "Requête"
 
-#: data/ui/window.blp:85 data/ui/window.blp:201
-msgid "Copy to Clipboard"
-msgstr "Copier dans le presse-papiers"
+#: data/ui/window.blp:64
+msgid "Negative Prompt"
+msgstr ""
 
-#: data/ui/window.blp:109
-msgid "Ask"
-msgstr "Demander"
+#: data/ui/window.blp:70
+msgid "Options"
+msgstr ""
 
-#: data/ui/window.blp:118
-msgid "Wait"
-msgstr "Attendez"
+#: data/ui/window.blp:73
+msgid "Save Location"
+msgstr ""
 
-#: data/ui/window.blp:133
-msgid "Response"
-msgstr "Réponse"
+#: data/ui/window.blp:89
+msgid "(None)"
+msgstr ""
 
-#: data/ui/window.blp:211
-msgid "Stop"
-msgstr "Stop"
+#: data/ui/window.blp:100
+#, fuzzy
+#| msgid "Imaginer"
+msgid "_Imagine"
+msgstr "Imaginer"
 
-#: data/ui/window.blp:234
+#: data/ui/window.blp:101
+msgid "Save location is missing."
+msgstr ""
+
+#: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
-#: data/ui/window.blp:239
+#: data/ui/window.blp:144
 msgid "About Imaginer"
 msgstr "À propos de Imaginer"
 
-#: src/provider/base.py:43
+#: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
 msgstr ""
 "Pas de clé d’API fournie, vous pouvez en ajouter une dans les paramètres"
 
-#: src/provider/base.py:45
+#: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Ouvrir les paramètres"
 
-#: src/provider/catgpt.py:9
-msgid "Cat GPT"
-msgstr "Cat GPT"
+#~ msgid "Chit-chat with an AI"
+#~ msgstr "Imaginer avec GPT"
+
+#~ msgid "Screenshot of Main UI"
+#~ msgstr "Capture d’écran de l’interface principale"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Copy response"
+#~ msgstr "Copier la réponse"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Clear"
+#~ msgstr "Vider"
+
+#~ msgid "Clear prompt after send"
+#~ msgstr "Effacer la requête après envoi"
+
+#~ msgid "The prompt will be cleared after send"
+#~ msgstr "La requête sera effacée après envoi"
+
+#~ msgid "Use text view"
+#~ msgstr "Utiliser la vue texte"
+
+#~ msgid "If the text view is used, you will lose formatting"
+#~ msgstr "Si la vue texte est utilisée, vous perdrez la mise en forme"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Copy to Clipboard"
+#~ msgstr "Copier dans le presse-papiers"
+
+#~ msgid "Ask"
+#~ msgstr "Demander"
+
+#~ msgid "Wait"
+#~ msgstr "Attendez"
+
+#~ msgid "Response"
+#~ msgstr "Réponse"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#~ msgid "Cat GPT"
+#~ msgstr "Cat GPT"
 
 #~ msgid "Quit"
 #~ msgstr "Quitter"

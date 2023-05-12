@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 16:35+0200\n"
+"POT-Creation-Date: 2023-05-13 00:16+0200\n"
 "PO-Revision-Date: 2023-05-12 14:36+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://translate.codeberg.org/projects/imaginer/"
@@ -22,22 +22,29 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:7
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
 msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:13
-msgid "Chit-chat with an AI"
-msgstr "Keskustele tekoälyn kanssa"
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imagine with AI"
+msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
 msgstr "0xMRTT"
 
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:18
-msgid "Screenshot of Main UI"
-msgstr "Kuvakaappaus käyttöliittymästä"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imaginer main UI"
+msgstr "Imaginer"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -64,95 +71,108 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "Asetukset"
 
-#: data/ui/help-overlay.ui:38
-msgctxt "shortcut window"
-msgid "Copy response"
-msgstr "Kopioi vastaus"
-
-#: data/ui/help-overlay.ui:44
-msgctxt "shortcut window"
-msgid "Clear"
-msgstr "Tyhjennä"
-
-#: data/ui/preferences.blp:5 data/ui/window.blp:229
+#: data/ui/preferences.blp:5 data/ui/window.blp:134
 msgid "Preferences"
 msgstr "Asetukset"
 
 #: data/ui/preferences.blp:12
-msgid "Prompt"
-msgstr "Kehote"
-
-#: data/ui/preferences.blp:15
-msgid "Clear prompt after send"
-msgstr "Tyhjennä kehote lähetyksen jälkeen"
-
-#: data/ui/preferences.blp:16
-msgid "The prompt will be cleared after send"
-msgstr "Kehote tyhjennetään lähetyksen jälkeen"
-
-#: data/ui/preferences.blp:24
-msgid "Use text view"
-msgstr ""
-
-#: data/ui/preferences.blp:25
-msgid "If the text view is used, you will lose formatting"
-msgstr ""
-
-#: data/ui/preferences.blp:34
 msgid "Providers"
 msgstr "Palveluntarjoajat"
 
-#: data/ui/window.blp:28
+#: data/ui/window.blp:27
 msgid "Main Menu"
 msgstr "Päävalikko"
 
-#: data/ui/window.blp:37 src/provider/base.py:50
+#: data/ui/window.blp:33 src/provider/base.py:52
 msgid "No network connection"
 msgstr "Ei verkkoyhteyttä"
 
-#: data/ui/window.blp:52
-msgid "Message"
-msgstr "Viesti"
+#: data/ui/window.blp:60
+msgid "Prompt"
+msgstr "Kehote"
 
-#: data/ui/window.blp:85 data/ui/window.blp:201
-msgid "Copy to Clipboard"
-msgstr "Kopioi leikepöydälle"
+#: data/ui/window.blp:64
+msgid "Negative Prompt"
+msgstr ""
 
-#: data/ui/window.blp:109
-msgid "Ask"
-msgstr "Kysy"
+#: data/ui/window.blp:70
+msgid "Options"
+msgstr ""
 
-#: data/ui/window.blp:118
-msgid "Wait"
-msgstr "Odota"
+#: data/ui/window.blp:73
+msgid "Save Location"
+msgstr ""
 
-#: data/ui/window.blp:133
-msgid "Response"
-msgstr "Vastaus"
+#: data/ui/window.blp:89
+msgid "(None)"
+msgstr ""
 
-#: data/ui/window.blp:211
-msgid "Stop"
-msgstr "Lopeta"
+#: data/ui/window.blp:100
+#, fuzzy
+#| msgid "Imaginer"
+msgid "_Imagine"
+msgstr "Imaginer"
 
-#: data/ui/window.blp:234
+#: data/ui/window.blp:101
+msgid "Save location is missing."
+msgstr ""
+
+#: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
 msgstr "Pikanäppäimet"
 
-#: data/ui/window.blp:239
+#: data/ui/window.blp:144
 msgid "About Imaginer"
 msgstr "Tietoja - Imaginer"
 
-#: src/provider/base.py:43
+#: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
 msgstr "API-avainta ei asetettu, aseta avain asetuksissa"
 
-#: src/provider/base.py:45
+#: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Avaa asetukset"
 
-#: src/provider/catgpt.py:9
-msgid "Cat GPT"
-msgstr "Cat GPT"
+#~ msgid "Chit-chat with an AI"
+#~ msgstr "Keskustele tekoälyn kanssa"
+
+#~ msgid "Screenshot of Main UI"
+#~ msgstr "Kuvakaappaus käyttöliittymästä"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Copy response"
+#~ msgstr "Kopioi vastaus"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Clear"
+#~ msgstr "Tyhjennä"
+
+#~ msgid "Clear prompt after send"
+#~ msgstr "Tyhjennä kehote lähetyksen jälkeen"
+
+#~ msgid "The prompt will be cleared after send"
+#~ msgstr "Kehote tyhjennetään lähetyksen jälkeen"
+
+#~ msgid "Message"
+#~ msgstr "Viesti"
+
+#~ msgid "Copy to Clipboard"
+#~ msgstr "Kopioi leikepöydälle"
+
+#~ msgid "Ask"
+#~ msgstr "Kysy"
+
+#~ msgid "Wait"
+#~ msgstr "Odota"
+
+#~ msgid "Response"
+#~ msgstr "Vastaus"
+
+#~ msgid "Stop"
+#~ msgstr "Lopeta"
+
+#~ msgid "Cat GPT"
+#~ msgstr "Cat GPT"
 
 #~ msgid "Quit"
 #~ msgstr "Lopeta"

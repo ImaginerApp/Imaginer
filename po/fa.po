@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 16:35+0200\n"
+"POT-Creation-Date: 2023-05-13 00:16+0200\n"
 "PO-Revision-Date: 2023-05-12 14:36+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Persian <https://translate.codeberg.org/projects/imaginer/"
@@ -22,22 +22,29 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:7
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
 msgid "Imaginer"
 msgstr "باوارده"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:13
-msgid "Chit-chat with an AI"
-msgstr "گپی با هوش مصنوعی"
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imagine with AI"
+msgstr "باوارده"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
 msgstr "سازنده: 0xMRTT"
 
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:18
-msgid "Screenshot of Main UI"
-msgstr "تصویر نمای اصلی"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imaginer main UI"
+msgstr "باوارده"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -66,97 +73,110 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "پیش‌فرض‌ها"
 
-#: data/ui/help-overlay.ui:38
-#, fuzzy
-#| msgid "Response"
-msgctxt "shortcut window"
-msgid "Copy response"
-msgstr "پاسخ"
-
-#: data/ui/help-overlay.ui:44
-msgctxt "shortcut window"
-msgid "Clear"
-msgstr "پاک‌سازی"
-
-#: data/ui/preferences.blp:5 data/ui/window.blp:229
+#: data/ui/preferences.blp:5 data/ui/window.blp:134
 msgid "Preferences"
 msgstr "پیش‌فرض‌ها"
 
 #: data/ui/preferences.blp:12
-msgid "Prompt"
-msgstr "متن درخواست"
-
-#: data/ui/preferences.blp:15
-msgid "Clear prompt after send"
-msgstr "متن درخواست رو بعد از ارسال پاک کن"
-
-#: data/ui/preferences.blp:16
-msgid "The prompt will be cleared after send"
-msgstr "متن درخواست بعد از ارسال پاک خواهد شد"
-
-#: data/ui/preferences.blp:24
-msgid "Use text view"
-msgstr ""
-
-#: data/ui/preferences.blp:25
-msgid "If the text view is used, you will lose formatting"
-msgstr ""
-
-#: data/ui/preferences.blp:34
 msgid "Providers"
 msgstr "تامین کنندگان"
 
-#: data/ui/window.blp:28
+#: data/ui/window.blp:27
 msgid "Main Menu"
 msgstr "منوی اصلی"
 
-#: data/ui/window.blp:37 src/provider/base.py:50
+#: data/ui/window.blp:33 src/provider/base.py:52
 msgid "No network connection"
 msgstr "ارتباط شبکه برقرار نیست"
 
-#: data/ui/window.blp:52
-msgid "Message"
-msgstr "پیام"
+#: data/ui/window.blp:60
+msgid "Prompt"
+msgstr "متن درخواست"
 
-#: data/ui/window.blp:85 data/ui/window.blp:201
-msgid "Copy to Clipboard"
-msgstr "کپی به کلیپ بورد"
+#: data/ui/window.blp:64
+msgid "Negative Prompt"
+msgstr ""
 
-#: data/ui/window.blp:109
-msgid "Ask"
-msgstr "بپرس"
+#: data/ui/window.blp:70
+msgid "Options"
+msgstr ""
 
-#: data/ui/window.blp:118
-msgid "Wait"
-msgstr "منتظر باش"
+#: data/ui/window.blp:73
+msgid "Save Location"
+msgstr ""
 
-#: data/ui/window.blp:133
-msgid "Response"
-msgstr "پاسخ"
+#: data/ui/window.blp:89
+msgid "(None)"
+msgstr ""
 
-#: data/ui/window.blp:211
-msgid "Stop"
-msgstr "توقف"
+#: data/ui/window.blp:100
+#, fuzzy
+#| msgid "Imaginer"
+msgid "_Imagine"
+msgstr "باوارده"
 
-#: data/ui/window.blp:234
+#: data/ui/window.blp:101
+msgid "Save location is missing."
+msgstr ""
+
+#: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
 msgstr "کلیدهای میانبر"
 
-#: data/ui/window.blp:239
+#: data/ui/window.blp:144
 msgid "About Imaginer"
 msgstr "درباره"
 
-#: src/provider/base.py:43
+#: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
 msgstr "کلید API پیدا نشد، می توانید دربخش تنطیمات آن را وارد کنید"
 
-#: src/provider/base.py:45
+#: src/provider/base.py:47
 msgid "Open settings"
 msgstr "تنظيمات"
 
-#: src/provider/catgpt.py:9
-msgid "Cat GPT"
-msgstr "کت جی پی تی"
+#~ msgid "Chit-chat with an AI"
+#~ msgstr "گپی با هوش مصنوعی"
+
+#~ msgid "Screenshot of Main UI"
+#~ msgstr "تصویر نمای اصلی"
+
+#, fuzzy
+#~| msgid "Response"
+#~ msgctxt "shortcut window"
+#~ msgid "Copy response"
+#~ msgstr "پاسخ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Clear"
+#~ msgstr "پاک‌سازی"
+
+#~ msgid "Clear prompt after send"
+#~ msgstr "متن درخواست رو بعد از ارسال پاک کن"
+
+#~ msgid "The prompt will be cleared after send"
+#~ msgstr "متن درخواست بعد از ارسال پاک خواهد شد"
+
+#~ msgid "Message"
+#~ msgstr "پیام"
+
+#~ msgid "Copy to Clipboard"
+#~ msgstr "کپی به کلیپ بورد"
+
+#~ msgid "Ask"
+#~ msgstr "بپرس"
+
+#~ msgid "Wait"
+#~ msgstr "منتظر باش"
+
+#~ msgid "Response"
+#~ msgstr "پاسخ"
+
+#~ msgid "Stop"
+#~ msgstr "توقف"
+
+#~ msgid "Cat GPT"
+#~ msgstr "کت جی پی تی"
 
 #~ msgid "Quit"
 #~ msgstr "خروج"

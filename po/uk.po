@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 16:35+0200\n"
+"POT-Creation-Date: 2023-05-13 00:16+0200\n"
 "PO-Revision-Date: 2023-05-12 14:36+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.codeberg.org/projects/imaginer/"
@@ -19,27 +19,34 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:7
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
 msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:13
-msgid "Chit-chat with an AI"
-msgstr "Побалакати з ШІ"
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imagine with AI"
+msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
 msgstr "0xMRTT"
 
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:18
-msgid "Screenshot of Main UI"
-msgstr "Знімок головного інтерфейсу"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imaginer main UI"
+msgstr "Imaginer"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -68,97 +75,110 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "Опції"
 
-#: data/ui/help-overlay.ui:38
-#, fuzzy
-#| msgid "Response"
-msgctxt "shortcut window"
-msgid "Copy response"
-msgstr "Відповідь"
-
-#: data/ui/help-overlay.ui:44
-msgctxt "shortcut window"
-msgid "Clear"
-msgstr "Очистити"
-
-#: data/ui/preferences.blp:5 data/ui/window.blp:229
+#: data/ui/preferences.blp:5 data/ui/window.blp:134
 msgid "Preferences"
 msgstr "Опції"
 
 #: data/ui/preferences.blp:12
-msgid "Prompt"
-msgstr "Запит"
-
-#: data/ui/preferences.blp:15
-msgid "Clear prompt after send"
-msgstr "Очистити запит після надсилання"
-
-#: data/ui/preferences.blp:16
-msgid "The prompt will be cleared after send"
-msgstr "Запит буде очищений після надсилання"
-
-#: data/ui/preferences.blp:24
-msgid "Use text view"
-msgstr ""
-
-#: data/ui/preferences.blp:25
-msgid "If the text view is used, you will lose formatting"
-msgstr ""
-
-#: data/ui/preferences.blp:34
 msgid "Providers"
 msgstr "Постачальники"
 
-#: data/ui/window.blp:28
+#: data/ui/window.blp:27
 msgid "Main Menu"
 msgstr "Головне Меню"
 
-#: data/ui/window.blp:37 src/provider/base.py:50
+#: data/ui/window.blp:33 src/provider/base.py:52
 msgid "No network connection"
 msgstr "Відсутнє з'єднання з мережею"
 
-#: data/ui/window.blp:52
-msgid "Message"
-msgstr "Повідомлення"
+#: data/ui/window.blp:60
+msgid "Prompt"
+msgstr "Запит"
 
-#: data/ui/window.blp:85 data/ui/window.blp:201
-msgid "Copy to Clipboard"
-msgstr "Копіювати"
+#: data/ui/window.blp:64
+msgid "Negative Prompt"
+msgstr ""
 
-#: data/ui/window.blp:109
-msgid "Ask"
-msgstr "Запитати"
+#: data/ui/window.blp:70
+msgid "Options"
+msgstr ""
 
-#: data/ui/window.blp:118
-msgid "Wait"
-msgstr "Чекати"
+#: data/ui/window.blp:73
+msgid "Save Location"
+msgstr ""
 
-#: data/ui/window.blp:133
-msgid "Response"
-msgstr "Відповідь"
+#: data/ui/window.blp:89
+msgid "(None)"
+msgstr ""
 
-#: data/ui/window.blp:211
-msgid "Stop"
-msgstr "Зупинити"
+#: data/ui/window.blp:100
+#, fuzzy
+#| msgid "Imaginer"
+msgid "_Imagine"
+msgstr "Imaginer"
 
-#: data/ui/window.blp:234
+#: data/ui/window.blp:101
+msgid "Save location is missing."
+msgstr ""
+
+#: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
 msgstr "Комбінації Клавіш"
 
-#: data/ui/window.blp:239
+#: data/ui/window.blp:144
 msgid "About Imaginer"
 msgstr "Про Imaginer"
 
-#: src/provider/base.py:43
+#: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
 msgstr "Відсутній ключ API, надайте його в налаштуваннях"
 
-#: src/provider/base.py:45
+#: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Відкрити налаштування"
 
-#: src/provider/catgpt.py:9
-msgid "Cat GPT"
-msgstr "Кіт GPT"
+#~ msgid "Chit-chat with an AI"
+#~ msgstr "Побалакати з ШІ"
+
+#~ msgid "Screenshot of Main UI"
+#~ msgstr "Знімок головного інтерфейсу"
+
+#, fuzzy
+#~| msgid "Response"
+#~ msgctxt "shortcut window"
+#~ msgid "Copy response"
+#~ msgstr "Відповідь"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Clear"
+#~ msgstr "Очистити"
+
+#~ msgid "Clear prompt after send"
+#~ msgstr "Очистити запит після надсилання"
+
+#~ msgid "The prompt will be cleared after send"
+#~ msgstr "Запит буде очищений після надсилання"
+
+#~ msgid "Message"
+#~ msgstr "Повідомлення"
+
+#~ msgid "Copy to Clipboard"
+#~ msgstr "Копіювати"
+
+#~ msgid "Ask"
+#~ msgstr "Запитати"
+
+#~ msgid "Wait"
+#~ msgstr "Чекати"
+
+#~ msgid "Response"
+#~ msgstr "Відповідь"
+
+#~ msgid "Stop"
+#~ msgstr "Зупинити"
+
+#~ msgid "Cat GPT"
+#~ msgstr "Кіт GPT"
 
 #~ msgid "Quit"
 #~ msgstr "Вийти"
