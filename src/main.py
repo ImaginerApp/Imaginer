@@ -156,6 +156,14 @@ class ImaginerApplication(Adw.Application):
 
         self.load()
 
+        self.file_chooser = Gtk.FileChooserNative()
+        self.file_chooser.set_title(_("Choose a directory"))
+        self.file_chooser.set_transient_for(self.win)
+        self.file_chooser.set_action(Gtk.FileChooserAction.SELECT_FOLDER)
+        self.file_chooser.set_modal(True)
+        self.file_chooser.connect("response", self.on_file_chooser_response)
+
+
         print(self.latest_provider)
         for k, p in self.providers.items():
             if p.slug == self.latest_provider:
@@ -310,7 +318,7 @@ Providers: {self.enabled_providers}
         except AttributeError:
             self.path = "imaginer"
         else:
-            self.path = f"{path}/imaginer-{self.slugify(self.prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}"
+            self.path = f"{self.path}/imaginer-{self.slugify(self.prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}"
 
         if self.prompt == "" or self.prompt is None:  # empty prompt
             return

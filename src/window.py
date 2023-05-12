@@ -35,6 +35,7 @@ class ImaginerWindow(Adw.ApplicationWindow):
     prompt = Gtk.Template.Child()
     negative_prompt = Gtk.Template.Child()
     menu = Gtk.Template.Child()
+    label_output = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
