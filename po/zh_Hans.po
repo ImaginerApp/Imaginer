@@ -9,44 +9,49 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 00:16+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-12 23:38+0000\n"
+"Last-Translator: xtex <xtexchooser@duck.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.codeberg.org/projects/"
+"imaginer/imaginer/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
+#, fuzzy
 msgid "Imaginer"
-msgstr ""
+msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
 msgid "Imagine with AI"
-msgstr ""
+msgstr "使用 AI 想象"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
+#, fuzzy
 msgid "0xMRTT"
-msgstr ""
+msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
-msgstr ""
+msgstr "使用人工智能生成图片并保存"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
 msgid "Imaginer main UI"
-msgstr ""
+msgstr "Imaginer主UI"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: data/ui/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "显示快捷方式"
 
 #: data/ui/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -56,7 +61,7 @@ msgstr ""
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: data/ui/help-overlay.ui:32
 msgctxt "shortcut window"
