@@ -17,7 +17,7 @@
             </child>
             <child>
               <object class="GtkShortcutsShortcut">
-                <property name="title" translatable="yes" context="shortcut window">Ask</property>
+                <property name="title" translatable="yes" context="shortcut window">Imagine</property>
                 <property name="action-name">app.ask</property>
               </object>
             </child>
