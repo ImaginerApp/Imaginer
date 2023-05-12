@@ -1,127 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>page.codeberg.Imaginer.Imaginer</id>
+	<id>page.codeberg.Imaginer.Imaginer.desktop</id>
 	<name>Imaginer</name>
-	<summary>Chit-chat with an AI</summary>
+	<summary>Imagine with AI</summary>
 	<developer_name>0xMRTT</developer_name>
-  <metadata_license>CC0-1.0</metadata_license>
+	<launchable type="desktop-id">page.codeberg.Imaginer.Imaginer.desktop</launchable>
+	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
-  <launchable type="desktop-id">page.codeberg.Imaginer.Imaginer.desktop</launchable>
-  <content_rating type="oars-1.1"/>
-
+	<content_rating type="oars-1.1"/>
 	<description>
-	  <p>Chit-chat with an AI</p>
+	  <p>Generate pictures with Artificial Intelligence and save them</p>
 	</description>
-
 	<screenshots>
-	  <screenshot width="472" height="622">
-		<caption>Screenshot of Main UI</caption>
-		<image type="source">https://raw.githubusercontent.com/Imaginer/Imaginer/main/data/screenshots/quantum-computing.png</image>
+		<screenshot type="default" width="822" height="722">
+			<caption>Imaginer main UI</caption>
+			<image type="source">https://codeberg.org/Imaginer/Imaginer/raw/branch/master/data/screenshots/avocado-armchair.png</image>
 		</screenshot>
 	</screenshots>
-
+	<url type="homepage">https://imaginer.codeberg.page</url>
 	<url type="bugtracker">https://codeberg.org/Imaginer/Imaginer/issues</url>
-	<url type="translate">https://translate.codeberg.org/engage/imaginer/</url>
-	<url type="help">https://codeberg.org/Imaginer/Imaginer/issues</url>
-	<url type="homepage">https://codeberg.org/Imaginer/Imaginer</url>
+	<url type="help">https://github.com/ImaginerApp/Imaginer/issues</url>
+	<url type="translate">https://translate.codeberg.org/projects/imaginer/imaginer</url>
 
-  <kudos>
-    <kudo>HiDpiIcon</kudo>
-    <kudo>ModernToolkit</kudo>
-  </kudos>
+	<kudos>
+		<kudo>HiDpiIcon</kudo>
+		<kudo>ModernToolkit</kudo>
+	</kudos>
 
-  <custom>
-    <value key="Purism::form_factor">workstation</value>
-    <value key="Purism::form_factor">mobile</value>
-  </custom>
+	<requires>
+		<display_length compare="ge">360</display_length>
+	</requires>
 
-  <requires>
-    <display_length compare="ge">360</display_length>
-  </requires>
+	<categories>
+		<category>Utility</category>
+	</categories>
 
-  <categories>
-    <category>Utility</category>
-  </categories>
-
-  <recommends>
-    <control>keyboard</control>
-    <control>pointing</control>
-    <control>touch</control>
-  </recommends>
+	<recommends>
+		<control>keyboard</control>
+		<control>pointing</control>
+		<control>touch</control>
+	</recommends>
 
 	<keywords>
-		<keyword>Imaginer</keyword>
-	  <keyword>Chat</keyword>
-		<keyword>GPT</keyword>
-	  <keyword>ChatGPT</keyword>
-	  <keyword>AI</keyword>
-		<keyword>OpenAI</keyword>
+		<keyword>AI</keyword>
+		<keyword>Stable Diffusion</keyword>
+		<keyword>Image</keyword>
+		<keyword>Picture</keyword>
+		<keyword>Image Generation</keyword>
+		<keyword>Image Generation with AI</keyword>
+		<keyword>Artificial Intelligence</keyword>
 	</keywords>
 
-  <releases>
-    <release version="0.2.0" date="2023-5-11" type="stable">
-      <description>
-        <p>Add support of formatting in the response view using Markdown</p>
-        <p>Allow disabling the new render method </p>
-        <p>Add description of providers</p>
-        <p>Add help for getting a token for providers</p>
-        <p>New website including some help for providers</p>
-        <p>Fix an issue which caused the app to spin forever</p>
-        <p>Remove Quit entry in the app menu</p>
-        <p>Fix keyboard shortcuts</p>
-        <p>Fix some bugs</p>
-        <p>Update translations</p>
-        <p>Add better error handling</p>
-      </description>
-    </release>
-    <release version="0.1.7" date="2023-5-7" type="stable">
-      <description>
-        <p>Fix an issue which caused the app to crash randomly</p>
-        <p>Add the ability to enable/disable providers from the preferences</p>
-        <p>Add more keyboard shortcuts</p>
-        <p>Update translations</p>
-        <p>Add better error handling</p>
-      </description>
-    </release>
-    <release version="0.1.6" date="2023-5-6" type="stable">
-      <description>
-        <p>Fix an issue which caused the app to crash randomly</p>
-        <p>Add save/load of settings</p>
-      </description>
-    </release>
-    <release version="0.1.5" date="2023-5-4" type="stable">
-      <description>
-        <p>Fix HuggingChat (again)</p>
-      </description>
-    </release>
-    <release version="0.1.4" date="2023-5-4" type="stable">
-      <description>
-        <p>Fix HuggingChat</p>
-      </description>
-    </release>
-  	<release version="0.1.3" date="2023-5-4" type="stable">
-      <description>
-        <p>Add multiple providers support</p>
-        <p>Make HuggingChat the default provider</p>
-        <p>Fix some bugs</p>
-        <p>Focus on the response entry</p>
-        <p>Update translations</p>
-      </description>
-    </release>
-    <release version="0.1.2" date="2023-4-27" type="stable">
-      <description>
-        <p>Fix appdata not having release tags</p>
-      </description>
-    </release>
-    <release version="0.1.1" date="2023-4-27" type="stable">
-      <description>
-        <p>Change app ID to page.codeberg.Imaginer.Imaginer</p>
-      </description>
-    </release>
-    <release version="0.1.0" date="2023-4-27" type="stable">
-      <description>
-        <p>First release of Imaginer</p>
-      </description>
-    </release>
-  </releases>
+	<releases>
+    <release version="0.2.0" date="2023-5-14" type="stable">
+			<description>
+				<p>Rework the app internally</p>
+				<ul>
+					<li>Imaginer has been rebased on Bavarder, that's mean that now Imaginer got the Prefernces window and a better provider mechanism</li>
+          <li>Move the provider selector to the menu</li>
+          <li>Fix some bugs</li>
+					<li>Update translations</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.5" date="2023-5-12" type="stable">
+			<description>
+				<p>Add help</p>
+				<ul>
+					<li>Add a new help button for explaining how to get a token</li>
+					<li>New website</li>
+					<li>Update translations</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.4" date="2023-5-8" type="stable">
+			<description>
+				<p>Make the app better</p>
+				<ul>
+					<li>Add explaination about how to get a token</li>
+					<li>Fix the UI looks empty and buggy</li>
+					<li>Improve the About window</li>
+					<li>Add negative prompt</li>
+					<li>Update translations</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.3" date="2023-5-4" type="stable">
+			<description>
+				<p>Icon !</p>
+				<ul>
+					<li>Add app icon thanks to David</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.2" date="2023-5-3" type="stable">
+			<description>
+				<p>Appdata sorting</p>
+				<ul>
+					<li>Sort appdata releases</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.1" date="2023-5-3" type="stable">
+			<description>
+				<p>Bug fixes</p>
+				<ul>
+					<li>Fix a bug causing the app to crash when the path is not selected</li>
+				</ul>
+			</description>
+		</release>
+		<release version="0.1.0" date="2023-5-3" type="stable">
+			<description>
+				<p>Imagine with AI</p>
+				<ul>
+					<li>Generate a picture by clicking on the Imagine button</li>
+					<li>Support for multiple providers</li>
+					<li>Loading screen</li>
+					<li>Support for authentificated provider</li>
+					<li>Banner for errors</li>
+				</ul>
+			</description>
+		</release>
+	</releases>
 </component>
