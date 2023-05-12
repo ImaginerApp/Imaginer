@@ -34,92 +34,82 @@ template ImaginerWindow : Adw.ApplicationWindow {
         revealed: false;
       }
 
-      Box main {
-        orientation: vertical;
-        vexpand: true;
-        hexpand: true;
-        margin-top: 0;
-        margin-bottom: 24;
-        margin-start: 24;
-        margin-end: 24;
-        spacing: 12;
+      Stack stack_imaginer {
+        transition-type: crossfade;
 
-        Stack stack_imaginer {
-          transition-type: crossfade;
-
-          StackPage {
-            name: "stack_imagine";
-            child:
-              Adw.PreferencesPage {
-                Adw.PreferencesGroup {
-                  Picture image {
-                    halign: center;
-                    visible: false;
-                    styles ["card"]
-                    //content-fit: cover;
-                    //can-shrink: true;
-                    height-request: 200;
-                    width-request: 200;
-
-                  }
-                }
-
+        StackPage {
+          name: "stack_imagine";
+          child:
+            Adw.PreferencesPage {
               Adw.PreferencesGroup {
+                Picture image {
+                  halign: center;
+                  visible: false;
+                  styles ["card"]
+                  //content-fit: cover;
+                  //can-shrink: true;
+                  height-request: 200;
+                  width-request: 200;
 
-                Adw.EntryRow prompt {
-                  title: _("Prompt");
-                }
-
-                Adw.EntryRow negative_prompt {
-                  title: _("Negative Prompt");
-                    
                 }
               }
 
-              Adw.PreferencesGroup {
-                title: _("Options");
+            Adw.PreferencesGroup {
 
-                Adw.ActionRow {
-                  title: _("Save Location");
-                  activatable-widget: button_output;
+              Adw.EntryRow prompt {
+                title: _("Prompt");
+              }
+
+              Adw.EntryRow negative_prompt {
+                title: _("Negative Prompt");
                   
+              }
+            }
 
-                  Button button_output {
-                    valign: center;
-                    action-name: "app.choose_output";
+            Adw.PreferencesGroup {
+              title: _("Options");
 
-                    Box {
-                      spacing: 6;
+              Adw.ActionRow {
+                title: _("Save Location");
+                activatable-widget: button_output;
+                
 
-                      Image {
-                        icon-name: "document-open-symbolic";
-                      }
+                Button button_output {
+                  valign: center;
+                  action-name: "app.choose_output";
 
-                      Label label_output {
-                        label: _("(None)");
-                      }
+                  Box {
+                    spacing: 6;
+
+                    Image {
+                      icon-name: "document-open-symbolic";
+                    }
+
+                    Label label_output {
+                      label: _("(None)");
                     }
                   }
                 }
               }
+            }
 
-              Adw.PreferencesGroup {
-                Button button_imagine {
-                  valign: center;
-                  halign: center;
-                  label: _("_Imagine");
-                  tooltip-text: _("Save location is missing.");
-                  use-underline: true;
-                  sensitive: false;
-                  action-name: "app.ask";
+            Adw.PreferencesGroup {
+              Button button_imagine {
+                valign: center;
+                halign: center;
+                label: _("_Imagine");
+                tooltip-text: _("Save location is missing.");
+                use-underline: true;
+                sensitive: false;
+                action-name: "app.ask";
 
-                  styles [
-                    "suggested-action",
-                    "pill",
-                  ]
-                }
+                styles [
+                  "suggested-action",
+                  "pill",
+                ]
               }
-          };
+            }
+        };
         }
 
         StackPage {
@@ -135,7 +125,7 @@ template ImaginerWindow : Adw.ApplicationWindow {
     }
   }
 }
-}
+
 
 
 menu main-menu {

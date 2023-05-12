@@ -27,7 +27,6 @@ class ImaginerWindow(Adw.ApplicationWindow):
 
     toast_overlay = Gtk.Template.Child()
     banner = Gtk.Template.Child()
-    main = Gtk.Template.Child()
     stack_imaginer = Gtk.Template.Child()
     image = Gtk.Template.Child()
     button_output = Gtk.Template.Child()
