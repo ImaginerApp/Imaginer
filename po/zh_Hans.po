@@ -70,7 +70,7 @@ msgstr "首选项"
 
 #: data/ui/preferences.blp:5 data/ui/window.blp:134
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: data/ui/preferences.blp:12
 msgid "Providers"
