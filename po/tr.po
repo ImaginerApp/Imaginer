@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 16:35+0200\n"
-"PO-Revision-Date: 2023-05-12 20:09+0000\n"
+"PO-Revision-Date: 2023-05-12 20:14+0000\n"
 "Last-Translator: sabriunal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/tr/>\n"
@@ -81,7 +81,7 @@ msgstr "Sağlayıcı"
 
 #: src/window.blp:96
 msgid "API Token"
-msgstr "API Token"
+msgstr "API Jetonu"
 
 #: src/window.blp:102
 msgid "How to get a token"
@@ -101,7 +101,7 @@ msgstr "Yeni Pencere"
 
 #: src/window.blp:155
 msgid "Keyboard Shortcuts"
-msgstr "Klavye kısayolları"
+msgstr "Klavye Kısayolları"
 
 #: src/window.blp:160
 msgid "About Imaginer"
