@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # watchakorn-18k <porton555@gmail.com>, 2023.
+# 0xMRTT <0xmrtt@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 00:16+0200\n"
-"PO-Revision-Date: 2023-05-12 14:36+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-05-12 22:29+0000\n"
+"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Thai <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/th/>\n"
 "Language: th\n"
@@ -96,7 +97,7 @@ msgstr ""
 
 #: data/ui/window.blp:70
 msgid "Options"
-msgstr ""
+msgstr "ตัวเลือก"
 
 #: data/ui/window.blp:73
 msgid "Save Location"
