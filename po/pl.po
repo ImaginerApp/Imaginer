@@ -3,13 +3,14 @@
 # This file is distributed under the GNU GPLv3 license.
 # Imaginer, 2023.
 #
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 16:35+0200\n"
-"PO-Revision-Date: 2023-05-06 12:07+0000\n"
-"Last-Translator: ioghjog <michal.d1191@gmail.com>\n"
+"PO-Revision-Date: 2023-05-12 17:58+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/pl/>\n"
 "Language: pl\n"
@@ -33,17 +34,16 @@ msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
-msgstr ""
+msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
 msgstr ""
+"Generuj obrazy przy pomocy sztucznej inteligencji, a następnie je zapisz"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imaginer main UI"
-msgstr "Imaginer"
+msgstr "Główny interfejs Imaginer"
 
 #: src/main.py:88
 msgid "Choose a directory"
@@ -63,7 +63,7 @@ msgstr "Zapytanie"
 
 #: src/window.blp:59
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Negatywny komunikat"
 
 #: src/window.blp:65
 msgid "Options"
@@ -82,14 +82,12 @@ msgid "Provider"
 msgstr "Dostawca"
 
 #: src/window.blp:96
-#, fuzzy
-#| msgid "Token"
 msgid "API Token"
-msgstr "Token"
+msgstr "Tokeny API"
 
 #: src/window.blp:102
 msgid "How to get a token"
-msgstr ""
+msgstr "Jak uzyskać token"
 
 #: src/window.blp:113
 msgid "_Imagine"
@@ -141,7 +139,7 @@ msgstr "Portrait Plus"
 
 #: src/window.blp:167
 msgid "Anything"
-msgstr ""
+msgstr "Coś"
 
 #~ msgid "No description"
 #~ msgstr "Brak opisu"
