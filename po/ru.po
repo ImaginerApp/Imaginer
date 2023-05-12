@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # lenemter <lenemter@gmail.com>, 2023.
+# Daudix_UFO <ddaudix@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 16:35+0200\n"
-"PO-Revision-Date: 2023-05-12 17:58+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"PO-Revision-Date: 2023-05-12 20:09+0000\n"
+"Last-Translator: Daudix_UFO <ddaudix@gmail.com>\n"
 "Language-Team: Russian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/ru/>\n"
 "Language: ru\n"
@@ -28,7 +29,7 @@ msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
 msgid "Imagine with AI"
-msgstr "Представьте с помощью ИИ"
+msgstr "Представляйте с помощью ИИ"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -37,7 +38,7 @@ msgstr "0xMRTT"
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
 msgstr ""
-"Создавайте изображения с помощью искусственного интеллекта и сохраняйте их"
+"Генерируйте изображения с помощью искусственного интеллекта и сохраняйте их"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
 msgid "Imaginer main UI"
@@ -61,7 +62,7 @@ msgstr "Поле ввода"
 
 #: src/window.blp:59
 msgid "Negative Prompt"
-msgstr "Отрицательная подсказка"
+msgstr "Отрицательное поле ввода"
 
 #: src/window.blp:65
 msgid "Options"
@@ -137,7 +138,7 @@ msgstr "Portrait Plus"
 
 #: src/window.blp:167
 msgid "Anything"
-msgstr "Что угодно"
+msgstr "Anything"
 
 #~ msgid "No description"
 #~ msgstr "Нет описания"
