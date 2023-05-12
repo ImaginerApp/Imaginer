@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 00:16+0200\n"
-"PO-Revision-Date: 2023-05-12 14:38+0000\n"
+"PO-Revision-Date: 2023-05-12 22:29+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fr/>\n"
@@ -29,10 +29,8 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imagine with AI"
-msgstr "Imaginer"
+msgstr "Imaginer avec l’IA"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -41,12 +39,11 @@ msgstr "0xMRTT"
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
 msgstr ""
+"Créez et enregistrez des images générées avec l’Intelligence Artificielle"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imaginer main UI"
-msgstr "Imaginer"
+msgstr "Interface principale d’Imaginer"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -95,29 +92,27 @@ msgstr "Requête"
 
 #: data/ui/window.blp:64
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Instructions négatives"
 
 #: data/ui/window.blp:70
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: data/ui/window.blp:73
 msgid "Save Location"
-msgstr ""
+msgstr "Emplacement d’enregistrement"
 
 #: data/ui/window.blp:89
 msgid "(None)"
-msgstr ""
+msgstr "(Aucun)"
 
 #: data/ui/window.blp:100
-#, fuzzy
-#| msgid "Imaginer"
 msgid "_Imagine"
-msgstr "Imaginer"
+msgstr "_Imaginer"
 
 #: data/ui/window.blp:101
 msgid "Save location is missing."
-msgstr ""
+msgstr "Emplacement d’enregistrement manquant."
 
 #: data/ui/window.blp:139
 msgid "Keyboard Shortcuts"
