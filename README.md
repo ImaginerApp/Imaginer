@@ -80,12 +80,12 @@ You can translate Imaginer using Codeberg Translate
 
 ### Mirrors
 
-- [GitHub](https://github.com/Imaginer/Imaginer)
+- [GitHub](https://github.com/ImaginerApp/Imaginer)
 - [Codeberg](https://codeberg.org/Imaginer/Imaginer)
 
 ## See also 
 
-### [Bavarder : Chit-Char with AI](https://bavarder.codeberg.page)
+### [Bavarder : Chit-Chat with AI](https://bavarder.codeberg.page)
 
 A tool for chatting with AI right from your desktop
 
