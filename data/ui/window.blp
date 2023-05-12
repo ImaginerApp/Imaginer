@@ -65,6 +65,19 @@ template ImaginerWindow : Adw.ApplicationWindow {
 
               Adw.EntryRow negative_prompt {
                 title: _("Negative Prompt");
+
+                [suffix]
+                MenuButton negative_help {
+                  icon-name: "help-about-symbolic";
+                  valign: center;
+                  tooltip-text: _("About Negative Prompt");
+                  styles [ "falt" ]
+                  popover: Popover {
+                    Label {
+                      label: _("Negative prompt is where you put things that should not be generated, such as 'low quality',\n or more specific such as art style, basically prompt and negative prompt are dos and\n don'ts for image generation");
+                    }
+                  };
+                }
                   
               }
             }
