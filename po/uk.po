@@ -1,0 +1,135 @@
+# Imaginer POT file
+# Copyright (C) 2023 Imaginer
+# This file is distributed under the GNU GPLv3 license.
+# Imaginer, 2023.
+#
+# volkov <d2oo1dle2x@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 16:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 src/window.blp:9
+msgid "Imaginer"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
+msgid "Imagine with AI"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
+msgid "0xMRTT"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+msgid "Imaginer main UI"
+msgstr ""
+
+#: src/main.py:88
+msgid "Choose a directory"
+msgstr ""
+
+#: src/window.blp:19
+msgid "Main Menu"
+msgstr ""
+
+#: src/window.blp:25
+msgid "Error while querying the API"
+msgstr ""
+
+#: src/window.blp:55
+msgid "Prompt"
+msgstr ""
+
+#: src/window.blp:59
+msgid "Negative Prompt"
+msgstr ""
+
+#: src/window.blp:65
+msgid "Options"
+msgstr ""
+
+#: src/window.blp:68
+msgid "Save Location"
+msgstr ""
+
+#: src/window.blp:84
+msgid "(None)"
+msgstr ""
+
+#: src/window.blp:91
+msgid "Provider"
+msgstr ""
+
+#: src/window.blp:96
+msgid "API Token"
+msgstr ""
+
+#: src/window.blp:102
+msgid "How to get a token"
+msgstr ""
+
+#: src/window.blp:113
+msgid "_Imagine"
+msgstr ""
+
+#: src/window.blp:114
+msgid "Save location is missing."
+msgstr ""
+
+#: src/window.blp:148
+msgid "New Window"
+msgstr ""
+
+#: src/window.blp:155
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/window.blp:160
+msgid "About Imaginer"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Stable Diffusion"
+msgstr ""
+
+#: src/window.blp:167
+msgid "OpenAI"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Waifu Diffusion"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Open Journey"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Nitro Diffusion"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Analog Diffusion"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Portrait Plus"
+msgstr ""
+
+#: src/window.blp:167
+msgid "Anything"
+msgstr ""
