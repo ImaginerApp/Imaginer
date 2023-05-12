@@ -6,13 +6,14 @@
 # 0xMRTT <0xmrtt@tuta.io>, 2023.
 # Orest58008 <orest58008@tuta.io>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
+# volkov <d2oo1dle2x@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 00:16+0200\n"
-"PO-Revision-Date: 2023-05-12 22:29+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-12 23:38+0000\n"
+"Last-Translator: volkov <d2oo1dle2x@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/uk/>\n"
 "Language: uk\n"
@@ -87,7 +88,7 @@ msgstr "Відсутнє з'єднання з мережею"
 
 #: data/ui/window.blp:60
 msgid "Prompt"
-msgstr "Запит"
+msgstr "Поле вводу підказок"
 
 #: data/ui/window.blp:64
 msgid "Negative Prompt"
