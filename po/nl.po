@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-07 23:05+0200\n"
+"POT-Creation-Date: 2023-05-12 16:35+0200\n"
 "PO-Revision-Date: 2023-05-11 05:15+0000\n"
 "Last-Translator: Vistaus <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/imaginer/"
@@ -54,91 +54,90 @@ msgstr "Hoofdmenu"
 msgid "Error while querying the API"
 msgstr "Er is een fout opgetreden tijdens het bevragen van de api"
 
-#: src/window.blp:54
+#: src/window.blp:55
 msgid "Prompt"
 msgstr "Bijschrift"
 
-#: src/window.blp:58
+#: src/window.blp:59
 msgid "Negative Prompt"
 msgstr "Negatief bijschrift"
 
-#: src/window.blp:64
+#: src/window.blp:65
 msgid "Options"
 msgstr "Opties"
 
-#: src/window.blp:67
+#: src/window.blp:68
 msgid "Save Location"
 msgstr "Opslaglocatie"
 
-#: src/window.blp:83
+#: src/window.blp:84
 msgid "(None)"
 msgstr "(geen)"
 
-#: src/window.blp:90
+#: src/window.blp:91
 msgid "Provider"
 msgstr "Dienst"
 
-#: src/window.blp:95
+#: src/window.blp:96
 msgid "API Token"
 msgstr "Api-toegangssleutel"
 
-#: src/window.blp:100
+#: src/window.blp:102
 msgid "How to get a token"
 msgstr "Hoe verkrijg ik een sleutel?"
 
-#: src/window.blp:116
+#: src/window.blp:113
 msgid "_Imagine"
 msgstr "_Imagine"
 
-#: src/window.blp:117
+#: src/window.blp:114
 msgid "Save location is missing."
 msgstr "De opslaglocatie ontbreekt."
 
-#: src/window.blp:151
+#: src/window.blp:148
 msgid "New Window"
 msgstr "Nieuw venster"
 
-#: src/window.blp:158
+#: src/window.blp:155
 msgid "Keyboard Shortcuts"
 msgstr "Sneltoetsen"
 
-#: src/window.blp:163
+#: src/window.blp:160
 msgid "About Imaginer"
 msgstr "Over Imaginer"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Stable Diffusion"
 msgstr "Stabiele diffusie"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "OpenAI"
 msgstr "OpenAI"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Waifu Diffusion"
 msgstr "Waifu-diffusie"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Open Journey"
 msgstr "Open reis"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Nitro Diffusion"
 msgstr "Turbodiffusie"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Analog Diffusion"
 msgstr "Analoge diffusie"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Portrait Plus"
 msgstr "Portret+"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Anything"
 msgstr "Geen voorkeur"
 
-#: src/window.blp:175
-msgid "Open the documentation to see how to get a token"
-msgstr ""
-"Neem de documentatie door om te lezen hoe u een toegangssleutel bemachtigt"
+#~ msgid "Open the documentation to see how to get a token"
+#~ msgstr ""
+#~ "Neem de documentatie door om te lezen hoe u een toegangssleutel bemachtigt"

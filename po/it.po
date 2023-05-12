@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-02 00:33+0200\n"
+"POT-Creation-Date: 2023-05-12 16:35+0200\n"
 "PO-Revision-Date: 2023-05-08 07:55+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
@@ -19,15 +19,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17\n"
 
-#: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 src/window.blp:9
+#: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 src/window.blp:9
 msgid "Imaginer"
 msgstr "Imaginer"
 
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:7
-msgid "No description"
-msgstr "Nessuna descrizione"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imagine with AI"
+msgstr "Imaginer"
 
-#: src/main.py:74
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
+msgid "0xMRTT"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Imaginer main UI"
+msgstr "Imaginer"
+
+#: src/main.py:88
 msgid "Choose a directory"
 msgstr "Scegliere una cartella"
 
@@ -39,74 +56,91 @@ msgstr "Menu principale"
 msgid "Error while querying the API"
 msgstr "Errore durante l'interrogazione dell'API"
 
-#: src/window.blp:47
+#: src/window.blp:55
 msgid "Prompt"
 msgstr "Prompt"
 
-#: src/window.blp:53
+#: src/window.blp:59
+msgid "Negative Prompt"
+msgstr ""
+
+#: src/window.blp:65
 msgid "Options"
 msgstr "Opzioni"
 
-#: src/window.blp:56
+#: src/window.blp:68
 msgid "Save Location"
 msgstr "Condividi la posizione"
 
-#: src/window.blp:72
+#: src/window.blp:84
 msgid "(None)"
 msgstr "(Nessuna)"
 
-#: src/window.blp:79
+#: src/window.blp:91
 msgid "Provider"
 msgstr "Provider"
 
-#: src/window.blp:84
-msgid "Token"
+#: src/window.blp:96
+#, fuzzy
+#| msgid "Token"
+msgid "API Token"
 msgstr "Token"
 
-#: src/window.blp:93
+#: src/window.blp:102
+msgid "How to get a token"
+msgstr ""
+
+#: src/window.blp:113
 msgid "_Imagine"
 msgstr "_Immagine"
 
-#: src/window.blp:94
+#: src/window.blp:114
 msgid "Save location is missing."
 msgstr "Posizione di salvataggio mancante."
 
-#: src/window.blp:128
+#: src/window.blp:148
 msgid "New Window"
 msgstr "Nuova finestra"
 
-#: src/window.blp:135
+#: src/window.blp:155
 msgid "Keyboard Shortcuts"
 msgstr "Scorciatoie da tastiera"
 
-#: src/window.blp:140
+#: src/window.blp:160
 msgid "About Imaginer"
 msgstr "Informazioni su Imaginer"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "Stable Diffusion"
 msgstr "Stable Diffusion"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "OpenAI"
 msgstr "OpenAI"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "Waifu Diffusion"
 msgstr "Waifu Diffusion"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "Open Journey"
 msgstr "Open Journey"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "Nitro Diffusion"
 msgstr "Nitro Diffusion"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "Analog Diffusion"
 msgstr "Analog Diffusion"
 
-#: src/window.blp:147
+#: src/window.blp:167
 msgid "Portrait Plus"
 msgstr "Portrait Plus"
+
+#: src/window.blp:167
+msgid "Anything"
+msgstr ""
+
+#~ msgid "No description"
+#~ msgstr "Nessuna descrizione"

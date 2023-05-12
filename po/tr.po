@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-07 23:05+0200\n"
+"POT-Creation-Date: 2023-05-12 16:35+0200\n"
 "PO-Revision-Date: 2023-05-11 05:15+0000\n"
 "Last-Translator: Anıl Uyanık <aniluuyanik@gmail.com>\n"
 "Language-Team: Turkish <https://translate.codeberg.org/projects/imaginer/"
@@ -54,90 +54,89 @@ msgstr "Ana Menü"
 msgid "Error while querying the API"
 msgstr "API sorgulanırken hata oluştu"
 
-#: src/window.blp:54
+#: src/window.blp:55
 msgid "Prompt"
 msgstr "Girdi"
 
-#: src/window.blp:58
+#: src/window.blp:59
 msgid "Negative Prompt"
 msgstr "Negatif Bilgi İstemi"
 
-#: src/window.blp:64
+#: src/window.blp:65
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/window.blp:67
+#: src/window.blp:68
 msgid "Save Location"
 msgstr "Konuma Kaydet"
 
-#: src/window.blp:83
+#: src/window.blp:84
 msgid "(None)"
 msgstr "(Yok)"
 
-#: src/window.blp:90
+#: src/window.blp:91
 msgid "Provider"
 msgstr "Sağlayıcılar"
 
-#: src/window.blp:95
+#: src/window.blp:96
 msgid "API Token"
 msgstr "API Token"
 
-#: src/window.blp:100
+#: src/window.blp:102
 msgid "How to get a token"
 msgstr "Token nasıl alınır"
 
-#: src/window.blp:116
+#: src/window.blp:113
 msgid "_Imagine"
 msgstr "_Imagine"
 
-#: src/window.blp:117
+#: src/window.blp:114
 msgid "Save location is missing."
 msgstr "Kaydetme konumu eksik."
 
-#: src/window.blp:151
+#: src/window.blp:148
 msgid "New Window"
 msgstr "Yeni Pencere"
 
-#: src/window.blp:158
+#: src/window.blp:155
 msgid "Keyboard Shortcuts"
 msgstr "Klavye kısayolları"
 
-#: src/window.blp:163
+#: src/window.blp:160
 msgid "About Imaginer"
 msgstr "Hayal Et Hakkında"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Stable Diffusion"
 msgstr "Kararlı Difüzyon"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "OpenAI"
 msgstr "OpenAI"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Waifu Diffusion"
 msgstr "Waifu Diffusion"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Open Journey"
 msgstr "Open Journey"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Nitro Diffusion"
 msgstr "Nitro Diffusion"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Analog Diffusion"
 msgstr "Analog Diffusion"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Portrait Plus"
 msgstr "Portrait Plus"
 
-#: src/window.blp:170
+#: src/window.blp:167
 msgid "Anything"
 msgstr "Herhangi"
 
-#: src/window.blp:175
-msgid "Open the documentation to see how to get a token"
-msgstr "Nasıl bir token alacağınızı görmek için belgeleri açın"
+#~ msgid "Open the documentation to see how to get a token"
+#~ msgstr "Nasıl bir token alacağınızı görmek için belgeleri açın"
