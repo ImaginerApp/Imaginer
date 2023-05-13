@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 13:10+0000\n"
+"PO-Revision-Date: 2023-05-13 13:17+0000\n"
 "Last-Translator: volkov <d2oo1dle2x@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/uk/>\n"
@@ -30,7 +30,6 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#, fuzzy
 msgid "Imagine with AI"
 msgstr "Уявляйте за допомогою ШІ"
 
@@ -143,7 +142,7 @@ msgstr "Про Imaginer"
 
 #: src/main.py:174
 msgid "Choose a directory"
-msgstr "Обрати теку"
+msgstr "Вибрати каталог"
 
 #: src/main.py:224
 msgid "New Window"
