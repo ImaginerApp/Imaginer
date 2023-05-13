@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # xtex <xtexchooser@duck.com>, 2023.
+# 0xMRTT <0xmrtt@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 09:08+0000\n"
-"Last-Translator: xtex <xtexchooser@duck.com>\n"
+"PO-Revision-Date: 2023-05-13 13:21+0000\n"
+"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Chinese (Simplified) <https://translate.codeberg.org/projects/"
 "imaginer/imaginer/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -52,11 +53,9 @@ msgid "Show Shortcuts"
 msgstr "显示快捷方式"
 
 #: data/ui/help-overlay.ui:20
-#, fuzzy
-#| msgid "Imaginer"
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "Imaginer"
+msgstr "_Imagine"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -145,7 +144,7 @@ msgstr ""
 
 #: src/main.py:225
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
