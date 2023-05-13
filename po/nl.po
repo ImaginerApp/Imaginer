@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 09:08+0000\n"
+"PO-Revision-Date: 2023-05-13 13:10+0000\n"
 "Last-Translator: Vistaus <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/nl/>\n"
@@ -37,7 +37,7 @@ msgstr "0xMRTT"
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
 msgstr ""
-"Genereer afbeeldingen met behulp van kunstmatige intelligentie en bewaar ze"
+"Genereer en bewaar afbeeldingen met behulp van kunstmatige intelligentie"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
 msgid "Imaginer main UI"
@@ -54,11 +54,9 @@ msgid "Show Shortcuts"
 msgstr "Sneltoetsen tonen"
 
 #: data/ui/help-overlay.ui:20
-#, fuzzy
-#| msgid "Imaginer"
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "Imaginer"
+msgstr "Fantaseren"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -88,17 +86,15 @@ msgstr "Geen netwerkverbinding"
 
 #: data/ui/window.blp:65
 msgid "Prompt"
-msgstr "Invoerveld"
+msgstr "Positief bijschrift"
 
 #: data/ui/window.blp:69
 msgid "Negative Prompt"
 msgstr "Negatief bijschrift"
 
 #: data/ui/window.blp:75
-#, fuzzy
-#| msgid "Negative Prompt"
 msgid "About Negative Prompt"
-msgstr "Negatief bijschrift"
+msgstr "Over negatieve bijschriften"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -108,6 +104,11 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"Negatieve bijschriften bestaan uit informatie die niet dienen te worden "
+"gegenereerd, zoals ‘lage kwaliteit’\n"
+" of een bepaalde kunstrichting. Het positieve en negatieve bijschrift zijn "
+"dus dingen die u wel of niet\n"
+" wilt terugzien op de afbeelding."
 
 #: data/ui/window.blp:88
 msgid "Options"
@@ -123,7 +124,7 @@ msgstr "(geen)"
 
 #: data/ui/window.blp:120
 msgid "_Imagine"
-msgstr "_Fantaseer"
+msgstr "_Fantaseren"
 
 #: data/ui/window.blp:158 src/main.py:223
 msgid "Keyboard Shortcuts"
@@ -131,7 +132,7 @@ msgstr "Sneltoetsen"
 
 #: data/ui/window.blp:163
 msgid "New window"
-msgstr ""
+msgstr "Nieuw venster"
 
 #: data/ui/window.blp:168
 msgid "About Imaginer"
@@ -139,15 +140,15 @@ msgstr "Over Imaginer"
 
 #: src/main.py:174
 msgid "Choose a directory"
-msgstr ""
+msgstr "Kies een map"
 
 #: src/main.py:224
 msgid "New Window"
-msgstr ""
+msgstr "Nieuw venster"
 
 #: src/main.py:225
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
