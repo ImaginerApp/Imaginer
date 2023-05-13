@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-12 23:38+0000\n"
+"PO-Revision-Date: 2023-05-13 13:10+0000\n"
 "Last-Translator: volkov <d2oo1dle2x@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/uk/>\n"
@@ -20,8 +20,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
@@ -30,8 +30,9 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
+#, fuzzy
 msgid "Imagine with AI"
-msgstr "Уявіть собі з ШІ"
+msgstr "Уявляйте за допомогою ШІ"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -56,11 +57,9 @@ msgid "Show Shortcuts"
 msgstr "Показати Скорочення"
 
 #: data/ui/help-overlay.ui:20
-#, fuzzy
-#| msgid "Imaginer"
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "Imaginer"
+msgstr "Imagine"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -97,10 +96,8 @@ msgid "Negative Prompt"
 msgstr "Негативні підказки"
 
 #: data/ui/window.blp:75
-#, fuzzy
-#| msgid "Negative Prompt"
 msgid "About Negative Prompt"
-msgstr "Негативні підказки"
+msgstr "Про негативні підказки"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -110,6 +107,11 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"Негативні підказки - це те, що не повинно генеруватися, наприклад, \"низька "
+"якість\",\n"
+" або більш специфічні, такі як, артстайл; простіше кажучи, підказки та "
+"негативні підказки\n"
+" це те що повинно і неповинно генеруватися у зображені"
 
 #: data/ui/window.blp:88
 msgid "Options"
@@ -133,7 +135,7 @@ msgstr "Комбінації Клавіш"
 
 #: data/ui/window.blp:163
 msgid "New window"
-msgstr ""
+msgstr "Нове вікно"
 
 #: data/ui/window.blp:168
 msgid "About Imaginer"
@@ -141,15 +143,15 @@ msgstr "Про Imaginer"
 
 #: src/main.py:174
 msgid "Choose a directory"
-msgstr ""
+msgstr "Обрати теку"
 
 #: src/main.py:224
 msgid "New Window"
-msgstr ""
+msgstr "Нове вікно"
 
 #: src/main.py:225
 msgid "About"
-msgstr ""
+msgstr "Про програму"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
