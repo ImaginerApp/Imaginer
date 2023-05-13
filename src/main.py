@@ -34,6 +34,7 @@ from .window import ImaginerWindow
 from .preferences import Preferences
 from enum import auto, IntEnum
 
+from gettext import gettext as _
 from .constants import app_id, version, build_type
 
 from tempfile import NamedTemporaryFile
@@ -98,6 +99,7 @@ class ImaginerApplication(Adw.Application):
         self.create_action("ask", self.on_ask_action, ["<primary>Return"])
         self.create_action("stop", self.on_stop_action, ["<primary>Escape"])
         self.create_action("choose_output", self.on_file_chooser, ["<primary>s"])
+        self.create_action("new", self.on_new_window, ["<primary>n"])
         
         # self.create_action("speak", self.on_speak_action, ["<primary>S"])
         # self.create_action("listen", self.on_listen_action, ["<primary>L"])
@@ -125,7 +127,11 @@ class ImaginerApplication(Adw.Application):
         print("Saving providers data...")
 
         self.save_providers()
-        self.quit()
+        self.win.close()
+
+    @property
+    def win(self):
+        return self.props.active_window
 
     def on_quit(self, action, param):
         """Called when the user activates the Quit action."""
@@ -145,31 +151,7 @@ class ImaginerApplication(Adw.Application):
         We raise the application's main window, creating it if
         necessary.
         """
-        self.win = self.props.active_window
-        if not self.win:
-            self.win = ImaginerWindow(application=self)
-        self.win.present()
-
-        self.win.connect("close-request", self.quitting)
-
-        self.load_dropdown()
-
-        self.load()
-
-        self.file_chooser = Gtk.FileChooserNative()
-        self.file_chooser.set_title(_("Choose a directory"))
-        self.file_chooser.set_transient_for(self.win)
-        self.file_chooser.set_action(Gtk.FileChooserAction.SELECT_FOLDER)
-        self.file_chooser.set_modal(True)
-        self.file_chooser.connect("response", self.on_file_chooser_response)
-
-
-        print(self.latest_provider)
-        for k, p in self.providers.items():
-            if p.slug == self.latest_provider:
-                print("Setting selected provider to", k)
-                self.provider = k
-                break
+        self.new_window()
 
     def on_set_provider_action(self, action, *args):
         self.provider = args[0].get_string()
@@ -177,8 +159,34 @@ class ImaginerApplication(Adw.Application):
 
         Gio.SimpleAction.set_state(self.lookup_action("set_provider"), args[0])
 
+    def on_new_window(self, action, *args):
+        self.new_window()
 
-    def load_dropdown(self):
+    def new_window(self, window=None):
+        if window:
+            win = self.props.active_window
+        else:
+            win = ImaginerWindow(application=self)
+        win.connect("close-request", self.quitting)
+        self.load_dropdown(win)
+        self.load()
+        win.file_chooser = Gtk.FileChooserNative()
+        win.file_chooser.set_title(_("Choose a directory"))
+        win.file_chooser.set_transient_for(win)
+        win.file_chooser.set_action(Gtk.FileChooserAction.SELECT_FOLDER)
+        win.file_chooser.set_modal(True)
+        win.file_chooser.connect("response", self.on_file_chooser_response)
+
+        for k, p in self.providers.items():
+            if p.slug == self.latest_provider:
+                print("Setting selected provider to", k)
+                self.provider = k
+                break
+        win.present()
+
+    def load_dropdown(self, window=None):
+        if window is None:
+            window = self.win
         self.menu_model = Gio.Menu()
 
         provider_menu = Gio.Menu()
@@ -205,18 +213,19 @@ class ImaginerApplication(Adw.Application):
                 continue
             else:
                 try:
-                    _ = self.providers[item.slug]  # doesn't re load if already loaded
+                    self.providers[item.slug]  # doesn't re load if already loaded
                 except KeyError:
-                    self.providers[item.slug] = PROVIDERS[provider](self.win, self)
+                    self.providers[item.slug] = PROVIDERS[provider](window, self)
 
-        self.menu_model.append_submenu("Providers", provider_menu)
+        self.menu_model.append_submenu(_("Providers"), provider_menu)
 
-        self.menu_model.append_item(Gio.MenuItem.new(label="Preferences", detailed_action="app.preferences"))
-        self.menu_model.append_item(Gio.MenuItem.new(label="Keyboard Shortcuts", detailed_action="win.show-help-overlay"))
-        self.menu_model.append_item(Gio.MenuItem.new(label="About", detailed_action="app.about"))
+        self.menu_model.append_item(Gio.MenuItem.new(label=_("Preferences"), detailed_action="app.preferences"))
+        self.menu_model.append_item(Gio.MenuItem.new(label=_("Keyboard Shortcuts"), detailed_action="win.show-help-overlay"))
+        self.menu_model.append_item(Gio.MenuItem.new(label=_("New Window"), detailed_action="app.new"))
+        self.menu_model.append_item(Gio.MenuItem.new(label=_("About"), detailed_action="app.about"))
 
 
-        self.win.menu.set_menu_model(self.menu_model)
+        window.menu.set_menu_model(self.menu_model)
 
     def load(self):
         for p in self.providers.values():
@@ -282,16 +291,16 @@ Providers: {self.enabled_providers}
 
     def on_file_chooser(self, widget, _):
         """Callback for the app.choose_output action."""
-        self.file_chooser.show()
+        self.win.file_chooser.show()
 
     def on_file_chooser_response(self, _, response):
         if response == Gtk.ResponseType.ACCEPT:
-            self.directory = self.file_chooser.get_file()
+            self.directory = self.win.file_chooser.get_file()
             dir_basename = self.directory.get_basename()
             self.win.label_output.set_label(dir_basename)
             self.win.button_imagine.set_has_tooltip(False)
 
-        self.file_chooser.hide()
+        self.win.file_chooser.hide()
 
         if response == Gtk.ResponseType.ACCEPT:
             self.file_path = self.directory.get_path()
@@ -304,7 +313,6 @@ Providers: {self.enabled_providers}
         )
         value = re.sub("[^\w\s-]", "", value).strip().lower()
         return re.sub("[-\s]+", "-", value)
-
 
     def on_ask_action(self, widget, _):
         """Callback for the app.ask action."""
