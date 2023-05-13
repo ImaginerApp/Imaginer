@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-12 22:29+0000\n"
+"PO-Revision-Date: 2023-05-13 13:17+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Turkish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/tr/>\n"
@@ -53,11 +53,9 @@ msgid "Show Shortcuts"
 msgstr "Kısayolları Göster\""
 
 #: data/ui/help-overlay.ui:20
-#, fuzzy
-#| msgid "Imaginer"
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "Imaginer"
+msgstr "_Hayal Et"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -130,7 +128,7 @@ msgstr "Klavye kısayolları"
 
 #: data/ui/window.blp:163
 msgid "New window"
-msgstr ""
+msgstr "Yeni Pencere"
 
 #: data/ui/window.blp:168
 msgid "About Imaginer"
@@ -138,15 +136,15 @@ msgstr "Imaginer Hakkında"
 
 #: src/main.py:174
 msgid "Choose a directory"
-msgstr ""
+msgstr "Bir dizin seçin"
 
 #: src/main.py:224
 msgid "New Window"
-msgstr ""
+msgstr "Yeni Pencere"
 
 #: src/main.py:225
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
