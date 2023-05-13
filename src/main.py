@@ -188,6 +188,9 @@ class ImaginerApplication(Adw.Application):
         if window is None:
             window = self.win
         self.menu_model = Gio.Menu()
+        self.menu_model.append_item(Gio.MenuItem.new(label=_("New Window"), detailed_action="app.new"))
+
+        section_menu = Gio.Menu()
 
         provider_menu = Gio.Menu()
 
@@ -217,13 +220,13 @@ class ImaginerApplication(Adw.Application):
                 except KeyError:
                     self.providers[item.slug] = PROVIDERS[provider](window, self)
 
-        self.menu_model.append_submenu(_("Providers"), provider_menu)
+        section_menu.append_submenu(_("Providers"), provider_menu)
 
-        self.menu_model.append_item(Gio.MenuItem.new(label=_("Preferences"), detailed_action="app.preferences"))
-        self.menu_model.append_item(Gio.MenuItem.new(label=_("Keyboard Shortcuts"), detailed_action="win.show-help-overlay"))
-        self.menu_model.append_item(Gio.MenuItem.new(label=_("New Window"), detailed_action="app.new"))
-        self.menu_model.append_item(Gio.MenuItem.new(label=_("About"), detailed_action="app.about"))
+        section_menu.append_item(Gio.MenuItem.new(label=_("Preferences"), detailed_action="app.preferences"))
+        section_menu.append_item(Gio.MenuItem.new(label=_("Keyboard Shortcuts"), detailed_action="win.show-help-overlay"))
+        section_menu.append_item(Gio.MenuItem.new(label=_("About"), detailed_action="app.about"))
 
+        self.menu_model.append_section(None, section_menu)
 
         window.menu.set_menu_model(self.menu_model)
 
