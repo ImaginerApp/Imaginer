@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-13 00:16+0200\n"
+"POT-Creation-Date: 2023-05-13 13:03+0200\n"
 "PO-Revision-Date: 2023-05-12 22:29+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Russian <https://translate.codeberg.org/projects/imaginer/"
@@ -19,8 +19,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
@@ -56,9 +56,11 @@ msgid "Show Shortcuts"
 msgstr "Показать комбинации клавиш"
 
 #: data/ui/help-overlay.ui:20
+#, fuzzy
+#| msgid "Imaginer"
 msgctxt "shortcut window"
-msgid "Ask"
-msgstr "Спросить"
+msgid "Imagine"
+msgstr "Imaginer"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -70,57 +72,84 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "Параметры"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:134
+#: data/ui/preferences.blp:5 data/ui/window.blp:153 src/main.py:222
 msgid "Preferences"
 msgstr "Параметры"
 
-#: data/ui/preferences.blp:12
+#: data/ui/preferences.blp:12 src/main.py:220
 msgid "Providers"
 msgstr "Провайдеры"
 
-#: data/ui/window.blp:27
+#: data/ui/window.blp:29
 msgid "Main Menu"
 msgstr "Главное меню"
 
-#: data/ui/window.blp:33 src/provider/base.py:52
+#: data/ui/window.blp:35 src/provider/base.py:52
 msgid "No network connection"
 msgstr "Нет подключения к сети"
 
-#: data/ui/window.blp:60
+#: data/ui/window.blp:65
 msgid "Prompt"
 msgstr "Поле ввода"
 
-#: data/ui/window.blp:64
+#: data/ui/window.blp:69
 msgid "Negative Prompt"
 msgstr "Отрицательное поле ввода"
 
-#: data/ui/window.blp:70
+#: data/ui/window.blp:75
+#, fuzzy
+#| msgid "Negative Prompt"
+msgid "About Negative Prompt"
+msgstr "Отрицательное поле ввода"
+
+#: data/ui/window.blp:79
+msgid ""
+"Negative prompt is where you put things that should not be generated, such "
+"as 'low quality',\n"
+" or more specific such as art style, basically prompt and negative prompt "
+"are dos and\n"
+" don'ts for image generation"
+msgstr ""
+
+#: data/ui/window.blp:88
 msgid "Options"
 msgstr "Опции"
 
-#: data/ui/window.blp:73
+#: data/ui/window.blp:93
 msgid "Save Location"
 msgstr "Место сохранения"
 
-#: data/ui/window.blp:89
+#: data/ui/window.blp:109
 msgid "(None)"
 msgstr "(Нет)"
 
-#: data/ui/window.blp:100
+#: data/ui/window.blp:120
 msgid "_Imagine"
 msgstr "_Представить"
 
-#: data/ui/window.blp:101
-msgid "Save location is missing."
-msgstr "Место сохранения отсутствует."
-
-#: data/ui/window.blp:139
+#: data/ui/window.blp:158 src/main.py:223
 msgid "Keyboard Shortcuts"
 msgstr "Комбинации клавиш"
 
-#: data/ui/window.blp:144
+#: data/ui/window.blp:163
+msgid "New window"
+msgstr ""
+
+#: data/ui/window.blp:168
 msgid "About Imaginer"
 msgstr "О Imaginer"
+
+#: src/main.py:174
+msgid "Choose a directory"
+msgstr ""
+
+#: src/main.py:224
+msgid "New Window"
+msgstr ""
+
+#: src/main.py:225
+msgid "About"
+msgstr ""
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
@@ -129,6 +158,13 @@ msgstr "Ключ API не предоставлен, вы можете предо
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Открыть настройки"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Ask"
+#~ msgstr "Спросить"
+
+#~ msgid "Save location is missing."
+#~ msgstr "Место сохранения отсутствует."
 
 #~ msgid "Chit-chat with an AI"
 #~ msgstr "Болтайте с GPT"

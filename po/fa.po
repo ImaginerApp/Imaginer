@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-13 00:16+0200\n"
+"POT-Creation-Date: 2023-05-13 13:03+0200\n"
 "PO-Revision-Date: 2023-05-12 22:29+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Persian <https://translate.codeberg.org/projects/imaginer/"
@@ -58,9 +58,11 @@ msgid "Show Shortcuts"
 msgstr "نمایش کلیدهای میانبر"
 
 #: data/ui/help-overlay.ui:20
+#, fuzzy
+#| msgid "Imaginer"
 msgctxt "shortcut window"
-msgid "Ask"
-msgstr "بپرس"
+msgid "Imagine"
+msgstr "باوارده"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -72,59 +74,84 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "پیش‌فرض‌ها"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:134
+#: data/ui/preferences.blp:5 data/ui/window.blp:153 src/main.py:222
 msgid "Preferences"
 msgstr "پیش‌فرض‌ها"
 
-#: data/ui/preferences.blp:12
+#: data/ui/preferences.blp:12 src/main.py:220
 msgid "Providers"
 msgstr "تامین کنندگان"
 
-#: data/ui/window.blp:27
+#: data/ui/window.blp:29
 msgid "Main Menu"
 msgstr "منوی اصلی"
 
-#: data/ui/window.blp:33 src/provider/base.py:52
+#: data/ui/window.blp:35 src/provider/base.py:52
 msgid "No network connection"
 msgstr "ارتباط شبکه برقرار نیست"
 
-#: data/ui/window.blp:60
+#: data/ui/window.blp:65
 msgid "Prompt"
 msgstr "متن درخواست"
 
-#: data/ui/window.blp:64
+#: data/ui/window.blp:69
 msgid "Negative Prompt"
 msgstr ""
 
-#: data/ui/window.blp:70
+#: data/ui/window.blp:75
+msgid "About Negative Prompt"
+msgstr ""
+
+#: data/ui/window.blp:79
+msgid ""
+"Negative prompt is where you put things that should not be generated, such "
+"as 'low quality',\n"
+" or more specific such as art style, basically prompt and negative prompt "
+"are dos and\n"
+" don'ts for image generation"
+msgstr ""
+
+#: data/ui/window.blp:88
 msgid "Options"
 msgstr "گزینه ها"
 
-#: data/ui/window.blp:73
+#: data/ui/window.blp:93
 msgid "Save Location"
 msgstr "به اشتراک گذاری موقعیت"
 
-#: data/ui/window.blp:89
+#: data/ui/window.blp:109
 msgid "(None)"
 msgstr ""
 
-#: data/ui/window.blp:100
+#: data/ui/window.blp:120
 #, fuzzy
 #| msgid "Imaginer"
 msgid "_Imagine"
 msgstr "باوارده"
 
-#: data/ui/window.blp:101
-msgid "Save location is missing."
-msgstr ""
-
-#: data/ui/window.blp:139
+#: data/ui/window.blp:158 src/main.py:223
 msgid "Keyboard Shortcuts"
 msgstr "کلیدهای میانبر"
 
-#: data/ui/window.blp:144
+#: data/ui/window.blp:163
+msgid "New window"
+msgstr ""
+
+#: data/ui/window.blp:168
 msgid "About Imaginer"
 msgstr "درباره"
+
+#: src/main.py:174
+msgid "Choose a directory"
+msgstr ""
+
+#: src/main.py:224
+msgid "New Window"
+msgstr ""
+
+#: src/main.py:225
+msgid "About"
+msgstr ""
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
@@ -133,6 +160,10 @@ msgstr "کلید API پیدا نشد، می توانید دربخش تنطیما
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "تنظيمات"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Ask"
+#~ msgstr "بپرس"
 
 #~ msgid "Chit-chat with an AI"
 #~ msgstr "گپی با هوش مصنوعی"

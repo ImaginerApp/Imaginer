@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-13 00:16+0200\n"
+"POT-Creation-Date: 2023-05-13 13:03+0200\n"
 "PO-Revision-Date: 2023-05-13 09:08+0000\n"
 "Last-Translator: xtex <xtexchooser@duck.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.codeberg.org/projects/"
@@ -52,9 +52,11 @@ msgid "Show Shortcuts"
 msgstr "显示快捷方式"
 
 #: data/ui/help-overlay.ui:20
+#, fuzzy
+#| msgid "Imaginer"
 msgctxt "shortcut window"
-msgid "Ask"
-msgstr "问"
+msgid "Imagine"
+msgstr "Imaginer"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -66,57 +68,84 @@ msgctxt "shortcut window"
 msgid "Preferences"
 msgstr "首选项"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:134
+#: data/ui/preferences.blp:5 data/ui/window.blp:153 src/main.py:222
 msgid "Preferences"
 msgstr "首选项"
 
-#: data/ui/preferences.blp:12
+#: data/ui/preferences.blp:12 src/main.py:220
 msgid "Providers"
 msgstr "提供者"
 
-#: data/ui/window.blp:27
+#: data/ui/window.blp:29
 msgid "Main Menu"
 msgstr "主菜单"
 
-#: data/ui/window.blp:33 src/provider/base.py:52
+#: data/ui/window.blp:35 src/provider/base.py:52
 msgid "No network connection"
 msgstr "无网络连接"
 
-#: data/ui/window.blp:60
+#: data/ui/window.blp:65
 msgid "Prompt"
 msgstr "提示词"
 
-#: data/ui/window.blp:64
+#: data/ui/window.blp:69
 msgid "Negative Prompt"
 msgstr "负面提示词"
 
-#: data/ui/window.blp:70
+#: data/ui/window.blp:75
+#, fuzzy
+#| msgid "Negative Prompt"
+msgid "About Negative Prompt"
+msgstr "负面提示词"
+
+#: data/ui/window.blp:79
+msgid ""
+"Negative prompt is where you put things that should not be generated, such "
+"as 'low quality',\n"
+" or more specific such as art style, basically prompt and negative prompt "
+"are dos and\n"
+" don'ts for image generation"
+msgstr ""
+
+#: data/ui/window.blp:88
 msgid "Options"
 msgstr "选项"
 
-#: data/ui/window.blp:73
+#: data/ui/window.blp:93
 msgid "Save Location"
 msgstr "保存位置"
 
-#: data/ui/window.blp:89
+#: data/ui/window.blp:109
 msgid "(None)"
 msgstr "（无）"
 
-#: data/ui/window.blp:100
+#: data/ui/window.blp:120
 msgid "_Imagine"
 msgstr "_Imagine"
 
-#: data/ui/window.blp:101
-msgid "Save location is missing."
-msgstr "请输入保存位置。"
-
-#: data/ui/window.blp:139
+#: data/ui/window.blp:158 src/main.py:223
 msgid "Keyboard Shortcuts"
 msgstr "键盘快捷键"
 
-#: data/ui/window.blp:144
+#: data/ui/window.blp:163
+msgid "New window"
+msgstr ""
+
+#: data/ui/window.blp:168
 msgid "About Imaginer"
 msgstr "关于 Imaginer"
+
+#: src/main.py:174
+msgid "Choose a directory"
+msgstr ""
+
+#: src/main.py:224
+msgid "New Window"
+msgstr ""
+
+#: src/main.py:225
+msgid "About"
+msgstr ""
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
@@ -125,3 +154,10 @@ msgstr "未提供 API 密钥，你可以在设置中提供一个"
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "打开设置"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Ask"
+#~ msgstr "问"
+
+#~ msgid "Save location is missing."
+#~ msgstr "请输入保存位置。"
