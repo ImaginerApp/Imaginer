@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # Mejans <pages_quentin@hotmail.com>, 2023.
+# 0xMRTT <0xmrtt@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 11:39+0000\n"
-"Last-Translator: Mejans <pages_quentin@hotmail.com>\n"
+"PO-Revision-Date: 2023-05-13 13:17+0000\n"
+"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Occitan <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/oc/>\n"
 "Language: oc\n"
@@ -52,11 +53,9 @@ msgid "Show Shortcuts"
 msgstr "Afichar los acorchis de clavièr"
 
 #: data/ui/help-overlay.ui:20
-#, fuzzy
-#| msgid "Imaginer"
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "Imaginer"
+msgstr "_Imaginar"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
