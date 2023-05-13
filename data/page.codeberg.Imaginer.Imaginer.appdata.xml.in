@@ -52,13 +52,16 @@
 	</keywords>
 
 	<releases>
-    <release version="0.2.0" date="2023-5-14" type="stable">
+    <release version="0.2.0" date="2023-5-13" type="stable">
 			<description>
-				<p>Rework the app internally</p>
+				<p>Imaginer X Bavarder</p>
 				<ul>
 					<li>Imaginer has been rebased on Bavarder, that's mean that now Imaginer got the Prefernces window and a better provider mechanism</li>
-          <li>Move the provider selector to the menu</li>
-          <li>Fix some bugs</li>
+					<li>Improve the new window feature</li>
+					<li>Add explaination of Negative prompt</li>
+					<li>Improve the UI</li>
+					<li>Move the provider selector to the menu</li>
+					<li>Fix some bugs</li>
 					<li>Update translations</li>
 				</ul>
 			</description>
