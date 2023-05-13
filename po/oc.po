@@ -1,0 +1,124 @@
+# Imaginer POT file
+# Copyright (C) 2023 Imaginer
+# This file is distributed under the GNU GPLv3 license.
+# Imaginer, 2023.
+#
+# Mejans <pages_quentin@hotmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-13 00:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
+msgid "Imaginer"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
+msgid "Imagine with AI"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
+msgid "0xMRTT"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
+msgid "Generate pictures with Artificial Intelligence and save them"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
+msgid "Imaginer main UI"
+msgstr ""
+
+#: data/ui/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: data/ui/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: data/ui/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Ask"
+msgstr ""
+
+#: data/ui/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: data/ui/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr ""
+
+#: data/ui/preferences.blp:5 data/ui/window.blp:134
+msgid "Preferences"
+msgstr ""
+
+#: data/ui/preferences.blp:12
+msgid "Providers"
+msgstr ""
+
+#: data/ui/window.blp:27
+msgid "Main Menu"
+msgstr ""
+
+#: data/ui/window.blp:33 src/provider/base.py:52
+msgid "No network connection"
+msgstr ""
+
+#: data/ui/window.blp:60
+msgid "Prompt"
+msgstr ""
+
+#: data/ui/window.blp:64
+msgid "Negative Prompt"
+msgstr ""
+
+#: data/ui/window.blp:70
+msgid "Options"
+msgstr ""
+
+#: data/ui/window.blp:73
+msgid "Save Location"
+msgstr ""
+
+#: data/ui/window.blp:89
+msgid "(None)"
+msgstr ""
+
+#: data/ui/window.blp:100
+msgid "_Imagine"
+msgstr ""
+
+#: data/ui/window.blp:101
+msgid "Save location is missing."
+msgstr ""
+
+#: data/ui/window.blp:139
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: data/ui/window.blp:144
+msgid "About Imaginer"
+msgstr ""
+
+#: src/provider/base.py:45
+msgid "No API key provided, you can provide one in settings"
+msgstr ""
+
+#: src/provider/base.py:47
+msgid "Open settings"
+msgstr ""
