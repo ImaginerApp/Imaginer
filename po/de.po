@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-12 22:29+0000\n"
+"PO-Revision-Date: 2023-05-13 13:17+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/de/>\n"
@@ -55,11 +55,9 @@ msgid "Show Shortcuts"
 msgstr "Verknüpfungen anzeigen"
 
 #: data/ui/help-overlay.ui:20
-#, fuzzy
-#| msgid "Imaginer"
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "Imaginer"
+msgstr "_Imaginer"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -140,7 +138,7 @@ msgstr "Über Imaginer"
 
 #: src/main.py:174
 msgid "Choose a directory"
-msgstr ""
+msgstr "Wähle ein Verzeichnis"
 
 #: src/main.py:224
 msgid "New Window"
@@ -148,7 +146,7 @@ msgstr ""
 
 #: src/main.py:225
 msgid "About"
-msgstr ""
+msgstr "Über diese App"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
