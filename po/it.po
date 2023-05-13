@@ -7,13 +7,14 @@
 # phaerrax <davide.ferracin@protonmail.com>, 2023.
 # elgandoz <gandi.marco@gmail.com>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
+# "albano.battistella" <albano_battistella@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 13:17+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-13 22:55+0000\n"
+"Last-Translator: \"albano.battistella\" <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/it/>\n"
 "Language: it\n"
@@ -29,10 +30,8 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imagine with AI"
-msgstr "Imaginer"
+msgstr "Immagina con l'AI"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -40,13 +39,11 @@ msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
-msgstr ""
+msgstr "Genera immagini con l'Intelligenza Artificiale e salvale"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imaginer main UI"
-msgstr "Imaginer"
+msgstr "Interfaccia utente principale di Imaginer"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -95,11 +92,11 @@ msgstr "Prompt"
 
 #: data/ui/window.blp:69
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Prompt negativo"
 
 #: data/ui/window.blp:75
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "Informazioni sul prompt negativo"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -109,6 +106,11 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"Il prompt negativo è dove metti cose che non dovrebbero essere generate, "
+"come 'bassa qualità',\n"
+"  o più specifici come lo stile artistico, fondamentalmente il prompt e il "
+"prompt negativo sono dos e\n"
+"  cosa non fare per la generazione di immagini"
 
 #: data/ui/window.blp:88
 msgid "Options"
