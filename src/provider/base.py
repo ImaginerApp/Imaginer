@@ -130,7 +130,7 @@ class ImaginerProvider:
 
     def chunk(self, prompt, n=4000):
         if len(prompt) > n:
-            print("Chuncking prompt")
+            print("Chunking prompt")
             prompt = [(prompt[i : i + n]) for i in range(0, len(prompt), n)]
         return prompt
 

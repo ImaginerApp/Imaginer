@@ -56,9 +56,9 @@
 			<description>
 				<p>Imaginer X Bavarder</p>
 				<ul>
-					<li>Imaginer has been rebased on Bavarder, that's mean that now Imaginer got the Prefernces window and a better provider mechanism</li>
+					<li>Imaginer has been rebased on Bavarder, that's mean that now Imaginer got the Preferences window and a better provider mechanism</li>
 					<li>Improve the new window feature</li>
-					<li>Add explaination of Negative prompt</li>
+					<li>Add explanation of Negative prompt</li>
 					<li>Improve the UI</li>
 					<li>Move the provider selector to the menu</li>
 					<li>Fix some bugs</li>
@@ -80,7 +80,7 @@
 			<description>
 				<p>Make the app better</p>
 				<ul>
-					<li>Add explaination about how to get a token</li>
+					<li>Add explanation about how to get a token</li>
 					<li>Fix the UI looks empty and buggy</li>
 					<li>Improve the About window</li>
 					<li>Add negative prompt</li>
