@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 22:55+0000\n"
+"PO-Revision-Date: 2023-05-15 05:20+0000\n"
 "Last-Translator: artnay <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fi/>\n"
@@ -55,7 +55,7 @@ msgstr "Näytä pikanäppäimet"
 #: data/ui/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "_Kuvita"
+msgstr "Kuvita"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
@@ -89,11 +89,11 @@ msgstr "Kehote"
 
 #: data/ui/window.blp:69
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Negatiivinen kehote"
 
 #: data/ui/window.blp:75
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "Tietoja negatiivisesta kehotteesta"
 
 #: data/ui/window.blp:79
 msgid ""
