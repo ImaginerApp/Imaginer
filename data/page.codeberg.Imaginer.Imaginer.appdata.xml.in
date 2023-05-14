@@ -57,6 +57,7 @@
 				<p>Imaginer X Bavarder</p>
 				<ul>
 					<li>Imaginer has been rebased on Bavarder, that's mean that now Imaginer got the Preferences window and a better provider mechanism</li>
+					<li>Ability to save credentials</li>
 					<li>Improve the new window feature</li>
 					<li>Add explanation of Negative prompt</li>
 					<li>Improve the UI</li>
