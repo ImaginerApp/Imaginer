@@ -5,13 +5,14 @@
 #
 # muznyo <codeberg.vqtek@simplelogin.com>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
+# G020B <hlubinix@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 13:21+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-14 19:42+0000\n"
+"Last-Translator: G020B <hlubinix@gmail.com>\n"
 "Language-Team: Czech <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/cs/>\n"
 "Language: cs\n"
@@ -38,13 +39,11 @@ msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
-msgstr ""
+msgstr "Vygenerujte obrázky pomocí umělé inteligence a uložte si je"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imaginer main UI"
-msgstr "Imaginer"
+msgstr "Hlavní uživatelské rozhraní Imagineru"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -89,15 +88,15 @@ msgstr "Žádné připojení k síti"
 
 #: data/ui/window.blp:65
 msgid "Prompt"
-msgstr "Dotaz"
+msgstr "Zadání"
 
 #: data/ui/window.blp:69
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Slova pro vyloučení"
 
 #: data/ui/window.blp:75
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "O slovech pro vyloučení"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -107,6 +106,10 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"Slova na vyloučení jsou zadání, která bude model ignorovat, například 'low "
+"quality'/'nizká kvalita',\n"
+" nebo něco více specifického jako umělecký styl. Do zadání patří to co "
+"chcete, sem to co naopak nechcete."
 
 #: data/ui/window.blp:88
 msgid "Options"
