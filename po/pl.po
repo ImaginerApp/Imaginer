@@ -5,13 +5,14 @@
 #
 # ioghjog <michal.d1191@gmail.com>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 13:17+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-14 07:14+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/pl/>\n"
 "Language: pl\n"
@@ -28,10 +29,8 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imagine with AI"
-msgstr "Imaginer"
+msgstr "Generuj obrazy przy pomocy sztucznej inteligencji"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -96,10 +95,8 @@ msgid "Negative Prompt"
 msgstr "Negatywny komunikat"
 
 #: data/ui/window.blp:75
-#, fuzzy
-#| msgid "Negative Prompt"
 msgid "About Negative Prompt"
-msgstr "Negatywny komunikat"
+msgstr "O negatywnym komunikacie"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -109,6 +106,11 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"Negatywny komunikat to miejsce, w którym umieszczasz rzeczy, które nie "
+"powinny być generowane, takie jak \"niska jakość\",\n"
+" lub bardziej szczegółowe informacje, takie jak styl artystyczny, zasadniczo "
+"monit i negatywny monit to\n"
+" nakazy i zakazy generowania obrazu"
 
 #: data/ui/window.blp:88
 msgid "Options"
