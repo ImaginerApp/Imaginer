@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 13:17+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-16 14:09+0000\n"
+"Last-Translator: Daudix_UFO <ddaudix@gmail.com>\n"
 "Language-Team: Russian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/ru/>\n"
 "Language: ru\n"
@@ -95,10 +95,8 @@ msgid "Negative Prompt"
 msgstr "Отрицательное поле ввода"
 
 #: data/ui/window.blp:75
-#, fuzzy
-#| msgid "Negative Prompt"
 msgid "About Negative Prompt"
-msgstr "Отрицательное поле ввода"
+msgstr "Об отрицательном поле ввода"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -108,6 +106,11 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"Отрицательное поле ввода это где вы вводите вещи, которые не должны "
+"генерироваться, такие как 'низкое качество',\n"
+" Или более конкретные такие как художественный стиль, в основном поле ввода "
+"и отрицательное поле ввода -\n"
+" это 'можно и нельзя' для генерации изображений"
 
 #: data/ui/window.blp:88
 msgid "Options"
