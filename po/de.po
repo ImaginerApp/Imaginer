@@ -5,13 +5,14 @@
 #
 # 0xMRTT <0xmrtt@tuta.io>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
+# MasinAD <masin.aldujaili@googlemail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-13 13:17+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-15 16:48+0000\n"
+"Last-Translator: MasinAD <masin.aldujaili@googlemail.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/de/>\n"
 "Language: de\n"
@@ -27,10 +28,8 @@ msgid "Imaginer"
 msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Imagine with AI"
-msgstr "Imaginer"
+msgstr "Imaginier mit KI"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -94,10 +93,8 @@ msgid "Negative Prompt"
 msgstr "Negative Aufforderung"
 
 #: data/ui/window.blp:75
-#, fuzzy
-#| msgid "Negative Prompt"
 msgid "About Negative Prompt"
-msgstr "Negative Aufforderung"
+msgstr "Über die Negative Aufforderung"
 
 #: data/ui/window.blp:79
 msgid ""
@@ -107,6 +104,11 @@ msgid ""
 "are dos and\n"
 " don'ts for image generation"
 msgstr ""
+"In der negativen Aufforderung können Sie Dinge erwähnen, die nicht generiert "
+"werden sollen,\n"
+" wie \"low quality\" oder Spezifischeres wie ein Kunststil. Die Aufforderung "
+"und die negative Aufforderung\n"
+" setzen sozusagen den Rahmen für die Bildgenerierung."
 
 #: data/ui/window.blp:88
 msgid "Options"
@@ -114,7 +116,7 @@ msgstr "Optionen"
 
 #: data/ui/window.blp:93
 msgid "Save Location"
-msgstr "Standort teilen"
+msgstr "Speicherort"
 
 #: data/ui/window.blp:109
 msgid "(None)"
@@ -130,7 +132,7 @@ msgstr "Tastatürkürzel"
 
 #: data/ui/window.blp:163
 msgid "New window"
-msgstr ""
+msgstr "Neues Fenster"
 
 #: data/ui/window.blp:168
 msgid "About Imaginer"
@@ -142,7 +144,7 @@ msgstr "Wähle ein Verzeichnis"
 
 #: src/main.py:224
 msgid "New Window"
-msgstr ""
+msgstr "Neues Fenster"
 
 #: src/main.py:225
 msgid "About"
