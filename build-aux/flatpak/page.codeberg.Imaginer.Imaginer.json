@@ -31,7 +31,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                    "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
                     "tag" : "v0.8.0"
                 }
             ]
