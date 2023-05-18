@@ -60,7 +60,7 @@ flatpak install page.codeberg.Imaginer.Imaginer
 You can download the build from the latest commit from [the package registry](https://codeberg.org/Imaginer/-/packages/generic/imaginer/) and install it by running 
 
 ``` shell
-flatak install imaginer.flatpak
+flatpak install imaginer.flatpak
 ```
 
 #### From Source
