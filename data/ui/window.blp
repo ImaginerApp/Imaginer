@@ -73,13 +73,21 @@ template $ImaginerWindow : Adw.ApplicationWindow {
                   valign: center;
                   tooltip-text: _("About Negative Prompt");
                   styles [ "flat" ]
+
                   popover: Popover {
-                    Label {
+                    autohide: true;
+                    Label negative-label {
+                      margin-top: 6;
+                      margin-bottom: 6;
+                      margin-start: 6;
+                      margin-end: 6;
+                      max-width-chars: 30;
+                      wrap: true;
+                      justify: center;
                       label: _("Negative Prompt is a way to specify what you don't want to see in the image, without any extra input");
                     }
                   };
-                }
-                  
+                }   
               }
             }
 
