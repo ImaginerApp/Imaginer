@@ -17,19 +17,13 @@ class Preferences(Adw.PreferencesWindow):
         self.setup_providers()
 
     def setup_providers(self):
-        # for provider in self.app.providers.values():
-        #     try:
-        #         self.provider_group.add(provider.preferences(self))
-        #     except TypeError:  # no prefs
-        #         pass
-        # else:
-        #     row = Adw.ActionRow()
-        #     row.props.title = "No providers available"
-        #     self.provider_group.add(row)
         for provider in PROVIDERS.values():
-            try:
+            if provider.slug in self.app.providers:
                 self.provider_group.add(
-                    provider(self.app.win, self.app).preferences(self)
+                    self.app.providers[provider.slug].preferences(win=self.app.win)
                 )
-            except TypeError:
-                pass
+            else:
+                self.provider_group.add(
+                    provider(self.app.win, self.app).preferences(win=self.app.win)
+                )
+            
