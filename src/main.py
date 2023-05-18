@@ -141,7 +141,6 @@ class ImaginerApplication(Adw.Application):
         r = {}
         for k, p in self.providers.items():
             r[p.slug] = json.dumps(p.save())
-        print(r)
         data = GLib.Variant("a{ss}", r)
         self.settings.set_value("providers-data", data)
 
@@ -155,8 +154,6 @@ class ImaginerApplication(Adw.Application):
 
     def on_set_provider_action(self, action, *args):
         self.provider = args[0].get_string()
-        print("Setting provider to", self.provider)
-
         Gio.SimpleAction.set_state(self.lookup_action("set_provider"), args[0])
 
     def on_new_window(self, action, *args):
@@ -179,7 +176,6 @@ class ImaginerApplication(Adw.Application):
 
         for k, p in self.providers.items():
             if p.slug == self.latest_provider:
-                print("Setting selected provider to", k)
                 self.provider = k
                 break
         win.present()
@@ -197,12 +193,8 @@ class ImaginerApplication(Adw.Application):
 
         self.providers = {}
         self.providers_data = self.settings.get_value("providers-data")
-        print(self.providers_data)
-        print(self.enabled_providers)
-
 
         for provider in self.enabled_providers:
-            print("Loading provider", provider)
             try:
                 item = PROVIDERS[provider]
                 item_model = Gio.MenuItem()
@@ -232,7 +224,6 @@ class ImaginerApplication(Adw.Application):
 
     def load(self):
         for p in self.providers.values():
-            print(self.providers_data)
             try:
                 p.load(data=json.loads(self.providers_data[p.slug]))
             except KeyError:  # provider not in data
