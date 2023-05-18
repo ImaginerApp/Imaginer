@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-16 14:09+0000\n"
+"PO-Revision-Date: 2023-05-19 11:40+0000\n"
 "Last-Translator: Daudix_UFO <ddaudix@gmail.com>\n"
 "Language-Team: Russian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/ru/>\n"
@@ -58,7 +58,7 @@ msgstr "Показать комбинации клавиш"
 #: data/ui/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Imagine"
-msgstr "_Представить"
+msgstr "Представить"
 
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
