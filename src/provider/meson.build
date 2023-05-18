@@ -6,6 +6,7 @@ providers_sources = [
   'analogdiffusion.py',
   'anything.py',
   'base.py',
+  'custom.py',
   'huggingface.py',
   'nitrodiffusion.py',
   'openai.py',
