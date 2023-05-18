@@ -5,8 +5,4 @@
     <file preprocess="xml-stripblanks" alias="gtk/help-overlay.ui">ui/help-overlay.ui</file>
     <file preprocess="xml-stripblanks">ui/preferences.ui</file>
   </gresource>
-  <gresource prefix="/page/codeberg/Imaginer/Imaginer/icons/scalable/actions/">
-    <file preprocess="xml-stripblanks" alias="paper-plane-symbolic.svg">icons/scalable/actions/paper-plane-symbolic.svg</file>
-    <file preprocess="xml-stripblanks" alias="x-circular-symbolic.svg">icons/scalable/actions/x-circular-symbolic.svg</file>
-  </gresource>
 </gresources>
