@@ -26,6 +26,9 @@
   <a href="https://repology.org/project/imaginer/versions">
     <img alt="Packaging status" src="https://repology.org/badge/tiny-repos/imaginer.svg">
   </a>
+  <a href="https://ci.exozy.me/Imaginer/Imaginer" target="_blank">
+    <img src="https://ci.exozy.me/api/badges/Imaginer/Imaginer/status.svg" alt="status-badge" />
+  </a>
 </p>
 
 <p align="center">
@@ -50,6 +53,14 @@ You can either use your GNOME Software and search for "Imaginer" or you can run
 
 ``` shell
 flatpak install page.codeberg.Imaginer.Imaginer
+```
+
+#### Latest build from CI
+
+You can download the build from the latest commit from [the package registry](https://codeberg.org/Imaginer/-/packages/generic/imaginer/) and install it by running 
+
+``` shell
+flatak install imaginer.flatpak
 ```
 
 #### From Source
