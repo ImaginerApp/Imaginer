@@ -19,10 +19,10 @@ pipeline:
       - fish_add_path ~/.nix-profile/bin
       - cd /home/0xmrtt/Imaginer
       - flatpak-builder --repo=repo --force-clean build build-aux/flatpak/page.codeberg.Imaginer.Imaginer.json
-      - flatpak build-bundle repo bavarder.flatpak page.codeberg.Imaginer.Imaginer
+      - flatpak build-bundle repo imaginer.flatpak page.codeberg.Imaginer.Imaginer
       - ls -la
-      - curl --user 0xmrtt:$ACCESS_TOKEN --upload-file bavarder.flatpak "https://git.exozy.me/api/packages/$CI_REPO_OWNER/generic/$CI_REPO_NAME/$CI_BUILD_NUMBER/bavarder.flatpak"
-      - curl --user 0xmrtt:$CODEBERG_TOKEN --upload-file bavarder.flatpak "https://codeberg.org/api/packages/$CI_REPO_OWNER/generic/$CI_REPO_NAME/$CI_BUILD_NUMBER/bavarder.flatpak"
+      - curl --user 0xmrtt:$ACCESS_TOKEN --upload-file imaginer.flatpak "https://git.exozy.me/api/packages/$CI_REPO_OWNER/generic/$CI_REPO_NAME/$CI_BUILD_NUMBER/imaginer.flatpak"
+      - curl --user 0xmrtt:$CODEBERG_TOKEN --upload-file imaginer.flatpak "https://codeberg.org/api/packages/$CI_REPO_OWNER/generic/$CI_REPO_NAME/$CI_BUILD_NUMBER/imaginer.flatpak"
 
   translate:
     image: fish
