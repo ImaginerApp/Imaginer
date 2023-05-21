@@ -6,13 +6,14 @@
 # 0xMRTT <0xmrtt@tuta.io>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
 # MasinAD <masin.aldujaili@googlemail.com>, 2023.
+# maymage <maymage@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-13 13:03+0200\n"
-"PO-Revision-Date: 2023-05-15 16:48+0000\n"
-"Last-Translator: MasinAD <masin.aldujaili@googlemail.com>\n"
+"PO-Revision-Date: 2023-05-21 21:48+0000\n"
+"Last-Translator: maymage <maymage@gmail.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/de/>\n"
 "Language: de\n"
@@ -29,7 +30,7 @@ msgstr "Imaginer"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
 msgid "Imagine with AI"
-msgstr "Imaginier mit KI"
+msgstr "Imaginiere mit KI"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:6
 msgid "0xMRTT"
@@ -37,11 +38,11 @@ msgstr "0xMRTT"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:12
 msgid "Generate pictures with Artificial Intelligence and save them"
-msgstr "Erzeugen Sie Bilder mit künstlicher Intelligenz und speichern Sie sie"
+msgstr "Erzeugen Sie Bilder mit künstlicher Intelligenz und speichern Sie diese"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:16
 msgid "Imaginer main UI"
-msgstr "Imaginer-Hauptbenutzeroberfläche"
+msgstr "Imaginer Hauptbenutzeroberfläche"
 
 #: data/ui/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -54,6 +55,7 @@ msgid "Show Shortcuts"
 msgstr "Verknüpfungen anzeigen"
 
 #: data/ui/help-overlay.ui:20
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Imagine"
 msgstr "_Imaginer"
@@ -61,7 +63,7 @@ msgstr "_Imaginer"
 #: data/ui/help-overlay.ui:26
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Aufhören"
+msgstr "Schließen"
 
 #: data/ui/help-overlay.ui:32
 msgctxt "shortcut window"
@@ -106,8 +108,8 @@ msgid ""
 msgstr ""
 "In der negativen Aufforderung können Sie Dinge erwähnen, die nicht generiert "
 "werden sollen,\n"
-" wie \"low quality\" oder Spezifischeres wie ein Kunststil. Die Aufforderung "
-"und die negative Aufforderung\n"
+" wie \"low quality\" oder Spezifischeres wie einen Kunststil. Aufforderung "
+"und negative Aufforderung\n"
 " setzen sozusagen den Rahmen für die Bildgenerierung."
 
 #: data/ui/window.blp:88
@@ -128,7 +130,7 @@ msgstr "_Imaginer"
 
 #: data/ui/window.blp:158 src/main.py:223
 msgid "Keyboard Shortcuts"
-msgstr "Tastatürkürzel"
+msgstr "Tastenkürzel"
 
 #: data/ui/window.blp:163
 msgid "New window"
@@ -140,7 +142,7 @@ msgstr "Über Imaginer"
 
 #: src/main.py:174
 msgid "Choose a directory"
-msgstr "Wähle ein Verzeichnis"
+msgstr "Verzeichnis wählen"
 
 #: src/main.py:224
 msgid "New Window"
@@ -148,7 +150,7 @@ msgstr "Neues Fenster"
 
 #: src/main.py:225
 msgid "About"
-msgstr "Über diese App"
+msgstr "Info zu Imaginer"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
