@@ -84,7 +84,6 @@ class KillableThread(threading.Thread):
 
 class ImaginerApplication(Adw.Application):
     """The main application singleton class."""
-
     def __init__(self):
         super().__init__(
             application_id="page.codeberg.Imaginer.Imaginer",
