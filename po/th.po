@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-13 13:03+0200\n"
+"POT-Creation-Date: 2023-05-23 20:40+0000\n"
 "PO-Revision-Date: 2023-05-13 13:21+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Thai <https://translate.codeberg.org/projects/imaginer/"
@@ -22,11 +22,12 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3
-#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:6
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:4 data/ui/window.blp:5
 msgid "Imaginer"
 msgstr "แบบวาร์เดอร์"
 
 #: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:5
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:133
 #, fuzzy
 #| msgid "Imaginer"
 msgid "Imagine with AI"
@@ -46,107 +47,271 @@ msgstr ""
 msgid "Imaginer main UI"
 msgstr "แบบวาร์เดอร์"
 
-#: data/ui/help-overlay.ui:11
-msgctxt "shortcut window"
-msgid "General"
-msgstr "ทั่วไป"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:45
+msgid "AI"
+msgstr ""
 
-#: data/ui/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Show Shortcuts"
-msgstr "แสดงทางลัด"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:46
+msgid "Stable Diffusion"
+msgstr ""
 
-#: data/ui/help-overlay.ui:20
-msgctxt "shortcut window"
-msgid "Imagine"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:47
+#, fuzzy
+#| msgctxt "shortcut window"
+#| msgid "Imagine"
+msgid "Image"
 msgstr "แบบวาร์เดอร์"
 
-#: data/ui/help-overlay.ui:26
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "ออก"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:48
+msgid "Picture"
+msgstr ""
 
-#: data/ui/help-overlay.ui:32
-msgctxt "shortcut window"
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:49
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Image Generation"
+msgstr "แบบวาร์เดอร์"
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:50
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Image Generation with AI"
+msgstr "แบบวาร์เดอร์"
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:51
+msgid "Artificial Intelligence"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:57
+msgid "Unlimited Image Generation Power"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:59
+msgid "Add custom provider (Hugging Face)"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:60
+msgid "Fix portrait plus provider"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:61
+msgid "Fix the ability to save credentials"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:62
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:78
+msgid "Improve the UI"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:63
+msgid "Rework the loading mechanism"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:64
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:79
+msgid "Move the provider selector to the menu"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:65
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:80
+msgid "Fix some bugs"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:66
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:81
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:91
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:103
+msgid "Update translations"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:72
+msgid "Imaginer X Bavarder"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:74
+msgid ""
+"Imaginer has been rebased on Bavarder, that's mean that now Imaginer got the "
+"Preferences window and a better provider mechanism"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:75
+msgid "Ability to save credentials"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:76
+msgid "Improve the new window feature"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:77
+msgid "Add explanation of Negative prompt"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:87
+msgid "Add help"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:89
+msgid "Add a new help button for explaining how to get a token"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:90
+msgid "New website"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:97
+msgid "Make the app better"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:99
+msgid "Add explanation about how to get a token"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:100
+msgid "Fix the UI looks empty and buggy"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:101
+msgid "Improve the About window"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:102
+msgid "Add negative prompt"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:109
+msgid "Icon !"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:111
+msgid "Add app icon thanks to David"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:117
+msgid "Appdata sorting"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:119
+msgid "Sort appdata releases"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:125
+msgid "Bug fixes"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:127
+msgid "Fix a bug causing the app to crash when the path is not selected"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:135
+msgid "Generate a picture by clicking on the Imagine button"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:136
+msgid "Support for multiple providers"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:137
+msgid "Loading screen"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:138
+msgid "Support for authentificated provider"
+msgstr ""
+
+#: data/page.codeberg.Imaginer.Imaginer.appdata.xml.in:139
+msgid "Banner for errors"
+msgstr ""
+
+#: data/ui/preferences.blp:5 data/ui/window.blp:192 src/main.py:216
 msgid "Preferences"
 msgstr "การตั้งค่า"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:153 src/main.py:222
-msgid "Preferences"
-msgstr "การตั้งค่า"
-
-#: data/ui/preferences.blp:12 src/main.py:220
+#: data/ui/preferences.blp:12 src/main.py:214
 msgid "Providers"
 msgstr "ผู้ให้บริการ"
 
-#: data/ui/window.blp:29
+#: data/ui/window.blp:28
 msgid "Main Menu"
 msgstr "เมนูหลัก"
 
-#: data/ui/window.blp:35 src/provider/base.py:52
+#: data/ui/window.blp:34 src/provider/base.py:52
 msgid "No network connection"
 msgstr "ไม่มีการเชื่อมต่อเครือข่าย"
 
-#: data/ui/window.blp:65
+#: data/ui/window.blp:64
 msgid "Prompt"
 msgstr "พรอมต์"
 
-#: data/ui/window.blp:69
+#: data/ui/window.blp:68
 msgid "Negative Prompt"
 msgstr ""
 
-#: data/ui/window.blp:75
+#: data/ui/window.blp:74
 msgid "About Negative Prompt"
 msgstr ""
 
-#: data/ui/window.blp:79
+#: data/ui/window.blp:87
 msgid ""
-"Negative prompt is where you put things that should not be generated, such "
-"as 'low quality',\n"
-" or more specific such as art style, basically prompt and negative prompt "
-"are dos and\n"
-" don'ts for image generation"
+"Negative Prompt is a way to specify what you don't want to see in the image, "
+"without any extra input"
 msgstr ""
 
-#: data/ui/window.blp:88
+#: data/ui/window.blp:94
+#, fuzzy
+#| msgctxt "shortcut window"
+#| msgid "Imagine"
+msgid "Image Size"
+msgstr "แบบวาร์เดอร์"
+
+#: data/ui/window.blp:102
+#, fuzzy
+#| msgid "Imaginer"
+msgid "Image Width"
+msgstr "แบบวาร์เดอร์"
+
+#: data/ui/window.blp:113
+msgid "Image Height"
+msgstr ""
+
+#: data/ui/window.blp:127
 msgid "Options"
 msgstr "ตัวเลือก"
 
-#: data/ui/window.blp:93
+#: data/ui/window.blp:132
 msgid "Save Location"
 msgstr ""
 
-#: data/ui/window.blp:109
+#: data/ui/window.blp:148
 msgid "(None)"
 msgstr ""
 
-#: data/ui/window.blp:120
+#: data/ui/window.blp:159
 #, fuzzy
 #| msgid "Imaginer"
 msgid "_Imagine"
 msgstr "แบบวาร์เดอร์"
 
-#: data/ui/window.blp:158 src/main.py:223
+#: data/ui/window.blp:197 src/main.py:217
 msgid "Keyboard Shortcuts"
 msgstr "แป้นพิมพ์ลัด"
 
-#: data/ui/window.blp:163
+#: data/ui/window.blp:202
 msgid "New window"
 msgstr ""
 
-#: data/ui/window.blp:168
+#: data/ui/window.blp:207
 msgid "About Imaginer"
 msgstr "เกี่ยวกับแบบวาร์เดอร์"
 
-#: src/main.py:174
+#: src/main.py:169
 msgid "Choose a directory"
 msgstr ""
 
-#: src/main.py:224
+#: src/main.py:185
 msgid "New Window"
 msgstr ""
 
-#: src/main.py:225
+#: src/main.py:218
 msgid "About"
 msgstr "เกี่ยวกับ"
 
@@ -157,6 +322,22 @@ msgstr "ไม่มีรหัส API คุณสามารถระบุ�
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "เปิดการตั้งค่า"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "ทั่วไป"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "แสดงทางลัด"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "ออก"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Preferences"
+#~ msgstr "การตั้งค่า"
 
 #~ msgctxt "shortcut window"
 #~ msgid "Ask"
