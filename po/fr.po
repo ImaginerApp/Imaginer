@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-23 20:43+0000\n"
-"PO-Revision-Date: 2023-05-23 20:43+0000\n"
+"PO-Revision-Date: 2023-05-23 20:44+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fr/>\n"
@@ -60,23 +60,20 @@ msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"L'invite négative est un moyen de spécifier ce que vous ne voulez pas voir "
+"dans l'image, sans aucune entrée supplémentaire"
 
 #: data/ui/window.blp:94
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Imagine"
 msgid "Image Size"
-msgstr "_Imaginer"
+msgstr "Taille de l'Image"
 
 #: data/ui/window.blp:102
-#, fuzzy
-#| msgid "Imagine with AI"
 msgid "Image Width"
-msgstr "Imaginer avec l’IA"
+msgstr "Largeur de l'Image"
 
 #: data/ui/window.blp:113
 msgid "Image Height"
-msgstr ""
+msgstr "Hauteur de l'Image"
 
 #: data/ui/window.blp:127
 msgid "Options"
