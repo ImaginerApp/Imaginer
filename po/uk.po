@@ -7,13 +7,14 @@
 # Orest58008 <orest58008@tuta.io>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
 # volkov <d2oo1dle2x@gmail.com>, 2023.
+# Anatolii Bielibov <anatoly136ua@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-23 20:43+0000\n"
 "PO-Revision-Date: 2023-05-25 20:37+0000\n"
-"Last-Translator: volkov <d2oo1dle2x@gmail.com>\n"
+"Last-Translator: Anatolii Bielibov <anatoly136ua@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/uk/>\n"
 "Language: uk\n"
@@ -42,7 +43,7 @@ msgstr "Головне меню"
 
 #: data/ui/window.blp:34 src/provider/base.py:52
 msgid "No network connection"
-msgstr "Відсутнє з'єднання з мережею"
+msgstr "Відсутнє з’єднання з мережею"
 
 #: data/ui/window.blp:64
 msgid "Prompt"
