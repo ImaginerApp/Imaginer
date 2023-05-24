@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-23 20:43+0000\n"
-"PO-Revision-Date: 2023-05-13 13:21+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-05-25 20:37+0000\n"
+"Last-Translator: thepoladov13 <thepoladov@protonmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/az/>\n"
 "Language: az\n"
@@ -47,52 +47,47 @@ msgstr "Sorğu"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Mənfi Tələb"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "Mənfi Tələb haqqında"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Mənfi tələb heç bir əlavə daxiletmə olmadan şəkildə görmək istəmədiyinizi "
+"təyin etməyin bir yoludur"
 
 #: data/ui/window.blp:94
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Imagine"
 msgid "Image Size"
-msgstr "Imaginer"
+msgstr "Şəkil Ölçüsü"
 
 #: data/ui/window.blp:102
-#, fuzzy
-#| msgid "Imaginer"
 msgid "Image Width"
-msgstr "Imaginer"
+msgstr "Şəklin eni"
 
 #: data/ui/window.blp:113
 msgid "Image Height"
-msgstr ""
+msgstr "Şəklin hündürlüyü"
 
 #: data/ui/window.blp:127
 msgid "Options"
-msgstr ""
+msgstr "Seçimlər"
 
 #: data/ui/window.blp:132
 msgid "Save Location"
-msgstr ""
+msgstr "Məkanı Saxla"
 
 #: data/ui/window.blp:148
 msgid "(None)"
-msgstr ""
+msgstr "(Heç biri)"
 
 #: data/ui/window.blp:159
-#, fuzzy
-#| msgid "Imaginer"
 msgid "_Imagine"
-msgstr "Imaginer"
+msgstr "_Təsəvvür et"
 
 #: data/ui/window.blp:197 src/main.py:217
 msgid "Keyboard Shortcuts"
@@ -100,7 +95,7 @@ msgstr "Klaviatura Qısayolları"
 
 #: data/ui/window.blp:202
 msgid "New window"
-msgstr ""
+msgstr "Yeni Pəncərə"
 
 #: data/ui/window.blp:207
 msgid "About Imaginer"
@@ -108,11 +103,11 @@ msgstr "Imaginer haqqında"
 
 #: src/main.py:169
 msgid "Choose a directory"
-msgstr ""
+msgstr "Bir kataloq seçin"
 
 #: src/main.py:185
 msgid "New Window"
-msgstr ""
+msgstr "Yeni Pəncərə"
 
 #: src/main.py:218
 msgid "About"
