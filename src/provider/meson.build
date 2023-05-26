@@ -13,6 +13,7 @@ providers_sources = [
   'openjourney.py',
   'portraitplus.py',
   'stablediffusion.py',
+  'stablediffusionlocal.py',
   'waifudiffusion.py'
 ]
 

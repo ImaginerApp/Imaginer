@@ -6,6 +6,7 @@ from .openai import OpenAIProvider
 from .openjourney import OpenJourneyProvider
 from .portraitplus import PortraitPlusProvider
 from .stablediffusion import StableDiffusionProvider
+from .stablediffusionlocal import StableDiffusionLocalProvider
 from .waifudiffusion import WaifuDiffusionProvider
 
 PROVIDERS = {
@@ -17,5 +18,6 @@ PROVIDERS = {
     "openjourney": OpenJourneyProvider,
     "portraitplus": PortraitPlusProvider,
     "stablediffusion": StableDiffusionProvider,
+    "stablediffusionlocal": StableDiffusionLocalProvider,
     "waifudiffusion": WaifuDiffusionProvider,
 }
