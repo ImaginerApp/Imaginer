@@ -52,6 +52,17 @@
 	</keywords>
 
 	<releases>
+		<release version="0.2.2" date="2023-5-26" type="stable">
+			<description>
+				<p>Going local</p>
+				<ul>
+					<li>Add the ability to use Stable Diffusion running locally</li>
+					<li>Add the ability to customize filename</li>
+					<li>Fix some bugs</li>
+					<li>Update translations</li>
+				</ul>
+			</description>
+		</release>
 		<release version="0.2.1" date="2023-5-18" type="stable">
 			<description>
 				<p>Unlimited Image Generation Power</p>
