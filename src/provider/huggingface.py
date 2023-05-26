@@ -36,9 +36,7 @@ class BaseHFProvider(ImaginerProvider):
                     self.no_api_key()
                     return ""
                 elif response.status_code != 200:
-                    self.win.banner.props.title = response.json()["error"]
-                    self.win.banner.props.button_label = ""
-                    self.win.banner.set_revealed(True)
+                    self.no_api_key(title=response.json()["error"])
                     return ""
                 response = response.content
             except KeyError:
@@ -53,8 +51,7 @@ class BaseHFProvider(ImaginerProvider):
                         return Image.open(io.BytesIO(response))
                     except UnidentifiedImageError:
                         error = json.loads(response)["error"]
-                        self.win.banner.set_title(error)
-                        self.win.banner.set_revealed(True)
+                        self.no_api_key(title=error)
                         return None
                 else:
                     print("No response")
