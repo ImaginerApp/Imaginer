@@ -90,43 +90,49 @@ template $ImaginerWindow : Adw.ApplicationWindow {
                 }   
               }
 
-              Adw.ActionRow image_size {
-                title: _("Image Size");
+              // Adw.ActionRow image_size {
+              //   title: _("Image Size");
 
-                Gtk.Box {
-                  orientation: horizontal;
-                  spacing: 4;
-                  valign: center;
+              //   Gtk.Box {
+              //     orientation: horizontal;
+              //     spacing: 4;
+              //     valign: center;
 
-                  Gtk.SpinButton image_width_spinbutton {
-                    tooltip-text: _("Image Width");
-                    adjustment: Gtk.Adjustment image_width_adjustment {
-                      lower: 1;
-                      upper: 8192;
-                      step-increment: 1;
-                      page-increment: 5;
-                    };
-                    value-changed => on_image_width_changed();
-                  }
+              //     Gtk.SpinButton image_width_spinbutton {
+              //       tooltip-text: _("Image Width");
+              //       adjustment: Gtk.Adjustment image_width_adjustment {
+              //         lower: 1;
+              //         upper: 8192;
+              //         step-increment: 1;
+              //         page-increment: 5;
+              //       };
+              //       value-changed => on_image_width_changed();
+              //     }
 
-                  Gtk.SpinButton image_height_spinbutton {
-                    tooltip-text: _("Image Height");
-                    adjustment: Gtk.Adjustment image_height_adjustment {
-                      lower: 1;
-                      upper: 8192;
-                      step-increment: 1;
-                      page-increment: 5;
-                    };
-                    value-changed => on_image_height_changed();
-                  }
-                }
-              }
+              //     Gtk.SpinButton image_height_spinbutton {
+              //       tooltip-text: _("Image Height");
+              //       adjustment: Gtk.Adjustment image_height_adjustment {
+              //         lower: 1;
+              //         upper: 8192;
+              //         step-increment: 1;
+              //         page-increment: 5;
+              //       };
+              //       value-changed => on_image_height_changed();
+              //     }
+              //   }
+              // }
             }
 
             Adw.PreferencesGroup {
               title: _("Options");
               margin-start: 12;
               margin-end: 12;
+
+              Adw.EntryRow filename_prompt {
+                title: _("Filename");
+
+                text: _("bavarder-%d-%b-%Y");
+              }
 
               Adw.ActionRow {
                 title: _("Save Location");

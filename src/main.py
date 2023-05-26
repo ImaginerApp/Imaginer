@@ -40,6 +40,7 @@ from tempfile import NamedTemporaryFile
 import unicodedata
 from time import gmtime, strftime
 from os.path import basename, splitext
+from random import randint
 
 from .provider import PROVIDERS
 import platform
@@ -310,16 +311,28 @@ Providers: {self.enabled_providers}
     def on_ask_action(self, widget, _):
         """Callback for the app.ask action."""
 
+        self.win.banner.set_revealed(False)
 
         self.prompt = self.win.prompt.get_text()
         self.negative_prompt = self.win.negative_prompt.get_text()
+        self.filename = self.win.filename_prompt.get_text()
 
         try:
-            self.path = self.file_path
+            self.path = self.file_path + "/"
         except AttributeError:
             self.path = "imaginer"
         else:
-            self.path = f"{self.path}/imaginer-{self.slugify(self.prompt)}-{strftime('%d-%b-%Y-%H-%M-%S', gmtime())}"
+            self.path += strftime(self.filename, gmtime())
+            self.path.replace(" ", "_")
+
+            try:
+                print(self.path)
+                if self.previous_path == self.path:
+                    self.path += f"_{randint(0, 1000)}"
+            except AttributeError: # no previous path
+                pass
+            finally:
+                self.previous_path = self.path
 
         if self.prompt == "" or self.prompt is None:  # empty prompt
             return
@@ -344,13 +357,17 @@ Providers: {self.enabled_providers}
 
                 if image:
                     self.win.banner.set_revealed(False)
-                    image.save(path)
-                    self.win.image.set_file(Gio.File.new_for_path(path))
-                    self.win.image.set_visible(True)
-                    print("Image saved")
+                    try:
+                        image.save(path)
+                    except OSError as e:
+                        self.win.banner.set_title(str(e))
+                        self.win.banner.set_revealed(True)
+                    finally:
+                        path = self.providers[self.provider].path("imaginer")
+                        self.win.image.set_file(Gio.File.new_for_path(path))
+                        self.win.image.set_visible(True)
                 else:
-                    print("No image returned")
-
+                    self.win.banner.set_title(_("No image found"))
             
             self.t = KillableThread(target=thread_run)
             self.t.start()

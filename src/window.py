@@ -36,8 +36,9 @@ class ImaginerWindow(Adw.ApplicationWindow):
     negative_prompt = Gtk.Template.Child()
     menu = Gtk.Template.Child()
     label_output = Gtk.Template.Child()
-    image_width_spinbutton = Gtk.Template.Child()
-    image_height_spinbutton = Gtk.Template.Child()
+    filename_prompt = Gtk.Template.Child()
+    #image_width_spinbutton = Gtk.Template.Child()
+    #image_height_spinbutton = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -62,11 +63,11 @@ class ImaginerWindow(Adw.ApplicationWindow):
             "is-fullscreen", self, "fullscreened", Gio.SettingsBindFlags.DEFAULT
         )
 
-    @Gtk.Template.Callback()
-    def on_image_width_changed(self, widget):
-        self.app.width = self.image_width_spinbutton.get_value_as_int()
-        
+    # @Gtk.Template.Callback()
+    # def on_image_width_changed(self, widget):
+    #     self.app.width = self.image_width_spinbutton.get_value_as_int()
+    #     
 
-    @Gtk.Template.Callback()
-    def on_image_height_changed(self, widget):
-        self.app.height = self.image_height_spinbutton.get_value_as_int()
+    # @Gtk.Template.Callback()
+    # def on_image_height_changed(self, widget):
+    #     self.app.height = self.image_height_spinbutton.get_value_as_int()
