@@ -36,13 +36,20 @@ class StableDiffusionLocalProvider(ImaginerProvider):
                     self.no_api_key()
                     return ""
                 elif response.status_code != 200:
-                    self.no_api_key(title=response.json()["error"])
-                    return ""
+                    try:
+                        self.no_api_key(title=response.json()["error"])
+                        return ""
+                    except json.decoder.JSONDecodeError:
+                        self.no_api_key(title="No response")
+                        return ""
                 response = response.json()
             except KeyError:
                 pass
             except socket.gaierror:
                 self.no_connection()
+                return ""
+            except json.decoder.JSONDecodeError:
+                self.no_api_key(title="No response")
                 return ""
             else:
                 self.hide_banner()
