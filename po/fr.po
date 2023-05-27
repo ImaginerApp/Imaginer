@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-23 20:43+0000\n"
+"POT-Creation-Date: 2023-05-27 16:52+0200\n"
 "PO-Revision-Date: 2023-05-23 20:44+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: French <https://translate.codeberg.org/projects/imaginer/"
@@ -27,11 +27,11 @@ msgstr ""
 msgid "Imaginer"
 msgstr "Imaginer"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:192 src/main.py:216
+#: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
 msgstr "Préférences"
 
-#: data/ui/preferences.blp:12 src/main.py:214
+#: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
 msgstr "Fournisseurs"
 
@@ -63,57 +63,57 @@ msgstr ""
 "L'invite négative est un moyen de spécifier ce que vous ne voulez pas voir "
 "dans l'image, sans aucune entrée supplémentaire"
 
-#: data/ui/window.blp:94
-msgid "Image Size"
-msgstr "Taille de l'Image"
-
-#: data/ui/window.blp:102
-msgid "Image Width"
-msgstr "Largeur de l'Image"
-
-#: data/ui/window.blp:113
-msgid "Image Height"
-msgstr "Hauteur de l'Image"
-
 #: data/ui/window.blp:127
 msgid "Options"
 msgstr "Options"
 
 #: data/ui/window.blp:132
+msgid "Filename"
+msgstr ""
+
+#: data/ui/window.blp:134
+msgid "bavarder-%d-%b-%Y"
+msgstr ""
+
+#: data/ui/window.blp:138
 msgid "Save Location"
 msgstr "Emplacement d’enregistrement"
 
-#: data/ui/window.blp:148
+#: data/ui/window.blp:154
 msgid "(None)"
 msgstr "(Aucun)"
 
-#: data/ui/window.blp:159
+#: data/ui/window.blp:165
 msgid "_Imagine"
 msgstr "_Imaginer"
 
-#: data/ui/window.blp:197 src/main.py:217
+#: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
-#: data/ui/window.blp:202
+#: data/ui/window.blp:208
 msgid "New window"
 msgstr "Nouvelle fenêtre"
 
-#: data/ui/window.blp:207
+#: data/ui/window.blp:213
 msgid "About Imaginer"
 msgstr "À propos d’Imaginer"
 
-#: src/main.py:169
+#: src/main.py:170
 msgid "Choose a directory"
 msgstr "Choisir un répertoire"
 
-#: src/main.py:185
+#: src/main.py:186
 msgid "New Window"
 msgstr "Nouvelle fenêtre"
 
-#: src/main.py:218
+#: src/main.py:219
 msgid "About"
 msgstr "À propos"
+
+#: src/main.py:370
+msgid "No image found"
+msgstr ""
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
@@ -123,6 +123,15 @@ msgstr ""
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Ouvrir les paramètres"
+
+#~ msgid "Image Size"
+#~ msgstr "Taille de l'Image"
+
+#~ msgid "Image Width"
+#~ msgstr "Largeur de l'Image"
+
+#~ msgid "Image Height"
+#~ msgstr "Hauteur de l'Image"
 
 #~ msgid "Imagine with AI"
 #~ msgstr "Imaginer avec l’IA"

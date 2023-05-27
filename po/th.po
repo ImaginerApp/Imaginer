@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-23 20:43+0000\n"
+"POT-Creation-Date: 2023-05-27 16:52+0200\n"
 "PO-Revision-Date: 2023-05-13 13:21+0000\n"
 "Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
 "Language-Team: Thai <https://translate.codeberg.org/projects/imaginer/"
@@ -25,11 +25,11 @@ msgstr ""
 msgid "Imaginer"
 msgstr "แบบวาร์เดอร์"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:192 src/main.py:216
+#: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
 msgstr "การตั้งค่า"
 
-#: data/ui/preferences.blp:12 src/main.py:214
+#: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
 msgstr "ผู้ให้บริการ"
 
@@ -59,64 +59,59 @@ msgid ""
 "without any extra input"
 msgstr ""
 
-#: data/ui/window.blp:94
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Imagine"
-msgid "Image Size"
-msgstr "แบบวาร์เดอร์"
-
-#: data/ui/window.blp:102
-#, fuzzy
-#| msgid "Imaginer"
-msgid "Image Width"
-msgstr "แบบวาร์เดอร์"
-
-#: data/ui/window.blp:113
-msgid "Image Height"
-msgstr ""
-
 #: data/ui/window.blp:127
 msgid "Options"
 msgstr "ตัวเลือก"
 
 #: data/ui/window.blp:132
+msgid "Filename"
+msgstr ""
+
+#: data/ui/window.blp:134
+msgid "bavarder-%d-%b-%Y"
+msgstr ""
+
+#: data/ui/window.blp:138
 msgid "Save Location"
 msgstr ""
 
-#: data/ui/window.blp:148
+#: data/ui/window.blp:154
 msgid "(None)"
 msgstr ""
 
-#: data/ui/window.blp:159
+#: data/ui/window.blp:165
 #, fuzzy
 #| msgid "Imaginer"
 msgid "_Imagine"
 msgstr "แบบวาร์เดอร์"
 
-#: data/ui/window.blp:197 src/main.py:217
+#: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
 msgstr "แป้นพิมพ์ลัด"
 
-#: data/ui/window.blp:202
+#: data/ui/window.blp:208
 msgid "New window"
 msgstr ""
 
-#: data/ui/window.blp:207
+#: data/ui/window.blp:213
 msgid "About Imaginer"
 msgstr "เกี่ยวกับแบบวาร์เดอร์"
 
-#: src/main.py:169
+#: src/main.py:170
 msgid "Choose a directory"
 msgstr ""
 
-#: src/main.py:185
+#: src/main.py:186
 msgid "New Window"
 msgstr ""
 
-#: src/main.py:218
+#: src/main.py:219
 msgid "About"
 msgstr "เกี่ยวกับ"
+
+#: src/main.py:370
+msgid "No image found"
+msgstr ""
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
@@ -125,6 +120,17 @@ msgstr "ไม่มีรหัส API คุณสามารถระบุ�
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "เปิดการตั้งค่า"
+
+#, fuzzy
+#~| msgctxt "shortcut window"
+#~| msgid "Imagine"
+#~ msgid "Image Size"
+#~ msgstr "แบบวาร์เดอร์"
+
+#, fuzzy
+#~| msgid "Imaginer"
+#~ msgid "Image Width"
+#~ msgstr "แบบวาร์เดอร์"
 
 #, fuzzy
 #~| msgid "Imaginer"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-23 20:43+0000\n"
+"POT-Creation-Date: 2023-05-27 16:52+0200\n"
 "PO-Revision-Date: 2023-05-19 11:40+0000\n"
 "Last-Translator: Mejans <pages_quentin@hotmail.com>\n"
 "Language-Team: Occitan <https://translate.codeberg.org/projects/imaginer/"
@@ -25,11 +25,11 @@ msgstr ""
 msgid "Imaginer"
 msgstr "Imaginer"
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:192 src/main.py:216
+#: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
 msgstr "Preferéncias"
 
-#: data/ui/preferences.blp:12 src/main.py:214
+#: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
 msgstr "Provesidors"
 
@@ -59,62 +59,57 @@ msgid ""
 "without any extra input"
 msgstr ""
 
-#: data/ui/window.blp:94
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Imagine"
-msgid "Image Size"
-msgstr "_Imaginar"
-
-#: data/ui/window.blp:102
-#, fuzzy
-#| msgid "Imagine with AI"
-msgid "Image Width"
-msgstr "Imaginar amb l’IA"
-
-#: data/ui/window.blp:113
-msgid "Image Height"
-msgstr ""
-
 #: data/ui/window.blp:127
 msgid "Options"
 msgstr "Opcions"
 
 #: data/ui/window.blp:132
+msgid "Filename"
+msgstr ""
+
+#: data/ui/window.blp:134
+msgid "bavarder-%d-%b-%Y"
+msgstr ""
+
+#: data/ui/window.blp:138
 msgid "Save Location"
 msgstr "Enregistrar l’emplaçament"
 
-#: data/ui/window.blp:148
+#: data/ui/window.blp:154
 msgid "(None)"
 msgstr "(Cap)"
 
-#: data/ui/window.blp:159
+#: data/ui/window.blp:165
 msgid "_Imagine"
 msgstr "_Imaginar"
 
-#: data/ui/window.blp:197 src/main.py:217
+#: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
 msgstr "Acorchis clavièr"
 
-#: data/ui/window.blp:202
+#: data/ui/window.blp:208
 msgid "New window"
 msgstr "Fenèstra novèla"
 
-#: data/ui/window.blp:207
+#: data/ui/window.blp:213
 msgid "About Imaginer"
 msgstr "A prepaus d’Imaginer"
 
-#: src/main.py:169
+#: src/main.py:170
 msgid "Choose a directory"
 msgstr "Causir un repertòri"
 
-#: src/main.py:185
+#: src/main.py:186
 msgid "New Window"
 msgstr "Fenèstra novèla"
 
-#: src/main.py:218
+#: src/main.py:219
 msgid "About"
 msgstr "A prepaus"
+
+#: src/main.py:370
+msgid "No image found"
+msgstr ""
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
@@ -123,6 +118,17 @@ msgstr "Cap de clau d’API pas fornida, podètz ne provesir una als paramètres
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Dobrir los paramètres"
+
+#, fuzzy
+#~| msgctxt "shortcut window"
+#~| msgid "Imagine"
+#~ msgid "Image Size"
+#~ msgstr "_Imaginar"
+
+#, fuzzy
+#~| msgid "Imagine with AI"
+#~ msgid "Image Width"
+#~ msgstr "Imaginar amb l’IA"
 
 #~ msgid "Imagine with AI"
 #~ msgstr "Imaginar amb l’IA"
