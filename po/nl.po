@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 16:52+0200\n"
-"PO-Revision-Date: 2023-05-25 20:37+0000\n"
+"PO-Revision-Date: 2023-05-27 20:56+0000\n"
 "Last-Translator: Vistaus <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/nl/>\n"
@@ -67,11 +67,11 @@ msgstr "Opties"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Bestandsnaam"
 
 #: data/ui/window.blp:134
 msgid "bavarder-%d-%b-%Y"
-msgstr ""
+msgstr "bavarder-%d-%b-%Y"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
@@ -111,7 +111,7 @@ msgstr "Over"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Er is geen afbeelding aangetroffen"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
