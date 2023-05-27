@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 16:52+0200\n"
-"PO-Revision-Date: 2023-05-21 21:48+0000\n"
+"PO-Revision-Date: 2023-05-27 20:56+0000\n"
 "Last-Translator: maymage <maymage@gmail.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/de/>\n"
@@ -49,17 +49,19 @@ msgstr "Eingabeaufforderung"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr "Negative Aufforderung"
+msgstr "Negativeingabe"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr "Über die Negative Aufforderung"
+msgstr "Über die Negativeingabe"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Die Negativeingabe erlaubt es ohne Zusatzangaben zu spezifizieren, was Sie "
+"nicht in einem Bild sehen möchten"
 
 #: data/ui/window.blp:127
 msgid "Options"
@@ -67,11 +69,12 @@ msgstr "Optionen"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Dateiname"
 
 #: data/ui/window.blp:134
+#, fuzzy
 msgid "bavarder-%d-%b-%Y"
-msgstr ""
+msgstr "bavarder-%d-%b-%Y"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
@@ -107,11 +110,11 @@ msgstr "Neues Fenster"
 
 #: src/main.py:219
 msgid "About"
-msgstr "Info zu Imaginer"
+msgstr "Über"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Kein Bild gefunden"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
