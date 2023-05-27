@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-23 20:43+0000\n"
+"POT-Creation-Date: 2023-05-27 16:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 msgid "Imaginer"
 msgstr ""
 
-#: data/ui/preferences.blp:5 data/ui/window.blp:192 src/main.py:216
+#: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
 msgstr ""
 
-#: data/ui/preferences.blp:12 src/main.py:214
+#: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
 msgstr ""
 
@@ -55,56 +55,56 @@ msgid ""
 "without any extra input"
 msgstr ""
 
-#: data/ui/window.blp:94
-msgid "Image Size"
-msgstr ""
-
-#: data/ui/window.blp:102
-msgid "Image Width"
-msgstr ""
-
-#: data/ui/window.blp:113
-msgid "Image Height"
-msgstr ""
-
 #: data/ui/window.blp:127
 msgid "Options"
 msgstr ""
 
 #: data/ui/window.blp:132
+msgid "Filename"
+msgstr ""
+
+#: data/ui/window.blp:134
+msgid "bavarder-%d-%b-%Y"
+msgstr ""
+
+#: data/ui/window.blp:138
 msgid "Save Location"
 msgstr ""
 
-#: data/ui/window.blp:148
+#: data/ui/window.blp:154
 msgid "(None)"
 msgstr ""
 
-#: data/ui/window.blp:159
+#: data/ui/window.blp:165
 msgid "_Imagine"
 msgstr ""
 
-#: data/ui/window.blp:197 src/main.py:217
+#: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: data/ui/window.blp:202
+#: data/ui/window.blp:208
 msgid "New window"
 msgstr ""
 
-#: data/ui/window.blp:207
+#: data/ui/window.blp:213
 msgid "About Imaginer"
 msgstr ""
 
-#: src/main.py:169
+#: src/main.py:170
 msgid "Choose a directory"
 msgstr ""
 
-#: src/main.py:185
+#: src/main.py:186
 msgid "New Window"
 msgstr ""
 
-#: src/main.py:218
+#: src/main.py:219
 msgid "About"
+msgstr ""
+
+#: src/main.py:370
+msgid "No image found"
 msgstr ""
 
 #: src/provider/base.py:45
