@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 16:52+0200\n"
+"POT-Creation-Date: 2023-05-27 22:55+0200\n"
 "PO-Revision-Date: 2023-05-19 11:40+0000\n"
 "Last-Translator: Mejans <pages_quentin@hotmail.com>\n"
 "Language-Team: Occitan <https://translate.codeberg.org/projects/imaginer/"
@@ -65,10 +65,6 @@ msgstr "Opcions"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
-
-#: data/ui/window.blp:134
-msgid "bavarder-%d-%b-%Y"
 msgstr ""
 
 #: data/ui/window.blp:138

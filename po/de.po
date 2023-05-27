@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 16:52+0200\n"
+"POT-Creation-Date: 2023-05-27 22:55+0200\n"
 "PO-Revision-Date: 2023-05-27 20:56+0000\n"
 "Last-Translator: maymage <maymage@gmail.com>\n"
 "Language-Team: German <https://translate.codeberg.org/projects/imaginer/"
@@ -71,11 +71,6 @@ msgstr "Optionen"
 msgid "Filename"
 msgstr "Dateiname"
 
-#: data/ui/window.blp:134
-#, fuzzy
-msgid "bavarder-%d-%b-%Y"
-msgstr "bavarder-%d-%b-%Y"
-
 #: data/ui/window.blp:138
 msgid "Save Location"
 msgstr "Speicherort"
@@ -124,6 +119,10 @@ msgstr ""
 #: src/provider/base.py:47
 msgid "Open settings"
 msgstr "Einstellungen öffnen"
+
+#, fuzzy
+#~ msgid "bavarder-%d-%b-%Y"
+#~ msgstr "bavarder-%d-%b-%Y"
 
 #, fuzzy
 #~ msgid "Image Size"
