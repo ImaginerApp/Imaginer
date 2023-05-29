@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 22:55+0200\n"
-"PO-Revision-Date: 2023-05-29 01:37+0000\n"
+"PO-Revision-Date: 2023-05-30 22:37+0000\n"
 "Last-Translator: Anatolii Bielibov <anatoly136ua@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/uk/>\n"
@@ -71,7 +71,7 @@ msgstr "Параметри"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr "Ім’я файлу"
+msgstr "Назва файлу"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
