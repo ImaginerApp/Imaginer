@@ -118,7 +118,7 @@ msgid "Open settings"
 msgstr "Voorkeuren openen"
 
 #~ msgid "bavarder-%d-%b-%Y"
-#~ msgstr "bavarder-%d-%b-%Y"
+#~ msgstr "imaginer-%d-%b-%Y"
 
 #~ msgid "Image Size"
 #~ msgstr "Afbeeldingsgrootte"

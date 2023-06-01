@@ -122,7 +122,7 @@ msgstr "Einstellungen öffnen"
 
 #, fuzzy
 #~ msgid "bavarder-%d-%b-%Y"
-#~ msgstr "bavarder-%d-%b-%Y"
+#~ msgstr "imaginer-%d-%b-%Y"
 
 #, fuzzy
 #~ msgid "Image Size"
