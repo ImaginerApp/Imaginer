@@ -9,45 +9,48 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 22:55+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-01 17:19+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
+"Language-Team: Tamil <https://translate.codeberg.org/projects/imaginer/"
+"imaginer/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
-msgstr ""
+msgstr "கற்பனை செய்பவர்"
 
 #: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
-msgstr ""
+msgstr "விருப்பத்தேர்வுகள்"
 
 #: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
-msgstr ""
+msgstr "வழங்குபவர்கள்"
 
 #: data/ui/window.blp:28
 msgid "Main Menu"
-msgstr ""
+msgstr "முதன்மை பட்டியல்"
 
 #: data/ui/window.blp:34 src/provider/base.py:52
 msgid "No network connection"
-msgstr ""
+msgstr "பிணைய இணைப்பு இல்லை"
 
 #: data/ui/window.blp:64
 msgid "Prompt"
-msgstr ""
+msgstr "உள்ளீடு"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr ""
+msgstr "எதிர்மறை உள்ளீடு"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "எதிர்மறை உள்ளீடு பற்றி"
 
 #: data/ui/window.blp:87
 msgid ""
