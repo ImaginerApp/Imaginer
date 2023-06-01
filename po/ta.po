@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-27 22:55+0200\n"
-"PO-Revision-Date: 2023-06-01 17:19+0000\n"
+"PO-Revision-Date: 2023-06-01 17:42+0000\n"
 "Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/ta/>\n"
@@ -57,59 +57,61 @@ msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"எதிர்மறை உள்ளீடு என்பது எந்த கூடுதல் உள்ளீடும் இல்லாமல், படத்தில் நீங்கள் "
+"பார்க்க விரும்பாததைக் குறிப்பிடுவதற்கான ஒரு வழியாகும்"
 
 #: data/ui/window.blp:127
 msgid "Options"
-msgstr ""
+msgstr "விருப்பங்கள்"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "கோப்பு பெயர்"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
-msgstr ""
+msgstr "சேமி இருப்பிடம்"
 
 #: data/ui/window.blp:154
 msgid "(None)"
-msgstr ""
+msgstr "(எதுவும் இல்லை)"
 
 #: data/ui/window.blp:165
 msgid "_Imagine"
-msgstr ""
+msgstr "_கற்பனை செய்"
 
 #: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "விசைப்பலகை குறுக்குவழிகள்"
 
 #: data/ui/window.blp:208
 msgid "New window"
-msgstr ""
+msgstr "புதிய சாளரம்"
 
 #: data/ui/window.blp:213
 msgid "About Imaginer"
-msgstr ""
+msgstr "கற்பனையாளர் பற்றி"
 
 #: src/main.py:170
 msgid "Choose a directory"
-msgstr ""
+msgstr "ஒரு கோப்பகத்தைத் தேர்ந்தெடுக்கவும்"
 
 #: src/main.py:186
 msgid "New Window"
-msgstr ""
+msgstr "புதிய சாளரம்"
 
 #: src/main.py:219
 msgid "About"
-msgstr ""
+msgstr "பற்றி"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "படம் எதுவும் கிடைக்கவில்லை"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
-msgstr ""
+msgstr "API விசை எதுவும் வழங்கப்படவில்லை, நீங்கள் அமைப்புகளில் ஒன்றை வழங்கலாம்"
 
 #: src/provider/base.py:47
 msgid "Open settings"
-msgstr ""
+msgstr "அமைப்புகளைத் திறக்கவும்"
