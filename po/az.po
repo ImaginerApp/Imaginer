@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-05-25 20:37+0000\n"
+"PO-Revision-Date: 2023-06-02 11:45+0000\n"
 "Last-Translator: thepoladov13 <thepoladov@protonmail.com>\n"
 "Language-Team: Azerbaijani <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/az/>\n"
@@ -67,7 +67,7 @@ msgstr "Seçimlər"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Fayl adı"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
@@ -107,7 +107,7 @@ msgstr "Haqqında"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Heç bir şəkil tapılmadı"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
