@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-05-15 05:20+0000\n"
+"PO-Revision-Date: 2023-06-09 12:27+0000\n"
 "Last-Translator: artnay <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/fi/>\n"
@@ -57,7 +57,7 @@ msgstr "Tietoja negatiivisesta kehotteesta"
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
-msgstr ""
+msgstr "Negatiivinen kehote on tapa määrittää, mitä et halua nähdä kuvassa"
 
 #: data/ui/window.blp:127
 msgid "Options"
@@ -65,7 +65,7 @@ msgstr "Valinnat"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Tiedoston nimi"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
@@ -105,7 +105,7 @@ msgstr "Tietoa"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Kuvaa ei löytynyt"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
