@@ -9,104 +9,110 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-13 14:37+0000\n"
+"Last-Translator: swaidi <a.swaidi@yahoo.com>\n"
+"Language-Team: Arabic <https://translate.codeberg.org/projects/imaginer/"
+"imaginer/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
-msgstr ""
+msgstr "التخيّلي"
 
 #: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
-msgstr ""
+msgstr "التفضيلات"
 
 #: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
-msgstr ""
+msgstr "موفريّ الخدمة"
 
 #: data/ui/window.blp:28
 msgid "Main Menu"
-msgstr ""
+msgstr "القائمة الرئيسية"
 
 #: data/ui/window.blp:34 src/provider/base.py:52
 msgid "No network connection"
-msgstr ""
+msgstr "لا يوجد اتصال بالشبكة"
 
 #: data/ui/window.blp:64
 msgid "Prompt"
-msgstr ""
+msgstr "تخيّل"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr ""
+msgstr "تجاهل"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "عن التجاهل"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"التجاهل عبارة عن تحديد ما لا ترغب في تضمينه في الصورة، بدون أي مدخلات إضافية"
 
 #: data/ui/window.blp:127
 msgid "Options"
-msgstr ""
+msgstr "خيارات"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "إسم الملف"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
-msgstr ""
+msgstr "مكان الحفظ"
 
 #: data/ui/window.blp:154
 msgid "(None)"
-msgstr ""
+msgstr "لا يوجد"
 
 #: data/ui/window.blp:165
 msgid "_Imagine"
-msgstr ""
+msgstr "تخيّل"
 
 #: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "اختصارات لوحة المفاتيح"
 
 #: data/ui/window.blp:208
 msgid "New window"
-msgstr ""
+msgstr "نافذة جديدة"
 
 #: data/ui/window.blp:213
 msgid "About Imaginer"
-msgstr ""
+msgstr "عن التخيّلي"
 
 #: src/main.py:170
 msgid "Choose a directory"
-msgstr ""
+msgstr "اختيار مجلد"
 
 #: src/main.py:186
 msgid "New Window"
-msgstr ""
+msgstr "نافذة جديدة"
 
 #: src/main.py:219
 msgid "About"
-msgstr ""
+msgstr "عنّ"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "لم يتم العثور على أي صورة"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
 msgstr ""
+"لم يتم توفير مفتاح واجة برمجة التطبيقات، يمكنك توفيرها عن طريق الإعدادات"
 
 #: src/provider/base.py:47
 msgid "Open settings"
-msgstr ""
+msgstr "فتح الإعدادات"
