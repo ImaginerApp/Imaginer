@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-06-01 17:42+0000\n"
+"PO-Revision-Date: 2023-06-21 14:02+0000\n"
 "Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/ta/>\n"
@@ -102,7 +102,7 @@ msgstr "புதிய சாளரம்"
 
 #: src/main.py:219
 msgid "About"
-msgstr "பற்றி"
+msgstr "இதுபற்றி"
 
 #: src/main.py:370
 msgid "No image found"
