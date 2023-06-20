@@ -6,13 +6,14 @@
 # muznyo <codeberg.vqtek@simplelogin.com>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
 # G020B <hlubinix@gmail.com>, 2023.
+# gallegonovato <fran-carro@hotmail.es>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-05-14 19:42+0000\n"
-"Last-Translator: G020B <hlubinix@gmail.com>\n"
+"PO-Revision-Date: 2023-06-21 14:02+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Czech <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/cs/>\n"
 "Language: cs\n"
@@ -59,6 +60,8 @@ msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Negativní výzva je způsob, jak zadat, co nechcete na obrázku vidět, aniž "
+"byste museli zadávat další údaje"
 
 #: data/ui/window.blp:127
 msgid "Options"
