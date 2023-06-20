@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-05-13 13:21+0000\n"
-"Last-Translator: 0xMRTT <0xmrtt@proton.me>\n"
+"PO-Revision-Date: 2023-06-21 14:02+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/es/>\n"
 "Language: es\n"
@@ -50,17 +50,19 @@ msgstr "Entrada"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Prompt negativo"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "Acerca del Prompt negativo"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Un Prompt negativo es una forma de especificar lo que no deseas ver en la "
+"imagen, sin ninguna entrada adicional"
 
 #: data/ui/window.blp:127
 msgid "Options"
@@ -68,7 +70,7 @@ msgstr "Opciones"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Nombre del archivo"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
@@ -76,13 +78,11 @@ msgstr "Compatir Ubicación"
 
 #: data/ui/window.blp:154
 msgid "(None)"
-msgstr ""
+msgstr "(Ninguno)"
 
 #: data/ui/window.blp:165
-#, fuzzy
-#| msgid "Imaginer"
 msgid "_Imagine"
-msgstr "Imaginer"
+msgstr "_Imagina"
 
 #: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
@@ -90,7 +90,7 @@ msgstr "Atajos de Teclado"
 
 #: data/ui/window.blp:208
 msgid "New window"
-msgstr ""
+msgstr "Una nueva ventana"
 
 #: data/ui/window.blp:213
 msgid "About Imaginer"
@@ -102,7 +102,7 @@ msgstr "Elija un directorio…"
 
 #: src/main.py:186
 msgid "New Window"
-msgstr ""
+msgstr "Una nueva ventana"
 
 #: src/main.py:219
 msgid "About"
@@ -110,7 +110,7 @@ msgstr "Acerca de"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "No se ha encontrado ninguna imagen"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
