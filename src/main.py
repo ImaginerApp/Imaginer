@@ -253,7 +253,7 @@ class ImaginerApplication(Adw.Application):
             license_type=Gtk.License.GPL_3_0,
             version=version,
             website="https://imaginer.codeberg.page",
-            issue_url="https://github.com/Imaginer/Imaginer/issues",
+            issue_url="https://codeberg.org/Imaginer/Imaginer/issues",
             support_url="https://codeberg.org/Imaginer/Imaginer/issues",
             copyright="© 2023 0xMRTT",
         )
