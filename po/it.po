@@ -8,13 +8,14 @@
 # elgandoz <gandi.marco@gmail.com>, 2023.
 # 0xMRTT <0xmrtt@proton.me>, 2023.
 # "albano.battistella" <albano_battistella@hotmail.com>, 2023.
+# Mek101 <mek101-dev.inv@slmail.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-05-13 22:55+0000\n"
-"Last-Translator: \"albano.battistella\" <albano_battistella@hotmail.com>\n"
+"PO-Revision-Date: 2023-06-28 21:38+0000\n"
+"Last-Translator: Mek101 <mek101-dev.inv@slmail.me>\n"
 "Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/it/>\n"
 "Language: it\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
@@ -61,6 +62,8 @@ msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Il prompt negativo è un sistema per specificare cosa non si desidera vedere "
+"in un immagine, senza input aggiuntivi"
 
 #: data/ui/window.blp:127
 msgid "Options"
@@ -108,7 +111,7 @@ msgstr "Informazioni"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Nessuna immagine trovata"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
