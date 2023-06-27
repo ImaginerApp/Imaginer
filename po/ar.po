@@ -4,13 +4,14 @@
 # Imaginer, 2023.
 #
 # swaidi <a.swaidi@yahoo.com>, 2023.
+# nakibrayan2 <codeberg.org.quoz7@aleeas.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-06-13 14:37+0000\n"
-"Last-Translator: swaidi <a.swaidi@yahoo.com>\n"
+"PO-Revision-Date: 2023-06-28 21:38+0000\n"
+"Last-Translator: nakibrayan2 <codeberg.org.quoz7@aleeas.com>\n"
 "Language-Team: Arabic <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/ar/>\n"
 "Language: ar\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
@@ -31,7 +32,7 @@ msgstr "التفضيلات"
 
 #: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
-msgstr "موفريّ الخدمة"
+msgstr "مقدمي الخدمة"
 
 #: data/ui/window.blp:28
 msgid "Main Menu"
@@ -43,34 +44,35 @@ msgstr "لا يوجد اتصال بالشبكة"
 
 #: data/ui/window.blp:64
 msgid "Prompt"
-msgstr "تخيّل"
+msgstr "موجه"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr "تجاهل"
+msgstr "موجهة عكسية"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr "عن التجاهل"
+msgstr "حول الموجهة العكسية"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
-"التجاهل عبارة عن تحديد ما لا ترغب في تضمينه في الصورة، بدون أي مدخلات إضافية"
+"الموجهة العكسية هي وسيلة لتحديد الاشياء غير المرغوب فيها داخل الصورة ، دون "
+"أي إدخال إضافي"
 
 #: data/ui/window.blp:127
 msgid "Options"
-msgstr "خيارات"
+msgstr "الخيارات"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr "إسم الملف"
+msgstr "اسم الملف"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
-msgstr "مكان الحفظ"
+msgstr "موقع حفظ الملف"
 
 #: data/ui/window.blp:154
 msgid "(None)"
@@ -90,7 +92,7 @@ msgstr "نافذة جديدة"
 
 #: data/ui/window.blp:213
 msgid "About Imaginer"
-msgstr "عن التخيّلي"
+msgstr "حول التخيّلي"
 
 #: src/main.py:170
 msgid "Choose a directory"
@@ -102,7 +104,7 @@ msgstr "نافذة جديدة"
 
 #: src/main.py:219
 msgid "About"
-msgstr "عنّ"
+msgstr "حول التطبيق"
 
 #: src/main.py:370
 msgid "No image found"
@@ -110,8 +112,7 @@ msgstr "لم يتم العثور على أي صورة"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
-msgstr ""
-"لم يتم توفير مفتاح واجة برمجة التطبيقات، يمكنك توفيرها عن طريق الإعدادات"
+msgstr "لم يتم توفير مفتاح API ، يمكنك توفير مفتاح في الإعدادات"
 
 #: src/provider/base.py:47
 msgid "Open settings"
