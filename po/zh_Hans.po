@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-06-07 01:37+0000\n"
-"Last-Translator: icyfire <icyfire@me.com>\n"
+"PO-Revision-Date: 2023-07-02 03:38+0000\n"
+"Last-Translator: xtex <xtexchooser@duck.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.codeberg.org/projects/"
 "imaginer/imaginer/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
@@ -48,17 +48,17 @@ msgstr "提示词"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr "负面提示词"
+msgstr "反向提示词"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr "关于负面提示词"
+msgstr "关于反向提示词"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
-msgstr ""
+msgstr "反向提示词是一种指定你不想在图片里见到的东西的方式"
 
 #: data/ui/window.blp:127
 msgid "Options"
