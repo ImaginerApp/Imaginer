@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-05-14 07:14+0000\n"
+"PO-Revision-Date: 2023-07-09 07:38+0000\n"
 "Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/pl/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
@@ -60,6 +60,8 @@ msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Komunikat negatywny to sposób na określenie, czego nie chcesz widzieć na "
+"obrazie, bez żadnych dodatkowych danych wejściowych"
 
 #: data/ui/window.blp:127
 msgid "Options"
@@ -67,7 +69,7 @@ msgstr "Ustawienia"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Nazwa pliku"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
@@ -107,7 +109,7 @@ msgstr "O programie"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Nie znaleziono obrazu"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
