@@ -9,104 +9,109 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-09 07:38+0000\n"
+"Last-Translator: rpaasch <rasmuspaasch@gmail.com>\n"
+"Language-Team: Danish <https://translate.codeberg.org/projects/imaginer/"
+"imaginer/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/page.codeberg.Imaginer.Imaginer.desktop.in:3 data/ui/window.blp:5
 msgid "Imaginer"
-msgstr ""
+msgstr "Imaginer"
 
 #: data/ui/preferences.blp:5 data/ui/window.blp:198 src/main.py:217
 msgid "Preferences"
-msgstr ""
+msgstr "Indstillinger"
 
 #: data/ui/preferences.blp:12 src/main.py:215
 msgid "Providers"
-msgstr ""
+msgstr "Udbydere"
 
 #: data/ui/window.blp:28
 msgid "Main Menu"
-msgstr ""
+msgstr "Hovedmenu"
 
 #: data/ui/window.blp:34 src/provider/base.py:52
 msgid "No network connection"
-msgstr ""
+msgstr "Ingen netværksforbindelse"
 
 #: data/ui/window.blp:64
 msgid "Prompt"
-msgstr ""
+msgstr "Forespørgsel"
 
 #: data/ui/window.blp:68
 msgid "Negative Prompt"
-msgstr ""
+msgstr "Negativ forespørgsel"
 
 #: data/ui/window.blp:74
 msgid "About Negative Prompt"
-msgstr ""
+msgstr "Om Negativ forespørgsel"
 
 #: data/ui/window.blp:87
 msgid ""
 "Negative Prompt is a way to specify what you don't want to see in the image, "
 "without any extra input"
 msgstr ""
+"Negativ forespørgsel er en måde hvorpå du kan specificere, hvad du ikke vil "
+"se på billedet uden af give andet input"
 
 #: data/ui/window.blp:127
 msgid "Options"
-msgstr ""
+msgstr "Indstillinger"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Filnavn"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
-msgstr ""
+msgstr "Filrod"
 
 #: data/ui/window.blp:154
 msgid "(None)"
-msgstr ""
+msgstr "(Ingen)"
 
 #: data/ui/window.blp:165
 msgid "_Imagine"
-msgstr ""
+msgstr "_Imagine"
 
 #: data/ui/window.blp:203 src/main.py:218
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastaturgenveje"
 
 #: data/ui/window.blp:208
 msgid "New window"
-msgstr ""
+msgstr "Nyt vindue"
 
 #: data/ui/window.blp:213
 msgid "About Imaginer"
-msgstr ""
+msgstr "Om Imaginer"
 
 #: src/main.py:170
 msgid "Choose a directory"
-msgstr ""
+msgstr "Vælg en mappe"
 
 #: src/main.py:186
 msgid "New Window"
-msgstr ""
+msgstr "Nyt vinduet"
 
 #: src/main.py:219
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: src/main.py:370
 msgid "No image found"
-msgstr ""
+msgstr "Intet billede fundet"
 
 #: src/provider/base.py:45
 msgid "No API key provided, you can provide one in settings"
-msgstr ""
+msgstr "Ingen API-nøgle angivet. Angiv en under indstillinger"
 
 #: src/provider/base.py:47
 msgid "Open settings"
-msgstr ""
+msgstr "Åbn indstillinger"
