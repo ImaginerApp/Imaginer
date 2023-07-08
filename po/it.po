@@ -9,13 +9,14 @@
 # 0xMRTT <0xmrtt@proton.me>, 2023.
 # "albano.battistella" <albano_battistella@hotmail.com>, 2023.
 # Mek101 <mek101-dev.inv@slmail.me>, 2023.
+# albanobattistella <albanobattistella@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-01 17:41+0000\n"
-"PO-Revision-Date: 2023-06-28 21:38+0000\n"
-"Last-Translator: Mek101 <mek101-dev.inv@slmail.me>\n"
+"PO-Revision-Date: 2023-07-09 07:38+0000\n"
+"Last-Translator: albanobattistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <https://translate.codeberg.org/projects/imaginer/"
 "imaginer/it/>\n"
 "Language: it\n"
@@ -71,7 +72,7 @@ msgstr "Opzioni"
 
 #: data/ui/window.blp:132
 msgid "Filename"
-msgstr ""
+msgstr "Nome file"
 
 #: data/ui/window.blp:138
 msgid "Save Location"
