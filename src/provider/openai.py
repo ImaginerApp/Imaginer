@@ -1,6 +1,7 @@
 from .base import ImaginerProvider
 
 import openai
+import requests
 import socket
 
 from gi.repository import Gtk, Adw, GLib
